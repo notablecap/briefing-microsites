@@ -9,35 +9,6 @@
   "noteP1": "We picked fifteen companies from our portfolio that map to the technology priorities of a modern energy enterprise: frontier AI and the infrastructure to run it, data quality and privacy, cloud and identity security, network and developer infrastructure, and the systems behind customer and field operations.",
   "noteP2": "Each card opens to a brief and the angle we think fits Dominion Energy best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
   "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and the operations of a modern utility. Filter by category, then expand any card for the brief and the angle most relevant to your team.",
-  "verticals": [
-    {
-      "id": "ai",
-      "name": "AI & Agent Infra"
-    },
-    {
-      "id": "data",
-      "name": "Data Infrastructure"
-    },
-    {
-      "id": "security",
-      "name": "Security & Governance"
-    },
-    {
-      "id": "dev",
-      "name": "Developer & Network Infra"
-    },
-    {
-      "id": "cx",
-      "name": "Customer & Field Operations"
-    }
-  ],
-  "short": {
-    "ai": "AI infra",
-    "data": "Data",
-    "security": "Security",
-    "dev": "Dev & network",
-    "cx": "Customer & field"
-  },
   "roster": [
     "anthropic",
     "wispr",

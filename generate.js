@@ -63,7 +63,7 @@ function buildSite(config) {
   sub("%%LOGO_DEPS%%", logoDeps);
   const roleLabel = config.roleLabel || (config.role ? "Office of the " + config.role : "");
   const roleBlock = roleLabel
-    ? '<div style="margin-top:22px;"><span style="font-family:\'Alverata\',serif;font-weight:300;font-size:clamp(20px,2.6vw,29px);line-height:1.25;letter-spacing:-0.01em;color:#063F32;background:linear-gradient(180deg,transparent 62%,' + config.accent + '40 62%);padding:0 .14em;display:inline-block;">' + roleLabel + "</span></div>"
+    ? '<div style="margin-top:22px;"><span style="font-family:\'Alverata\',serif;font-weight:300;font-size:clamp(20px,2.6vw,29px);line-height:1.25;letter-spacing:-0.01em;color:#232323;background:linear-gradient(180deg,transparent 60%,' + config.accent + '40 60%);padding:0 .14em;display:inline-block;">' + roleLabel + "</span></div>"
     : "";
   sub("%%ROLE_BLOCK%%", roleBlock);
   sub("%%NOTE_P1%%", esc(config.noteP1));
