@@ -1,0 +1,152 @@
+{
+  "slug": "john-deere",
+  "clientName": "John Deere",
+  "role": "CTO",
+  "accent": "#367C2B",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of John Deere's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits John Deere best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits John Deere's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "John Deere is moving autonomy, computer vision, connected machines and satellite-enabled field connectivity from demonstrations into production agriculture and construction. The hardest work is often buried in machine telemetry, agronomic records, service histories, parts data, geospatial imagery and operator guidance and the systems that surround them. Anthropic matters because Claude can handle long, interdependent context, support agentic workflows and give developers Claude Code inside the same enterprise AI strategy. That creates a practical bridge between engineers, agronomists, dealers, service technicians, factory teams and machine operators and the teams maintaining embedded, autonomy, Operations Center, service, manufacturing and dealer applications. Deployed with explicit human checkpoints and evaluation, it can advance more productive and autonomous operations without compromising machine safety or customer control while keeping functional safety, cybersecurity, data ownership, connectivity limits and explainability visible rather than implicit.",
+      "cases": [
+        "Reason across machine telemetry, agronomic records, service histories, parts data, geospatial imagery and operator guidance without forcing teams into a separate knowledge system.",
+        "Use Claude Code across embedded, autonomy, Operations Center, service, manufacturing and dealer applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "John Deere's engineers, agronomists, dealers, service technicians, factory teams and machine operators generate valuable context through field observations, technician notes, dealer conversations and operator reports, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For John Deere, it could capture observations directly into embedded, autonomy, Operations Center, service, manufacturing and dealer applications without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind more productive and autonomous operations without compromising machine safety or customer control.",
+      "cases": [
+        "Turn field observations, technician notes, dealer conversations and operator reports into structured entries while the context is still fresh.",
+        "Work inside embedded, autonomy, Operations Center, service, manufacturing and dealer applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "John Deere is a global industrial platform where machines, dealerships, factories and customer operations must work across cloud, edge and intermittently connected environments, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use dealer portals, supplier sites, parts systems, regulatory tools and customer web applications with controlled sessions and repeatable execution. It can also parallelize browser testing for embedded, autonomy, Operations Center, service, manufacturing and dealer applications, catching failures before they reach engineers, agronomists, dealers, service technicians, factory teams and machine operators. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of more productive and autonomous operations without compromising machine safety or customer control.",
+      "cases": [
+        "Automate bounded tasks across dealer portals, supplier sites, parts systems, regulatory tools and customer web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across embedded, autonomy, Operations Center, service, manufacturing and dealer applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "John Deere's engineering surface spans embedded, autonomy, Operations Center, service, manufacturing and dealer applications, with different dependencies, access requirements and release cadences. Coder gives the technology organization a way to define those environments once and deliver them as secure cloud workspaces. Developers gain a ready-to-use stack; security teams keep code and sensitive tooling away from unmanaged endpoints; platform teams can observe utilization and control compute. That creates a practical foundation for more productive and autonomous operations without compromising machine safety or customer control, particularly as AI-assisted development increases both the pace of change and the need for reproducible environments.",
+      "cases": [
+        "Standardize cloud workspaces for teams building embedded, autonomy, Operations Center, service, manufacturing and dealer applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "The growth of machine certificates, service accounts, APIs, robots and autonomous agents across cloud, factory, dealership and edge workloads extending to machines in the field creates an ownership and least-privilege problem that traditional workforce IAM does not fully cover. Token Security matters because it is purpose-built to discover, govern and audit non-human and AI-agent identities across their lifecycle. For John Deere, that would make it possible to see which machine identity can reach machine, field, agronomic, service, manufacturing and parts data, who owns it and whether access still matches business intent. John Deere's current agenda—moving autonomy, computer vision, connected machines and satellite-enabled field connectivity from demonstrations into production agriculture and construction—will increase the number of autonomous credentials operating inside a high-consequence environment.",
+      "cases": [
+        "Inventory machine certificates, service accounts, APIs, robots and autonomous agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific machine, field, agronomic, service, manufacturing and parts data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "For John Deere, multimodal AI can make sense-decide-act machine workflows and dealer-to-field support more visual, interactive and accessible. fal provides the infrastructure to run image, video, audio and voice models at production speed without requiring every product team to manage GPU serving. That could support crop imagery, machine video, simulation scenes, training content and digital-twin assets across internal tools and external experiences, with the application retaining control over data, approvals and user context. The strategic benefit is a reusable inference layer that lets teams test more ideas, standardize deployment and reserve custom infrastructure work for the workloads that truly require it.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new autonomous-machine, precision-agriculture, dealer and operator capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "John Deere's data platform has to support its current agenda—moving autonomy, computer vision, connected machines and satellite-enabled field connectivity from demonstrations into production agriculture and construction—and remain trusted continuously, not only after a dashboard or agent produces a bad answer. Monte Carlo can monitor machine, field, agronomic, service, manufacturing and parts data from ingestion through transformation, model and agent behavior, connecting a failure to the systems and teams affected. That gives engineers, agronomists, dealers, service technicians, factory teams and machine operators a faster way to isolate incidents and prevent recurrence. For the technology organization, the value is a single trust plane across traditional analytics and emerging agentic workflows, reducing the gap between data quality, model reliability and business impact.",
+      "cases": [
+        "Monitor machine, field, agronomic, service, manufacturing and parts data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected embedded, autonomy, Operations Center, service, manufacturing and dealer applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining more productive and autonomous operations without compromising machine safety or customer control."
+      ]
+    },
+    "tonic": {
+      "pull": "John Deere's data is valuable precisely because it reflects real sense-decide-act machine workflows and dealer-to-field support; it is also too sensitive to copy casually into test, analytics or model-development environments. Tonic creates a privacy-preserving alternative by synthesizing and de-identifying farmer, field, machine, service and dealer data while maintaining useful relationships and distributions. The technology organization could give teams working on embedded, autonomy, Operations Center, service, manufacturing and dealer applications faster access to representative datasets, including rare scenarios that are difficult to find safely in production. It advances more productive and autonomous operations without compromising machine safety or customer control while avoiding the permanent trade-off between useful data access and privacy.",
+      "cases": [
+        "Replace production copies of farmer, field, machine, service and dealer data in development and test environments.",
+        "Generate rare and edge-case scenarios for embedded, autonomy, Operations Center, service, manufacturing and dealer applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As John Deere modernizes sense-decide-act machine workflows and dealer-to-field support, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for factories, dealerships, cloud platforms, field networks and connected machines. Engineers can use it to drive provisioning, validate changes and enrich incidents across cloud, factory, dealership and edge workloads extending to machines in the field. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across factories, dealerships, cloud platforms, field networks and connected machines.",
+        "Drive provisioning and change validation for cloud, factory, dealership and edge workloads extending to machines in the field from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "John Deere is moving vision models, autonomy, predictive maintenance, agronomic recommendations and service agents toward production, where throughput, cost and data boundaries become architecture decisions rather than model-selection details. Valar matters because it runs high-volume async, batch and agentic inference inside the customer's own VPC. The platform can optimize scheduling, batching, routing and accelerator placement while prompts, outputs, logs, models and policies remain inside John Deere's environment. That is especially relevant to functional safety, cybersecurity, data ownership, connectivity limits and explainability: the technology organization can increase usable AI capacity without creating a separate external data path for sensitive workloads.",
+      "cases": [
+        "Run vision models, autonomy, predictive maintenance, agronomic recommendations and service agents inside John Deere's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "As John Deere increases the release cadence across embedded, autonomy, Operations Center, service, manufacturing and dealer applications, the organization needs secure dependencies that move at the same speed. Echo's model is to patch and harden the underlying components before teams consume them, rather than asking every application owner to remediate the same CVEs independently. This could materially simplify the software supply chain for embedded, autonomy, dealer, manufacturing and cloud applications, including agent and AI workloads. For the technology organization, the benefit is fewer inherited vulnerabilities, more consistent provenance and less conflict between developer velocity and the controls needed in an environment shaped by functional safety, cybersecurity, data ownership, connectivity limits and explainability.",
+      "cases": [
+        "Standardize hardened dependencies across embedded, autonomy, dealer, manufacturing and cloud applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "John Deere's current agenda—moving autonomy, computer vision, connected machines and satellite-enabled field connectivity from demonstrations into production agriculture and construction—will increase the number of connections among applications, data services and AI agents faster than traditional firewall review can keep pace. Act Security maps those relationships and highlights communication that is unnecessary or inconsistent with business purpose. Applied to cloud, factory, dealership and edge workloads extending to machines in the field, it could guide safe, incremental perimeter changes around the systems handling machine, field, agronomic, service, manufacturing and parts data. The result is enforceable least privilege that reflects the real communication paths behind sense-decide-act machine workflows and dealer-to-field support, rather than a static policy that becomes obsolete after the next release.",
+      "cases": [
+        "Map intended and actual communication across cloud, factory, dealership and edge workloads extending to machines in the field.",
+        "Create least-privilege perimeters around embedded, autonomy, Operations Center, service, manufacturing and dealer applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For John Deere, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where engineers, agronomists, dealers, service technicians, factory teams and machine operators are defining new autonomous-machine, precision-agriculture, dealer and operator capabilities. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for embedded, autonomy, Operations Center, service, manufacturing and dealer applications, where early decisions touch functional safety, cybersecurity, data ownership, connectivity limits and explainability and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new autonomous-machine, precision-agriculture, dealer and operator capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across embedded, autonomy, Operations Center, service, manufacturing and dealer applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "John Deere is a global industrial platform where machines, dealerships, factories and customer operations must work across cloud, edge and intermittently connected environments. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across cloud, factory, dealership and edge workloads extending to machines in the field? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for machine safety, data rights, export controls, privacy, cyber and product liability, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across embedded, autonomy, Operations Center, service, manufacturing and dealer applications and cloud, factory, dealership and edge workloads extending to machines in the field.",
+        "Reuse assurance work across machine safety, data rights, export controls, privacy, cyber and product liability instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "The cloud-security problem at John Deere is not a shortage of findings; it is knowing which combinations of exposure, identity, vulnerability and data actually matter across cloud, factory, dealership and edge workloads extending to machines in the field. Orca Security connects those signals in one agentless platform and guides remediation by business context. For the technology organization, that can reduce coverage gaps across embedded, autonomy, Operations Center, service, manufacturing and dealer applications and emerging AI workloads while avoiding host-agent overhead. The value is a clearer, faster path from a cloud risk to the owner and action required to protect sense-decide-act machine workflows and dealer-to-field support.",
+      "cases": [
+        "Gain agentless visibility across John Deere's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive John Deere data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

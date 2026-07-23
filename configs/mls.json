@@ -1,0 +1,152 @@
+{
+  "slug": "mls",
+  "clientName": "Major League Soccer",
+  "role": "CTO",
+  "accent": "#DD241C",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Major League Soccer's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Major League Soccer best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Major League Soccer's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "MLS is expanding a global Apple distribution relationship while building richer match data, centralized operations and new identity-enabled fan experiences. That makes the model layer consequential: it must reason over match events, player tracking, medical records, video, ticketing, fan profiles and competition operations while remaining governable enough for competitive integrity, biometric privacy, latency, rights management and event resilience. Anthropic matters because Claude combines long-context reasoning, agent capabilities and Claude Code with an explicit emphasis on steerability and predictable enterprise behavior. It could help league technologists, club analysts, broadcast teams, referees, medical staff and fan-experience teams work through complex material, give engineering teams a common assistant across competition, media, player-performance, ticketing, identity, mobile and club-service applications, and support agents without turning the model into the final authority. The fit is strongest where MLS needs a more intelligent global match and fan experience with league-wide operational consistency.",
+      "cases": [
+        "Reason across match events, player tracking, medical records, video, ticketing, fan profiles and competition operations without forcing teams into a separate knowledge system.",
+        "Use Claude Code across competition, media, player-performance, ticketing, identity, mobile and club-service applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "The information gap at MLS is not always a missing database; often it is what league technologists, club analysts, broadcast teams, referees, medical staff and fan-experience teams know but do not record during match reports, medical observations, scouting notes, venue incidents and club communications. Wispr Flow lets users speak naturally into existing desktop and mobile tools, producing structured, edited text with commands and filler-word cleanup. That makes it well suited to distributed or frontline work around match-day, media-production, player-care and fan-engagement workflows. The technology organization gains more timely operational context without asking teams to adopt a separate note-taking system or spend the end of a shift reconstructing what happened.",
+      "cases": [
+        "Turn match reports, medical observations, scouting notes, venue incidents and club communications into structured entries while the context is still fresh.",
+        "Work inside competition, media, player-performance, ticketing, identity, mobile and club-service applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "The API surface around MLS does not cover every workflow. Teams still depend on club portals, venue tools, media systems, partner sites and competition-management web applications, creating manual handoffs and fragile scripts. Browserbase gives agents a managed browser layer that can navigate those tools, preserve session context and produce an observable execution trail. It would be useful both for automating bounded tasks and for continuously testing competition, media, player-performance, ticketing, identity, mobile and club-service applications across real browser conditions. For the technology organization, that means extending automation into the web estate while maintaining governance around credentials, data access and competitive integrity, biometric privacy, latency, rights management and event resilience.",
+      "cases": [
+        "Automate bounded tasks across club portals, venue tools, media systems, partner sites and competition-management web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across competition, media, player-performance, ticketing, identity, mobile and club-service applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at MLS is constrained when setup, hardware and local configuration differ across the teams building competition, media, player-performance, ticketing, identity, mobile and club-service applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to competitive integrity, biometric privacy, latency, rights management and event resilience because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building competition, media, player-performance, ticketing, identity, mobile and club-service applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "MLS's next wave of automation will create more club integrations, venue devices, service accounts, video workflows and AI agents, often faster than teams can assign owners, rotate credentials or review permissions. Token Security provides a control plane for that machine population, combining continuous discovery, lifecycle governance and intent-based access. It could give the technology organization a current inventory of the identities touching competition, media, player-performance, ticketing, identity, mobile and club-service applications and the paths into match, tracking, player, medical, media, ticketing and fan data. That is a direct response to competitive integrity, biometric privacy, latency, rights management and event resilience: agents can move quickly, but their authority should remain explicit, minimal and fully auditable.",
+      "cases": [
+        "Inventory club integrations, venue devices, service accounts, video workflows and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific match, tracking, player, medical, media, ticketing and fan data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "MLS has practical multimodal needs across live video, highlights, match graphics, multilingual content and training footage. fal matters because it gives product and engineering teams a high-speed inference layer for image, video, audio and voice models through simple APIs, without forcing each use case to become an infrastructure project. The technology organization could use it to prototype and scale bounded generative experiences alongside competition, media, player-performance, ticketing, identity, mobile and club-service applications, from content production to simulation or visual assistance. The strongest fit is where latency and iteration speed matter but the risk profile around competitive integrity, biometric privacy, latency, rights management and event resilience still requires approved models, controlled inputs and a clear review path.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new match-data, media, club, player and fan-experience capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "MLS's data platform has to support its current agenda—expanding a global Apple distribution relationship while building richer match data, centralized operations and new identity-enabled fan experiences—and remain trusted continuously, not only after a dashboard or agent produces a bad answer. Monte Carlo can monitor match, tracking, player, medical, media, ticketing and fan data from ingestion through transformation, model and agent behavior, connecting a failure to the systems and teams affected. That gives league technologists, club analysts, broadcast teams, referees, medical staff and fan-experience teams a faster way to isolate incidents and prevent recurrence. For the technology organization, the value is a single trust plane across traditional analytics and emerging agentic workflows, reducing the gap between data quality, model reliability and business impact.",
+      "cases": [
+        "Monitor match, tracking, player, medical, media, ticketing and fan data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected competition, media, player-performance, ticketing, identity, mobile and club-service applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining a more intelligent global match and fan experience with league-wide operational consistency."
+      ]
+    },
+    "tonic": {
+      "pull": "The teams building competition, media, player-performance, ticketing, identity, mobile and club-service applications need realistic data, but using production copies of player, medical, biometric, fan, ticket and match data creates unnecessary exposure and slows access approvals. Tonic matters because it can generate synthetic, de-identified datasets that preserve the shape and utility of enterprise data for development, testing and AI work. For MLS, that would let engineers reproduce edge cases, train or evaluate models and refresh lower environments without moving identifiable records into places they do not belong. The result is faster delivery with fewer sensitive records outside production—important in an environment shaped by competitive integrity, biometric privacy, latency, rights management and event resilience.",
+      "cases": [
+        "Replace production copies of player, medical, biometric, fan, ticket and match data in development and test environments.",
+        "Generate rare and edge-case scenarios for competition, media, player-performance, ticketing, identity, mobile and club-service applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As MLS modernizes match-day, media-production, player-care and fan-engagement workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for venues, league offices, cloud platforms, club networks and broadcast infrastructure. Engineers can use it to drive provisioning, validate changes and enrich incidents across real-time cloud, venue and broadcast workloads shared across league and club boundaries. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across venues, league offices, cloud platforms, club networks and broadcast infrastructure.",
+        "Drive provisioning and change validation for real-time cloud, venue and broadcast workloads shared across league and club boundaries from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As MLS develops new match-data, media, club, player and fan-experience capabilities, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support match analysis, content generation, fan personalization, operations and competition-support agents with better utilization and policy consistency. The strategic value for the technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for real-time cloud, venue and broadcast workloads shared across league and club boundaries.",
+      "cases": [
+        "Run match analysis, content generation, fan personalization, operations and competition-support agents inside MLS's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "The applications supporting match-day, media-production, player-care and fan-engagement workflows depend on a deep open-source and container supply chain. Echo matters because it replaces vulnerable building blocks with maintained, hardened dependencies that can be consumed as standard inputs. That gives developers working on competition, media, player-performance, ticketing, identity, mobile and club-service applications a safer starting point and reduces the patch churn that pulls security and platform teams away from higher-order risks. It also strengthens auditability: the organization can show which approved components were used and how they are maintained across the lifecycle.",
+      "cases": [
+        "Standardize hardened dependencies across competition, media, player, venue, ticketing and mobile applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "MLS's cloud estate now includes real-time cloud, venue and broadcast workloads shared across league and club boundaries, with services and agents communicating across boundaries that are difficult to understand from identity or network controls alone. Act Security matters because it learns how applications are intended to communicate, compares that with actual behavior and guides teams in closing unnecessary paths. The agentless approach could help the technology organization create business-context perimeters around competition, media, player-performance, ticketing, identity, mobile and club-service applications without redesigning the network first. That is a direct fit for competitive integrity, biometric privacy, latency, rights management and event resilience, where one over-permissioned pathway can expand the blast radius of a compromise.",
+      "cases": [
+        "Map intended and actual communication across real-time cloud, venue and broadcast workloads shared across league and club boundaries.",
+        "Create least-privilege perimeters around competition, media, player-performance, ticketing, identity, mobile and club-service applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For MLS, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where league technologists, club analysts, broadcast teams, referees, medical staff and fan-experience teams are defining new match-data, media, club, player and fan-experience capabilities. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for competition, media, player-performance, ticketing, identity, mobile and club-service applications, where early decisions touch competitive integrity, biometric privacy, latency, rights management and event resilience and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new match-data, media, club, player and fan-experience capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across competition, media, player-performance, ticketing, identity, mobile and club-service applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "MLS has to prove trust across player privacy, biometric consent, integrity, accessibility, child data and consumer protection while its technology estate and third-party relationships continue to change. Drata matters because it turns controls, evidence, risks and assurance signals into a continuously monitored trust graph rather than a periodic collection exercise. The technology organization could use it to connect policies and owners to the systems behind competition, media, player-performance, ticketing, identity, mobile and club-service applications, surface control drift and reuse evidence across overlapping reviews. That makes compliance more operational and gives leadership a current view of the risks that could slow progress toward a more intelligent global match and fan experience with league-wide operational consistency.",
+      "cases": [
+        "Continuously map controls and evidence across competition, media, player-performance, ticketing, identity, mobile and club-service applications and real-time cloud, venue and broadcast workloads shared across league and club boundaries.",
+        "Reuse assurance work across player privacy, biometric consent, integrity, accessibility, child data and consumer protection instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "The cloud-security problem at MLS is not a shortage of findings; it is knowing which combinations of exposure, identity, vulnerability and data actually matter across real-time cloud, venue and broadcast workloads shared across league and club boundaries. Orca Security connects those signals in one agentless platform and guides remediation by business context. For the technology organization, that can reduce coverage gaps across competition, media, player-performance, ticketing, identity, mobile and club-service applications and emerging AI workloads while avoiding host-agent overhead. The value is a clearer, faster path from a cloud risk to the owner and action required to protect match-day, media-production, player-care and fan-engagement workflows.",
+      "cases": [
+        "Gain agentless visibility across MLS's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive MLS data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "world-bank",
+  "clientName": "The World Bank",
+  "role": "CTO",
+  "accent": "#009FDA",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of The World Bank's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits The World Bank best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits The World Bank's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "The AI program at The World Bank sits inside a global development institution operating across countries with widely different infrastructure, skills, legal regimes and data-sovereignty requirements. In that setting, a frontier model has to be useful across knowledge work and software delivery without creating an unmanageable decision surface. Anthropic gives the technology organization one platform for reasoning over project documents, country diagnostics, procurement records, policy research, development indicators and implementation reports, orchestrating bounded agents and assisting development across development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms. Claude's focus on steerability and predictable behavior is especially relevant where country ownership, privacy, explainability, accessibility and vendor lock-in cannot be bolted on later. The result would be a safer path from isolated copilots to repeatable digital capabilities that countries can adopt without sacrificing sovereignty or inclusion.",
+      "cases": [
+        "Reason across project documents, country diagnostics, procurement records, policy research, development indicators and implementation reports without forcing teams into a separate knowledge system.",
+        "Use Claude Code across development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "The information gap at The World Bank is not always a missing database; often it is what country teams, economists, technologists, procurement specialists and development partners know but do not record during field missions, beneficiary interviews, project supervision notes and stakeholder consultations. Wispr Flow lets users speak naturally into existing desktop and mobile tools, producing structured, edited text with commands and filler-word cleanup. That makes it well suited to distributed or frontline work around country diagnostics, lending operations and implementation support. The technology organization gains more timely operational context without asking teams to adopt a separate note-taking system or spend the end of a shift reconstructing what happened.",
+      "cases": [
+        "Turn field missions, beneficiary interviews, project supervision notes and stakeholder consultations into structured entries while the context is still fresh.",
+        "Work inside development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "The World Bank is a global development institution operating across countries with widely different infrastructure, skills, legal regimes and data-sovereignty requirements, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use government portals, donor systems, country reporting sites, procurement platforms and public data sources with controlled sessions and repeatable execution. It can also parallelize browser testing for development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms, catching failures before they reach country teams, economists, technologists, procurement specialists and development partners. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of repeatable digital capabilities that countries can adopt without sacrificing sovereignty or inclusion.",
+      "cases": [
+        "Automate bounded tasks across government portals, donor systems, country reporting sites, procurement platforms and public data sources without waiting for every system to expose an API.",
+        "Run repeatable browser tests across development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at The World Bank is constrained when setup, hardware and local configuration differ across the teams building development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to country ownership, privacy, explainability, accessibility and vendor lock-in because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "The World Bank's next wave of automation will create more service accounts, country integrations, automation bots and policy or project agents, often faster than teams can assign owners, rotate credentials or review permissions. Token Security provides a control plane for that machine population, combining continuous discovery, lifecycle governance and intent-based access. It could give the technology organization a current inventory of the identities touching development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms and the paths into development indicators, project, geospatial, financial and country administrative data. That is a direct response to country ownership, privacy, explainability, accessibility and vendor lock-in: agents can move quickly, but their authority should remain explicit, minimal and fully auditable.",
+      "cases": [
+        "Inventory service accounts, country integrations, automation bots and policy or project agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific development indicators, project, geospatial, financial and country administrative data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at The World Bank will not be limited to text. The World Bank's geospatial imagery, training video, multilingual public-service content and project evidence create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new country-facing digital services, knowledge tools and development-program platforms. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new country-facing digital services, knowledge tools and development-program platforms.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "As The World Bank scales knowledge assistants, project monitoring, multilingual services and policy-analysis agents, data reliability and agent reliability become the same operating problem. Monte Carlo is designed for that convergence. It can observe pipelines, code, models and agents together, detect anomalies before they reach country teams, economists, technologists, procurement specialists and development partners and show the lineage needed to understand impact. Applied to development indicators, project, geospatial, financial and country administrative data, the platform would help the organization move from reactive data firefighting to managed service levels. That supports repeatable digital capabilities that countries can adopt without sacrificing sovereignty or inclusion while giving leaders evidence that the information feeding automated decisions remains complete, timely and fit for purpose.",
+      "cases": [
+        "Monitor development indicators, project, geospatial, financial and country administrative data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms and accountable engineering teams.",
+        "Prevent silent data failures from undermining repeatable digital capabilities that countries can adopt without sacrificing sovereignty or inclusion."
+      ]
+    },
+    "tonic": {
+      "pull": "The World Bank's data is valuable precisely because it reflects real country diagnostics, lending operations and implementation support; it is also too sensitive to copy casually into test, analytics or model-development environments. Tonic creates a privacy-preserving alternative by synthesizing and de-identifying beneficiary, household, financial, health, education and country administrative data while maintaining useful relationships and distributions. The technology organization could give teams working on development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms faster access to representative datasets, including rare scenarios that are difficult to find safely in production. It advances repeatable digital capabilities that countries can adopt without sacrificing sovereignty or inclusion while avoiding the permanent trade-off between useful data access and privacy.",
+      "cases": [
+        "Replace production copies of beneficiary, household, financial, health, education and country administrative data in development and test environments.",
+        "Generate rare and edge-case scenarios for development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As The World Bank modernizes country diagnostics, lending operations and implementation support, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for global offices, cloud services, country connections and development-program infrastructure. Engineers can use it to drive provisioning, validate changes and enrich incidents across global cloud and country-connected workloads with uneven connectivity and policy constraints. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across global offices, cloud services, country connections and development-program infrastructure.",
+        "Drive provisioning and change validation for global cloud and country-connected workloads with uneven connectivity and policy constraints from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As The World Bank develops new country-facing digital services, knowledge tools and development-program platforms, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support knowledge assistants, project monitoring, multilingual services and policy-analysis agents with better utilization and policy consistency. The strategic value for the technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for global cloud and country-connected workloads with uneven connectivity and policy constraints.",
+      "cases": [
+        "Run knowledge assistants, project monitoring, multilingual services and policy-analysis agents inside The World Bank's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "The World Bank's knowledge, project, data, country-service and AI applications are assembled from thousands of base images, libraries and packages that can introduce vulnerabilities before application code is written. Echo matters because it supplies trusted, continuously patched and hardened software dependencies, including FIPS-validated options, at the component layer. The technology organization could use that foundation to reduce the vulnerability backlog across development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms and give developers secure defaults without slowing delivery. The fit is especially strong where the risk profile around country ownership, privacy, explainability, accessibility and vendor lock-in makes end-of-pipeline remediation too late or too expensive.",
+      "cases": [
+        "Standardize hardened dependencies across knowledge, project, data, country-service and AI applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Least privilege at The World Bank is increasingly a service-to-service problem. The World Bank's service accounts, country integrations, automation bots and policy or project agents can reach across global cloud and country-connected workloads with uneven connectivity and policy constraints, while ownership and network policy are split among different tools. Act Security provides a shared view of what can talk to what, what actually does and what the business intended. It can then help teams segment development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms around real application context. For the technology organization, the value is a practical route to smaller cloud blast radii without introducing agents or waiting for a full architecture rewrite.",
+      "cases": [
+        "Map intended and actual communication across global cloud and country-connected workloads with uneven connectivity and policy constraints.",
+        "Create least-privilege perimeters around development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "The security risk in The World Bank's roadmap is often created before code exists—when teams define new country-facing digital services, knowledge tools and development-program platforms without the right control requirements. Clover Security is built for that point in the lifecycle. By reading planning artifacts and returning actionable guidance inside existing product workflows, it can connect security leaders with the teams building development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms. For the technology organization, the value is earlier visibility, clearer ownership and less rework, especially because late vulnerabilities or design corrections are disproportionately costly in an environment shaped by country ownership, privacy, explainability, accessibility and vendor lock-in.",
+      "cases": [
+        "Review new country-facing digital services, knowledge tools and development-program platforms while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "The World Bank is a global development institution operating across countries with widely different infrastructure, skills, legal regimes and data-sovereignty requirements. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across global cloud and country-connected workloads with uneven connectivity and policy constraints? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for data sovereignty, privacy, procurement, cybersecurity, accessibility and multilateral accountability, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms and global cloud and country-connected workloads with uneven connectivity and policy constraints.",
+        "Reuse assurance work across data sovereignty, privacy, procurement, cybersecurity, accessibility and multilateral accountability instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "The World Bank's cloud estate spans global cloud and country-connected workloads with uneven connectivity and policy constraints, increasing the number of workloads, identities, data stores and AI services that security teams must understand together. Orca Security matters as an agentless CNAPP that unifies posture, workload, data, vulnerability and compliance context across AWS, Azure and GCP. It could give the technology organization immediate coverage without another deployment campaign, then prioritize the attack paths that place development indicators, project, geospatial, financial and country administrative data or development-data, project, knowledge, grant, procurement and digital-public-infrastructure platforms at real risk. That context is critical to repeatable digital capabilities that countries can adopt without sacrificing sovereignty or inclusion because cloud scale makes raw alert volume an ineffective operating model.",
+      "cases": [
+        "Gain agentless visibility across The World Bank's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive The World Bank data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

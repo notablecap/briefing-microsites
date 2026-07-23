@@ -1,0 +1,152 @@
+{
+  "slug": "builders-firstsource",
+  "clientName": "Builders FirstSource",
+  "role": "CIO",
+  "accent": "#C8102E",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Builders FirstSource's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Builders FirstSource best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Builders FirstSource's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "Builders FirstSource is elevating technology and digital solutions into a dedicated growth platform for builders, branches and acquired operations. The hardest work is often buried in product catalogs, takeoffs, estimates, orders, prices, inventory, delivery schedules and customer project data and the systems that surround them. Anthropic matters because Claude can handle long, interdependent context, support agentic workflows and give developers Claude Code inside the same enterprise AI strategy. That creates a practical bridge between branch teams, estimators, sales representatives, designers, drivers, plant staff and integration leaders and the teams maintaining digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications. Deployed with explicit human checkpoints and evaluation, it can advance faster builder workflows and more consistent branch execution across the enterprise while keeping jobsite safety, pricing control, acquisition complexity, uptime and customer confidentiality visible rather than implicit.",
+      "cases": [
+        "Reason across product catalogs, takeoffs, estimates, orders, prices, inventory, delivery schedules and customer project data without forcing teams into a separate knowledge system.",
+        "Use Claude Code across digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "The information gap at Builders FirstSource is not always a missing database; often it is what branch teams, estimators, sales representatives, designers, drivers, plant staff and integration leaders know but do not record during jobsite observations, sales calls, delivery notes, design reviews and branch feedback. Wispr Flow lets users speak naturally into existing desktop and mobile tools, producing structured, edited text with commands and filler-word cleanup. That makes it well suited to distributed or frontline work around plan-to-estimate, order-to-delivery and acquisition-integration workflows. The information and technology organization gains more timely operational context without asking teams to adopt a separate note-taking system or spend the end of a shift reconstructing what happened.",
+      "cases": [
+        "Turn jobsite observations, sales calls, delivery notes, design reviews and branch feedback into structured entries while the context is still fresh.",
+        "Work inside digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "Builders FirstSource is a large, distributed building-products network where branch execution, estimating, manufacturing, delivery and acquisition integration drive customer value, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use supplier portals, builder sites, permit systems, acquisition-era tools and carrier applications with controlled sessions and repeatable execution. It can also parallelize browser testing for digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications, catching failures before they reach branch teams, estimators, sales representatives, designers, drivers, plant staff and integration leaders. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of faster builder workflows and more consistent branch execution across the enterprise.",
+      "cases": [
+        "Automate bounded tasks across supplier portals, builder sites, permit systems, acquisition-era tools and carrier applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at Builders FirstSource is constrained when setup, hardware and local configuration differ across the teams building digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to jobsite safety, pricing control, acquisition complexity, uptime and customer confidentiality because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "Builders FirstSource's next wave of automation will create more branch integrations, service accounts, manufacturing systems, bots and workflow agents, often faster than teams can assign owners, rotate credentials or review permissions. Token Security provides a control plane for that machine population, combining continuous discovery, lifecycle governance and intent-based access. It could give the information and technology organization a current inventory of the identities touching digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications and the paths into customer, project, product, pricing, inventory, manufacturing and delivery data. That is a direct response to jobsite safety, pricing control, acquisition complexity, uptime and customer confidentiality: agents can move quickly, but their authority should remain explicit, minimal and fully auditable.",
+      "cases": [
+        "Inventory branch integrations, service accounts, manufacturing systems, bots and workflow agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific customer, project, product, pricing, inventory, manufacturing and delivery data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Builders FirstSource has practical multimodal needs across plan imagery, 3D design, jobsite photos, training video and product visualization. fal matters because it gives product and engineering teams a high-speed inference layer for image, video, audio and voice models through simple APIs, without forcing each use case to become an infrastructure project. The information and technology organization could use it to prototype and scale bounded generative experiences alongside digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications, from content production to simulation or visual assistance. The strongest fit is where latency and iteration speed matter but the risk profile around jobsite safety, pricing control, acquisition complexity, uptime and customer confidentiality still requires approved models, controlled inputs and a clear review path.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new builder, estimating, branch, design and delivery capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "As Builders FirstSource scales estimating, design, pricing, inventory, delivery and branch-support agents, data reliability and agent reliability become the same operating problem. Monte Carlo is designed for that convergence. It can observe pipelines, code, models and agents together, detect anomalies before they reach branch teams, estimators, sales representatives, designers, drivers, plant staff and integration leaders and show the lineage needed to understand impact. Applied to customer, project, product, pricing, inventory, manufacturing and delivery data, the platform would help the organization move from reactive data firefighting to managed service levels. That supports faster builder workflows and more consistent branch execution across the enterprise while giving leaders evidence that the information feeding automated decisions remains complete, timely and fit for purpose.",
+      "cases": [
+        "Monitor customer, project, product, pricing, inventory, manufacturing and delivery data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining faster builder workflows and more consistent branch execution across the enterprise."
+      ]
+    },
+    "tonic": {
+      "pull": "The teams building digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications need realistic data, but using production copies of customer, project, plan, pricing, employee and supplier data creates unnecessary exposure and slows access approvals. Tonic matters because it can generate synthetic, de-identified datasets that preserve the shape and utility of enterprise data for development, testing and AI work. For Builders FirstSource, that would let engineers reproduce edge cases, train or evaluate models and refresh lower environments without moving identifiable records into places they do not belong. The result is faster delivery with fewer sensitive records outside production—important in an environment shaped by jobsite safety, pricing control, acquisition complexity, uptime and customer confidentiality.",
+      "cases": [
+        "Replace production copies of customer, project, plan, pricing, employee and supplier data in development and test environments.",
+        "Generate rare and edge-case scenarios for digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As Builders FirstSource modernizes plan-to-estimate, order-to-delivery and acquisition-integration workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for branches, plants, yards, cloud platforms, vehicles and acquired networks. Engineers can use it to drive provisioning, validate changes and enrich incidents across hybrid branch, plant and cloud workloads inherited across a consolidating footprint. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across branches, plants, yards, cloud platforms, vehicles and acquired networks.",
+        "Drive provisioning and change validation for hybrid branch, plant and cloud workloads inherited across a consolidating footprint from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As Builders FirstSource develops new builder, estimating, branch, design and delivery capabilities, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support estimating, design, pricing, inventory, delivery and branch-support agents with better utilization and policy consistency. The strategic value for the information and technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for hybrid branch, plant and cloud workloads inherited across a consolidating footprint.",
+      "cases": [
+        "Run estimating, design, pricing, inventory, delivery and branch-support agents inside Builders FirstSource's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "As Builders FirstSource increases the release cadence across digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications, the organization needs secure dependencies that move at the same speed. Echo's model is to patch and harden the underlying components before teams consume them, rather than asking every application owner to remediate the same CVEs independently. This could materially simplify the software supply chain for design, estimating, branch, ERP, manufacturing and logistics applications, including agent and AI workloads. For the information and technology organization, the benefit is fewer inherited vulnerabilities, more consistent provenance and less conflict between developer velocity and the controls needed in an environment shaped by jobsite safety, pricing control, acquisition complexity, uptime and customer confidentiality.",
+      "cases": [
+        "Standardize hardened dependencies across design, estimating, branch, ERP, manufacturing and logistics applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Builders FirstSource's current agenda—elevating technology and digital solutions into a dedicated growth platform for builders, branches and acquired operations—will increase the number of connections among applications, data services and AI agents faster than traditional firewall review can keep pace. Act Security maps those relationships and highlights communication that is unnecessary or inconsistent with business purpose. Applied to hybrid branch, plant and cloud workloads inherited across a consolidating footprint, it could guide safe, incremental perimeter changes around the systems handling customer, project, product, pricing, inventory, manufacturing and delivery data. The result is enforceable least privilege that reflects the real communication paths behind plan-to-estimate, order-to-delivery and acquisition-integration workflows, rather than a static policy that becomes obsolete after the next release.",
+      "cases": [
+        "Map intended and actual communication across hybrid branch, plant and cloud workloads inherited across a consolidating footprint.",
+        "Create least-privilege perimeters around digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "As Builders FirstSource expands digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications, security decisions need to move upstream into the planning of new builder, estimating, branch, design and delivery capabilities. Clover Security matters because it brings product-security context into the tools where requirements and designs are already being discussed, using sources such as Jira, Confluence and Drive to identify risk before implementation. That would help branch teams, estimators, sales representatives, designers, drivers, plant staff and integration leaders receive concrete security guidance while changes are still inexpensive to make. The result is a design process that treats jobsite safety, pricing control, acquisition complexity, uptime and customer confidentiality as an input to product work rather than a late release gate.",
+      "cases": [
+        "Review new builder, estimating, branch, design and delivery capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "Builders FirstSource's current agenda—elevating technology and digital solutions into a dedicated growth platform for builders, branches and acquired operations—means trust has to keep pace with releases, integrations and agent adoption. Drata's platform can continuously monitor the control environment around digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications, organize evidence and connect risk to accountable owners. That helps the information and technology organization move away from spreadsheet-driven point-in-time compliance toward an operating model in which readiness is always visible. For an organization exposed to jobsite safety, pricing control, acquisition complexity, uptime and customer confidentiality, that also improves the speed and consistency of customer, regulator and partner assurance.",
+      "cases": [
+        "Continuously map controls and evidence across digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications and hybrid branch, plant and cloud workloads inherited across a consolidating footprint.",
+        "Reuse assurance work across safety, privacy, financial controls, contractor data, third-party risk and acquisition assurance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "The cloud-security problem at Builders FirstSource is not a shortage of findings; it is knowing which combinations of exposure, identity, vulnerability and data actually matter across hybrid branch, plant and cloud workloads inherited across a consolidating footprint. Orca Security connects those signals in one agentless platform and guides remediation by business context. For the information and technology organization, that can reduce coverage gaps across digital design, estimating, ERP, branch, manufacturing, inventory and delivery applications and emerging AI workloads while avoiding host-agent overhead. The value is a clearer, faster path from a cloud risk to the owner and action required to protect plan-to-estimate, order-to-delivery and acquisition-integration workflows.",
+      "cases": [
+        "Gain agentless visibility across Builders FirstSource's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Builders FirstSource data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

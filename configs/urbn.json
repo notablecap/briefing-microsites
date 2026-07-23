@@ -1,0 +1,152 @@
+{
+  "slug": "urbn",
+  "clientName": "URBN",
+  "role": "CIO",
+  "accent": "#1A1A1A",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of URBN's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits URBN best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits URBN's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "URBN is growing a portfolio of differentiated retail brands while digital sales, store growth and the Nuuly subscription business all expand at the same time. That makes the model layer consequential: it must reason over customer profiles, product attributes, rental histories, demand signals, inventory, campaign results and store activity while remaining governable enough for privacy, brand separation, payment security, inventory accuracy and peak-scale resilience. Anthropic matters because Claude combines long-context reasoning, agent capabilities and Claude Code with an explicit emphasis on steerability and predictable enterprise behavior. It could help merchants, planners, designers, marketers, subscription teams, engineers and store associates work through complex material, give engineering teams a common assistant across commerce, subscription, rental, merchandising, planning, store and wholesale applications, and support agents without turning the model into the final authority. The fit is strongest where URBN needs brand-specific growth with shared technology, cleaner data and more productive inventory.",
+      "cases": [
+        "Reason across customer profiles, product attributes, rental histories, demand signals, inventory, campaign results and store activity without forcing teams into a separate knowledge system.",
+        "Use Claude Code across commerce, subscription, rental, merchandising, planning, store and wholesale applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "URBN's merchants, planners, designers, marketers, subscription teams, engineers and store associates generate valuable context through store observations, styling conversations, rental feedback, customer calls and merchant reviews, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For URBN, it could capture observations directly into commerce, subscription, rental, merchandising, planning, store and wholesale applications without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind brand-specific growth with shared technology, cleaner data and more productive inventory.",
+      "cases": [
+        "Turn store observations, styling conversations, rental feedback, customer calls and merchant reviews into structured entries while the context is still fresh.",
+        "Work inside commerce, subscription, rental, merchandising, planning, store and wholesale applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "URBN is a multi-brand consumer platform spanning Urban Outfitters, Anthropologie, Free People, FP Movement, Nuuly, wholesale and restaurants, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use marketplace consoles, carrier sites, vendor portals, store tools and legacy retail applications with controlled sessions and repeatable execution. It can also parallelize browser testing for commerce, subscription, rental, merchandising, planning, store and wholesale applications, catching failures before they reach merchants, planners, designers, marketers, subscription teams, engineers and store associates. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of brand-specific growth with shared technology, cleaner data and more productive inventory.",
+      "cases": [
+        "Automate bounded tasks across marketplace consoles, carrier sites, vendor portals, store tools and legacy retail applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across commerce, subscription, rental, merchandising, planning, store and wholesale applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "URBN's engineering surface spans commerce, subscription, rental, merchandising, planning, store and wholesale applications, with different dependencies, access requirements and release cadences. Coder gives the information and technology organization a way to define those environments once and deliver them as secure cloud workspaces. Developers gain a ready-to-use stack; security teams keep code and sensitive tooling away from unmanaged endpoints; platform teams can observe utilization and control compute. That creates a practical foundation for brand-specific growth with shared technology, cleaner data and more productive inventory, particularly as AI-assisted development increases both the pace of change and the need for reproducible environments.",
+      "cases": [
+        "Standardize cloud workspaces for teams building commerce, subscription, rental, merchandising, planning, store and wholesale applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "As URBN adds agents to design-to-launch, browse-to-buy and subscribe-to-return workflows, every useful workflow introduces a non-human principal with credentials, permissions and an owner—or an ownership gap. Token Security matters because it treats those identities as a distinct governance domain rather than an extension of employee access. The platform can continuously find commerce services, rental workflows, marketing automations, integration accounts and AI agents, govern their lifecycle and enforce access based on intended purpose. That would help URBN scale automation while keeping the blast radius around customer, product, rental, subscription, channel, inventory and marketing data narrow and the audit trail clear.",
+      "cases": [
+        "Inventory commerce services, rental workflows, marketing automations, integration accounts and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific customer, product, rental, subscription, channel, inventory and marketing data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at URBN will not be limited to text. URBN's product imagery, styling content, campaign video, rental curation and localized media create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new commerce, subscription, rental, merchandising and store experiences. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new commerce, subscription, rental, merchandising and store experiences.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "As URBN scales personalization, curation, merchandising, inventory and customer-service agents, data reliability and agent reliability become the same operating problem. Monte Carlo is designed for that convergence. It can observe pipelines, code, models and agents together, detect anomalies before they reach merchants, planners, designers, marketers, subscription teams, engineers and store associates and show the lineage needed to understand impact. Applied to customer, product, rental, subscription, channel, inventory and marketing data, the platform would help the organization move from reactive data firefighting to managed service levels. That supports brand-specific growth with shared technology, cleaner data and more productive inventory while giving leaders evidence that the information feeding automated decisions remains complete, timely and fit for purpose.",
+      "cases": [
+        "Monitor customer, product, rental, subscription, channel, inventory and marketing data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected commerce, subscription, rental, merchandising, planning, store and wholesale applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining brand-specific growth with shared technology, cleaner data and more productive inventory."
+      ]
+    },
+    "tonic": {
+      "pull": "The teams building commerce, subscription, rental, merchandising, planning, store and wholesale applications need realistic data, but using production copies of customer, subscription, rental, payment, product and inventory data creates unnecessary exposure and slows access approvals. Tonic matters because it can generate synthetic, de-identified datasets that preserve the shape and utility of enterprise data for development, testing and AI work. For URBN, that would let engineers reproduce edge cases, train or evaluate models and refresh lower environments without moving identifiable records into places they do not belong. The result is faster delivery with fewer sensitive records outside production—important in an environment shaped by privacy, brand separation, payment security, inventory accuracy and peak-scale resilience.",
+      "cases": [
+        "Replace production copies of customer, subscription, rental, payment, product and inventory data in development and test environments.",
+        "Generate rare and edge-case scenarios for commerce, subscription, rental, merchandising, planning, store and wholesale applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "The infrastructure challenge at URBN is not merely scale; it is keeping an authoritative view across stores, fulfillment centers, rental operations, cloud services and partner networks as environments change. NetBox Labs provides the structured source of truth that network teams and automation can share. Applied across cloud commerce and data workloads supporting distinct brands and a rapidly scaling subscription operation, it can connect physical and virtual assets, configurations and ownership in one model. For the information and technology organization, that improves planning, troubleshooting and change control while creating a dependable context layer for AI and workflow automation around design-to-launch, browse-to-buy and subscribe-to-return workflows.",
+      "cases": [
+        "Create a maintained source of truth across stores, fulfillment centers, rental operations, cloud services and partner networks.",
+        "Drive provisioning and change validation for cloud commerce and data workloads supporting distinct brands and a rapidly scaling subscription operation from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "For URBN, the highest-value AI workloads sit close to customer, product, rental, subscription, channel, inventory and marketing data and often need bursty batch or agentic execution. Valar provides an in-VPC inference platform built for that pattern, using scheduling, routing and accelerator placement to turn installed compute into more usable capacity. It would give platform teams one operating layer for personalization, curation, merchandising, inventory and customer-service agents, while prompts, outputs and telemetry remain within the enterprise boundary. That makes Valar a strong fit where external model traffic is constrained by privacy, brand separation, payment security, inventory accuracy and peak-scale resilience, but the business still needs production-grade throughput.",
+      "cases": [
+        "Run personalization, curation, merchandising, inventory and customer-service agents inside URBN's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "The applications supporting design-to-launch, browse-to-buy and subscribe-to-return workflows depend on a deep open-source and container supply chain. Echo matters because it replaces vulnerable building blocks with maintained, hardened dependencies that can be consumed as standard inputs. That gives developers working on commerce, subscription, rental, merchandising, planning, store and wholesale applications a safer starting point and reduces the patch churn that pulls security and platform teams away from higher-order risks. It also strengthens auditability: the organization can show which approved components were used and how they are maintained across the lifecycle.",
+      "cases": [
+        "Standardize hardened dependencies across commerce, subscription, rental, merchandising, mobile and store applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "URBN's cloud estate now includes cloud commerce and data workloads supporting distinct brands and a rapidly scaling subscription operation, with services and agents communicating across boundaries that are difficult to understand from identity or network controls alone. Act Security matters because it learns how applications are intended to communicate, compares that with actual behavior and guides teams in closing unnecessary paths. The agentless approach could help the information and technology organization create business-context perimeters around commerce, subscription, rental, merchandising, planning, store and wholesale applications without redesigning the network first. That is a direct fit for privacy, brand separation, payment security, inventory accuracy and peak-scale resilience, where one over-permissioned pathway can expand the blast radius of a compromise.",
+      "cases": [
+        "Map intended and actual communication across cloud commerce and data workloads supporting distinct brands and a rapidly scaling subscription operation.",
+        "Create least-privilege perimeters around commerce, subscription, rental, merchandising, planning, store and wholesale applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "The security risk in URBN's roadmap is often created before code exists—when teams define new commerce, subscription, rental, merchandising and store experiences without the right control requirements. Clover Security is built for that point in the lifecycle. By reading planning artifacts and returning actionable guidance inside existing product workflows, it can connect security leaders with the teams building commerce, subscription, rental, merchandising, planning, store and wholesale applications. For the information and technology organization, the value is earlier visibility, clearer ownership and less rework, especially because late vulnerabilities or design corrections are disproportionately costly in an environment shaped by privacy, brand separation, payment security, inventory accuracy and peak-scale resilience.",
+      "cases": [
+        "Review new commerce, subscription, rental, merchandising and store experiences while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across commerce, subscription, rental, merchandising, planning, store and wholesale applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "URBN is a multi-brand consumer platform spanning Urban Outfitters, Anthropologie, Free People, FP Movement, Nuuly, wholesale and restaurants. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across cloud commerce and data workloads supporting distinct brands and a rapidly scaling subscription operation? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for consumer privacy, payments, cross-border data, accessibility, advertising and brand governance, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across commerce, subscription, rental, merchandising, planning, store and wholesale applications and cloud commerce and data workloads supporting distinct brands and a rapidly scaling subscription operation.",
+        "Reuse assurance work across consumer privacy, payments, cross-border data, accessibility, advertising and brand governance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "URBN's cloud estate spans cloud commerce and data workloads supporting distinct brands and a rapidly scaling subscription operation, increasing the number of workloads, identities, data stores and AI services that security teams must understand together. Orca Security matters as an agentless CNAPP that unifies posture, workload, data, vulnerability and compliance context across AWS, Azure and GCP. It could give the information and technology organization immediate coverage without another deployment campaign, then prioritize the attack paths that place customer, product, rental, subscription, channel, inventory and marketing data or commerce, subscription, rental, merchandising, planning, store and wholesale applications at real risk. That context is critical to brand-specific growth with shared technology, cleaner data and more productive inventory because cloud scale makes raw alert volume an ineffective operating model.",
+      "cases": [
+        "Gain agentless visibility across URBN's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive URBN data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

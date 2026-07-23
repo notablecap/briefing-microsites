@@ -1,0 +1,152 @@
+{
+  "slug": "ut-southwestern",
+  "clientName": "UT Southwestern Medical Center",
+  "role": "CIO",
+  "accent": "#004C97",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of UT Southwestern Medical Center's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits UT Southwestern Medical Center best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits UT Southwestern Medical Center's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "For UT Southwestern, AI value depends less on a single chatbot than on a dependable reasoning layer for bedside-to-data, protocol-to-discovery and research-to-clinic workflows. Claude is built for that layer: dense-document analysis, governed agents and coding assistance delivered through enterprise deployment channels. Applied to EHR records, imaging, pathology, genomics, research protocols, lab notebooks and administrative data, Anthropic could give clinicians, researchers, data scientists, educators, administrators and technology teams faster synthesis and better workflow support while Claude Code accelerates the teams building EHR, imaging, research, analytics, lab, education and administrative applications. The important point for the information and technology organization is control—clear model policies, human review and evaluation around patient safety, PHI, research consent, bias, validation and model accountability as usage expands.",
+      "cases": [
+        "Reason across EHR records, imaging, pathology, genomics, research protocols, lab notebooks and administrative data without forcing teams into a separate knowledge system.",
+        "Use Claude Code across EHR, imaging, research, analytics, lab, education and administrative applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "Across UT Southwestern, many small observations arise during bedside-to-data, protocol-to-discovery and research-to-clinic workflows and are easy to lose between the field, floor, meeting or call and the system of record. Wispr Flow can convert those spoken inputs into clean text and commands directly inside EHR, imaging, research, analytics, lab, education and administrative applications. Because it is an input layer rather than another application, adoption does not require teams to change where work is completed. The strategic fit is simple: capture more context from clinicians, researchers, data scientists, educators, administrators and technology teams, with less typing, so downstream service and AI systems begin with a more complete record.",
+      "cases": [
+        "Turn clinical encounters, research observations, rounding notes, lab updates and administrative meetings into structured entries while the context is still fresh.",
+        "Work inside EHR, imaging, research, analytics, lab, education and administrative applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "UT Southwestern is an academic medical center combining patient care, biomedical research and education under strict clinical and research controls, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use payer portals, research systems, regulatory sites, clinical tools and legacy web applications with controlled sessions and repeatable execution. It can also parallelize browser testing for EHR, imaging, research, analytics, lab, education and administrative applications, catching failures before they reach clinicians, researchers, data scientists, educators, administrators and technology teams. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of responsible enterprise AI that improves care and research without weakening human oversight.",
+      "cases": [
+        "Automate bounded tasks across payer portals, research systems, regulatory sites, clinical tools and legacy web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across EHR, imaging, research, analytics, lab, education and administrative applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "UT Southwestern's engineering surface spans EHR, imaging, research, analytics, lab, education and administrative applications, with different dependencies, access requirements and release cadences. Coder gives the information and technology organization a way to define those environments once and deliver them as secure cloud workspaces. Developers gain a ready-to-use stack; security teams keep code and sensitive tooling away from unmanaged endpoints; platform teams can observe utilization and control compute. That creates a practical foundation for responsible enterprise AI that improves care and research without weakening human oversight, particularly as AI-assisted development increases both the pace of change and the need for reproducible environments.",
+      "cases": [
+        "Standardize cloud workspaces for teams building EHR, imaging, research, analytics, lab, education and administrative applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "The growth of clinical integrations, service accounts, research pipelines, devices and AI agents across Azure and on-premises clinical, research and high-performance-computing workloads creates an ownership and least-privilege problem that traditional workforce IAM does not fully cover. Token Security matters because it is purpose-built to discover, govern and audit non-human and AI-agent identities across their lifecycle. For UT Southwestern, that would make it possible to see which machine identity can reach clinical, imaging, genomic, research, operational and education data, who owns it and whether access still matches business intent. UT Southwestern's current agenda—establishing enterprise AI leadership while expanding AI-enabled clinical care, health-data science and cloud-scale research infrastructure—will increase the number of autonomous credentials operating inside a high-consequence environment.",
+      "cases": [
+        "Inventory clinical integrations, service accounts, research pipelines, devices and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific clinical, imaging, genomic, research, operational and education data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at UT Southwestern will not be limited to text. UT Southwestern's medical imaging, pathology slides, research video, educational media and scientific visualization create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new clinical, research, education and administrative AI capabilities. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new clinical, research, education and administrative AI capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "UT Southwestern's AI and operating decisions increasingly depend on clinical, imaging, genomic, research, operational and education data. A broken pipeline, silent schema change or weak model input can therefore surface as a service, safety or operational problem rather than a data-team ticket. Monte Carlo matters because it unifies observability across data pipelines, systems, code, models and the agents built on top. The information and technology organization would gain a common view of lineage, incidents and downstream impact across clinical documentation, imaging analysis, research discovery, operations and education agents. That trust layer is central to responsible enterprise AI that improves care and research without weakening human oversight, especially where early detection and clear ownership are essential to managing patient safety, PHI, research consent, bias, validation and model accountability.",
+      "cases": [
+        "Monitor clinical, imaging, genomic, research, operational and education data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected EHR, imaging, research, analytics, lab, education and administrative applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining responsible enterprise AI that improves care and research without weakening human oversight."
+      ]
+    },
+    "tonic": {
+      "pull": "The teams building EHR, imaging, research, analytics, lab, education and administrative applications need realistic data, but using production copies of patient, genomic, imaging, research, student and employee data creates unnecessary exposure and slows access approvals. Tonic matters because it can generate synthetic, de-identified datasets that preserve the shape and utility of enterprise data for development, testing and AI work. For UT Southwestern, that would let engineers reproduce edge cases, train or evaluate models and refresh lower environments without moving identifiable records into places they do not belong. The result is faster delivery with fewer sensitive records outside production—important in an environment shaped by patient safety, PHI, research consent, bias, validation and model accountability.",
+      "cases": [
+        "Replace production copies of patient, genomic, imaging, research, student and employee data in development and test environments.",
+        "Generate rare and edge-case scenarios for EHR, imaging, research, analytics, lab, education and administrative applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As UT Southwestern modernizes bedside-to-data, protocol-to-discovery and research-to-clinic workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for hospitals, clinics, labs, research compute, cloud platforms and medical-device networks. Engineers can use it to drive provisioning, validate changes and enrich incidents across Azure and on-premises clinical, research and high-performance-computing workloads. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across hospitals, clinics, labs, research compute, cloud platforms and medical-device networks.",
+        "Drive provisioning and change validation for Azure and on-premises clinical, research and high-performance-computing workloads from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As UT Southwestern develops new clinical, research, education and administrative AI capabilities, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support clinical documentation, imaging analysis, research discovery, operations and education agents with better utilization and policy consistency. The strategic value for the information and technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for Azure and on-premises clinical, research and high-performance-computing workloads.",
+      "cases": [
+        "Run clinical documentation, imaging analysis, research discovery, operations and education agents inside UT Southwestern's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "As UT Southwestern increases the release cadence across EHR, imaging, research, analytics, lab, education and administrative applications, the organization needs secure dependencies that move at the same speed. Echo's model is to patch and harden the underlying components before teams consume them, rather than asking every application owner to remediate the same CVEs independently. This could materially simplify the software supply chain for clinical, research, imaging, analytics, education and AI-platform applications, including agent and AI workloads. For the information and technology organization, the benefit is fewer inherited vulnerabilities, more consistent provenance and less conflict between developer velocity and the controls needed in an environment shaped by patient safety, PHI, research consent, bias, validation and model accountability.",
+      "cases": [
+        "Standardize hardened dependencies across clinical, research, imaging, analytics, education and AI-platform applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "The cloud-security question for UT Southwestern is not only who has access; it is which application, service or agent can communicate with which other system. Act Security is built to answer that question continuously. By learning intended and observed pathways across Azure and on-premises clinical, research and high-performance-computing workloads, the platform can identify unnecessary reachability and help teams lock it down with business context intact. That supports responsible enterprise AI that improves care and research without weakening human oversight by reducing lateral movement and configuration ambiguity while preserving the connections its people and production workflows genuinely need.",
+      "cases": [
+        "Map intended and actual communication across Azure and on-premises clinical, research and high-performance-computing workloads.",
+        "Create least-privilege perimeters around EHR, imaging, research, analytics, lab, education and administrative applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For UT Southwestern, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where clinicians, researchers, data scientists, educators, administrators and technology teams are defining new clinical, research, education and administrative AI capabilities. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for EHR, imaging, research, analytics, lab, education and administrative applications, where early decisions touch patient safety, PHI, research consent, bias, validation and model accountability and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new clinical, research, education and administrative AI capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across EHR, imaging, research, analytics, lab, education and administrative applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "UT Southwestern has to prove trust across HIPAA, human-subject research, FERPA, clinical safety, data use and grant assurance while its technology estate and third-party relationships continue to change. Drata matters because it turns controls, evidence, risks and assurance signals into a continuously monitored trust graph rather than a periodic collection exercise. The information and technology organization could use it to connect policies and owners to the systems behind EHR, imaging, research, analytics, lab, education and administrative applications, surface control drift and reuse evidence across overlapping reviews. That makes compliance more operational and gives leadership a current view of the risks that could slow progress toward responsible enterprise AI that improves care and research without weakening human oversight.",
+      "cases": [
+        "Continuously map controls and evidence across EHR, imaging, research, analytics, lab, education and administrative applications and Azure and on-premises clinical, research and high-performance-computing workloads.",
+        "Reuse assurance work across HIPAA, human-subject research, FERPA, clinical safety, data use and grant assurance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "UT Southwestern is an academic medical center combining patient care, biomedical research and education under strict clinical and research controls. That scale creates a cloud-security requirement for broad coverage with low operational impact. Orca Security provides that through an agentless CNAPP spanning workload protection, data security, posture, vulnerability management and compliance. The platform can identify dangerous combinations around EHR, imaging, research, analytics, lab, education and administrative applications, including exposed data, over-privileged identities and reachable vulnerabilities, then route teams toward the highest-consequence fixes. For an organization managing patient safety, PHI, research consent, bias, validation and model accountability, that context-aware prioritization is more useful than adding another feed of undifferentiated alerts.",
+      "cases": [
+        "Gain agentless visibility across UT Southwestern's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive UT Southwestern data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

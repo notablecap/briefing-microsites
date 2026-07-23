@@ -1,0 +1,152 @@
+{
+  "slug": "intuit",
+  "clientName": "Intuit",
+  "role": "CTO",
+  "accent": "#236CFF",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Intuit's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Intuit best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Intuit's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "For Intuit, AI value depends less on a single chatbot than on a dependable reasoning layer for document-to-return, transaction-to-ledger and insight-to-action workflows. Claude is built for that layer: dense-document analysis, governed agents and coding assistance delivered through enterprise deployment channels. Applied to tax forms, financial transactions, payroll records, invoices, accounting ledgers, benefit rules and customer conversations, Anthropic could give engineers, tax experts, accountants, member advocates, risk teams and product managers faster synthesis and better workflow support while Claude Code accelerates the teams building TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms. The important point for the technology organization is control—clear model policies, human review and evaluation around financial accuracy, privacy, explainability, fraud and regulatory accountability as usage expands.",
+      "cases": [
+        "Reason across tax forms, financial transactions, payroll records, invoices, accounting ledgers, benefit rules and customer conversations without forcing teams into a separate knowledge system.",
+        "Use Claude Code across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "For Intuit, the fastest route to better operational data may be improving how people enter it. Wispr Flow sits beneath existing software as a voice-first input layer, allowing engineers, tax experts, accountants, member advocates, risk teams and product managers to dictate expert consultations, support calls, bookkeeping notes and small-business conversations into the systems already in use. Spoken observations become usable text at the speed of the work, including on mobile. That would reduce documentation friction across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms, preserve more of the rationale behind decisions and create a higher-quality record for analytics, handoffs and agentic workflows.",
+      "cases": [
+        "Turn expert consultations, support calls, bookkeeping notes and small-business conversations into structured entries while the context is still fresh.",
+        "Work inside TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "For Intuit, browser automation is a practical way to connect modern agents with government tax sites, bank portals, merchant consoles, partner tools and customer web workflows before every dependency is rebuilt or exposed through an API. Browserbase provides the secure, programmable sessions, scaling and observability needed to make that connection production-ready. Agents could complete narrow steps across document-to-return, transaction-to-ledger and insight-to-action workflows, while engineering teams use the same infrastructure to validate TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms under realistic conditions. The strategic value is less manual web work without accepting an unmanaged collection of scripts, stored credentials and opaque browser sessions.",
+      "cases": [
+        "Automate bounded tasks across government tax sites, bank portals, merchant consoles, partner tools and customer web workflows without waiting for every system to expose an API.",
+        "Run repeatable browser tests across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "As Intuit modernizes document-to-return, transaction-to-ledger and insight-to-action workflows, the development environment itself becomes part of the platform strategy. Coder moves workspaces off individual laptops and into cloud infrastructure where images, access, compute and network paths can be standardized. That would help engineers working across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms reproduce one another's setup, adopt AI coding tools within guardrails and scale specialized compute without permanent endpoint upgrades. For the technology organization, the benefit is higher engineering throughput with tighter source-code control and clearer unit economics.",
+      "cases": [
+        "Standardize cloud workspaces for teams building TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "As Intuit adds agents to document-to-return, transaction-to-ledger and insight-to-action workflows, every useful workflow introduces a non-human principal with credentials, permissions and an owner—or an ownership gap. Token Security matters because it treats those identities as a distinct governance domain rather than an extension of employee access. The platform can continuously find service accounts, financial APIs, workflow bots and domain-specific AI agents, govern their lifecycle and enforce access based on intended purpose. That would help Intuit scale automation while keeping the blast radius around tax, accounting, transaction, payroll, credit, marketing and customer data narrow and the audit trail clear.",
+      "cases": [
+        "Inventory service accounts, financial APIs, workflow bots and domain-specific AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific tax, accounting, transaction, payroll, credit, marketing and customer data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at Intuit will not be limited to text. Intuit's marketing creative, financial explainers, customer video and multimodal document content create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new tax, accounting, payments, marketing and expert-assisted product experiences. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new tax, accounting, payments, marketing and expert-assisted product experiences.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Intuit is a financial technology platform serving roughly 100 million customers with deeply regulated, high-stakes tax and small-business data, so a small defect in tax, accounting, transaction, payroll, credit, marketing and customer data can propagate across many users and workflows. Monte Carlo matters because it extends data observability into the model and agent layer rather than treating each as a separate monitoring stack. The technology team could trace an unreliable output back through pipelines, transformations and code, then prioritize remediation by downstream consequence. This is particularly relevant to document-to-return, transaction-to-ledger and insight-to-action workflows, where the cost of a silent issue is measured in service, safety, revenue or trust—not only in a failed job.",
+      "cases": [
+        "Monitor tax, accounting, transaction, payroll, credit, marketing and customer data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms and accountable engineering teams.",
+        "Prevent silent data failures from undermining more work completed for customers with domain accuracy and accountable human expertise."
+      ]
+    },
+    "tonic": {
+      "pull": "Intuit's current agenda—scaling GenOS and domain-specific agentic AI across tax, accounting, payments, personal finance and expert-assisted customer experiences—makes safe access to representative data a bottleneck for software and AI teams. Tonic is designed for that bottleneck. It can replace production copies of taxpayer, business, payroll, transaction, credit and support data with synthetic or de-identified datasets suitable for development, testing, demonstrations and model evaluation. This gives teams more freedom to iterate across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms while reducing the number of environments that contain sensitive records. It also makes privacy controls easier to explain because protection is built into the dataset, not left entirely to downstream access policy.",
+      "cases": [
+        "Replace production copies of taxpayer, business, payroll, transaction, credit and support data in development and test environments.",
+        "Generate rare and edge-case scenarios for TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As Intuit modernizes document-to-return, transaction-to-ledger and insight-to-action workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for cloud platforms, payment systems, partner connections and corporate infrastructure. Engineers can use it to drive provisioning, validate changes and enrich incidents across large-scale cloud data and AI workloads with strict financial-data boundaries. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across cloud platforms, payment systems, partner connections and corporate infrastructure.",
+        "Drive provisioning and change validation for large-scale cloud data and AI workloads with strict financial-data boundaries from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As Intuit develops new tax, accounting, payments, marketing and expert-assisted product experiences, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support tax preparation, bookkeeping, accounts receivable, customer service and coding agents with better utilization and policy consistency. The strategic value for the technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for large-scale cloud data and AI workloads with strict financial-data boundaries.",
+      "cases": [
+        "Run tax preparation, bookkeeping, accounts receivable, customer service and coding agents inside Intuit's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "Intuit's tax, accounting, payments, marketing, data and AI-platform applications are assembled from thousands of base images, libraries and packages that can introduce vulnerabilities before application code is written. Echo matters because it supplies trusted, continuously patched and hardened software dependencies, including FIPS-validated options, at the component layer. The technology organization could use that foundation to reduce the vulnerability backlog across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms and give developers secure defaults without slowing delivery. The fit is especially strong where the risk profile around financial accuracy, privacy, explainability, fraud and regulatory accountability makes end-of-pipeline remediation too late or too expensive.",
+      "cases": [
+        "Standardize hardened dependencies across tax, accounting, payments, marketing, data and AI-platform applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Intuit's current agenda—scaling GenOS and domain-specific agentic AI across tax, accounting, payments, personal finance and expert-assisted customer experiences—will increase the number of connections among applications, data services and AI agents faster than traditional firewall review can keep pace. Act Security maps those relationships and highlights communication that is unnecessary or inconsistent with business purpose. Applied to large-scale cloud data and AI workloads with strict financial-data boundaries, it could guide safe, incremental perimeter changes around the systems handling tax, accounting, transaction, payroll, credit, marketing and customer data. The result is enforceable least privilege that reflects the real communication paths behind document-to-return, transaction-to-ledger and insight-to-action workflows, rather than a static policy that becomes obsolete after the next release.",
+      "cases": [
+        "Map intended and actual communication across large-scale cloud data and AI workloads with strict financial-data boundaries.",
+        "Create least-privilege perimeters around TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "Intuit's technology agenda spans new tax, accounting, payments, marketing and expert-assisted product experiences, each with different data, identity and operational assumptions. Clover Security gives product-security teams a way to review that intent directly from planning and design materials instead of waiting for a scan at the end. It can flag missing requirements, route decisions to accountable owners and keep the rationale attached to the work item. That supports more work completed for customers with domain accuracy and accountable human expertise by making secure design part of the normal delivery motion across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms, not a separate process teams learn to avoid.",
+      "cases": [
+        "Review new tax, accounting, payments, marketing and expert-assisted product experiences while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "The assurance burden at Intuit spans tax regulation, financial privacy, payments, model risk, audit and consumer protection, with evidence distributed across cloud platforms, business systems and external partners. Drata provides one continuous layer for interpreting those signals, assigning ownership and maintaining audit readiness. It can reduce repetitive evidence work around large-scale cloud data and AI workloads with strict financial-data boundaries while giving risk and technology leaders a shared view of control health. The value is not simply a faster audit; it is earlier visibility into where policy, system behavior or third-party posture has diverged from the standard required for document-to-return, transaction-to-ledger and insight-to-action workflows.",
+      "cases": [
+        "Continuously map controls and evidence across TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms and large-scale cloud data and AI workloads with strict financial-data boundaries.",
+        "Reuse assurance work across tax regulation, financial privacy, payments, model risk, audit and consumer protection instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Intuit is a financial technology platform serving roughly 100 million customers with deeply regulated, high-stakes tax and small-business data. That scale creates a cloud-security requirement for broad coverage with low operational impact. Orca Security provides that through an agentless CNAPP spanning workload protection, data security, posture, vulnerability management and compliance. The platform can identify dangerous combinations around TurboTax, QuickBooks, Credit Karma, Mailchimp, payments, data and expert-service platforms, including exposed data, over-privileged identities and reachable vulnerabilities, then route teams toward the highest-consequence fixes. For an organization managing financial accuracy, privacy, explainability, fraud and regulatory accountability, that context-aware prioritization is more useful than adding another feed of undifferentiated alerts.",
+      "cases": [
+        "Gain agentless visibility across Intuit's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Intuit data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "deckers",
+  "clientName": "Deckers Brands",
+  "role": "CDO",
+  "accent": "#2D2926",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Deckers Brands's data organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Deckers Brands best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Deckers Brands's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "Deckers is scaling UGG and HOKA across direct-to-consumer, wholesale and international channels, with omnichannel insight and inventory productivity becoming core data priorities. The hardest work is often buried in consumer profiles, product attributes, demand signals, campaign results and inventory positions and the systems that surround them. Anthropic matters because Claude can handle long, interdependent context, support agentic workflows and give developers Claude Code inside the same enterprise AI strategy. That creates a practical bridge between merchants, planners, marketers, digital teams and store associates and the teams maintaining commerce, merchandising, planning, clienteling and supply-chain applications. Deployed with explicit human checkpoints and evaluation, it can advance more relevant consumer experiences and better inventory productivity across channels while keeping consumer privacy, brand consistency, payment security and cross-border governance visible rather than implicit.",
+      "cases": [
+        "Reason across consumer profiles, product attributes, demand signals, campaign results and inventory positions without forcing teams into a separate knowledge system.",
+        "Use Claude Code across commerce, merchandising, planning, clienteling and supply-chain applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "The information gap at Deckers is not always a missing database; often it is what merchants, planners, marketers, digital teams and store associates know but do not record during store observations, showroom feedback, wholesale account notes and product reviews. Wispr Flow lets users speak naturally into existing desktop and mobile tools, producing structured, edited text with commands and filler-word cleanup. That makes it well suited to distributed or frontline work around seasonal product creation, allocation and omnichannel selling. The data organization gains more timely operational context without asking teams to adopt a separate note-taking system or spend the end of a shift reconstructing what happened.",
+      "cases": [
+        "Turn store observations, showroom feedback, wholesale account notes and product reviews into structured entries while the context is still fresh.",
+        "Work inside commerce, merchandising, planning, clienteling and supply-chain applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "A meaningful share of Deckers' work still crosses retailer portals, marketplace consoles, carrier sites, supplier systems and localized commerce properties. Those browser-bound steps are hard to automate reliably because they carry session state, changing interfaces and sensitive credentials. Browserbase matters as secure, programmable browser infrastructure for agents: it can let the data organization automate web workflows and test commerce, merchandising, planning, clienteling and supply-chain applications at scale without building a brittle fleet of headless browsers. The fit is strongest for repeatable, supervised tasks inside seasonal product creation, allocation and omnichannel selling, where centralized sessions, logs and controls are as important as the automation itself.",
+      "cases": [
+        "Automate bounded tasks across retailer portals, marketplace consoles, carrier sites, supplier systems and localized commerce properties without waiting for every system to expose an API.",
+        "Run repeatable browser tests across commerce, merchandising, planning, clienteling and supply-chain applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at Deckers is constrained when setup, hardware and local configuration differ across the teams building commerce, merchandising, planning, clienteling and supply-chain applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to consumer privacy, brand consistency, payment security and cross-border governance because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building commerce, merchandising, planning, clienteling and supply-chain applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "The growth of commerce services, marketing automations, integration accounts and AI agents across global commerce, data, marketing and supply-chain workloads creates an ownership and least-privilege problem that traditional workforce IAM does not fully cover. Token Security matters because it is purpose-built to discover, govern and audit non-human and AI-agent identities across their lifecycle. For Deckers, that would make it possible to see which machine identity can reach customer, product, channel, inventory and marketing-performance data, who owns it and whether access still matches business intent. Deckers' current agenda—scaling UGG and HOKA across direct-to-consumer, wholesale and international channels, with omnichannel insight and inventory productivity becoming core data priorities—will increase the number of autonomous credentials operating inside a high-consequence environment.",
+      "cases": [
+        "Inventory commerce services, marketing automations, integration accounts and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific customer, product, channel, inventory and marketing-performance data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at Deckers will not be limited to text. Deckers' product imagery, localized campaign creative, video, audio and digital merchandising assets create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new commerce, personalization, merchandising and store-associate experiences. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new commerce, personalization, merchandising and store-associate experiences.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Deckers' data platform has to support its current agenda—scaling UGG and HOKA across direct-to-consumer, wholesale and international channels, with omnichannel insight and inventory productivity becoming core data priorities—and remain trusted continuously, not only after a dashboard or agent produces a bad answer. Monte Carlo can monitor customer, product, channel, inventory and marketing-performance data from ingestion through transformation, model and agent behavior, connecting a failure to the systems and teams affected. That gives merchants, planners, marketers, digital teams and store associates a faster way to isolate incidents and prevent recurrence. For the data organization, the value is a single trust plane across traditional analytics and emerging agentic workflows, reducing the gap between data quality, model reliability and business impact.",
+      "cases": [
+        "Monitor customer, product, channel, inventory and marketing-performance data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected commerce, merchandising, planning, clienteling and supply-chain applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining more relevant consumer experiences and better inventory productivity across channels."
+      ]
+    },
+    "tonic": {
+      "pull": "For Deckers, better test data can improve both delivery speed and production safety. Tonic can create high-fidelity synthetic versions of consumer, transaction, loyalty, product and inventory data, allowing developers to exercise commerce, merchandising, planning, clienteling and supply-chain applications against realistic volumes and relationships without relying on raw production data. The same approach can support model training, fine-tuning and evaluation for personalization, demand sensing, product content and merchandising agents. The strategic fit is strongest where data provisioning is slowed by consumer privacy, brand consistency, payment security and cross-border governance, yet inadequate test coverage would expose the organization to even greater operational or customer risk.",
+      "cases": [
+        "Replace production copies of consumer, transaction, loyalty, product and inventory data in development and test environments.",
+        "Generate rare and edge-case scenarios for commerce, merchandising, planning, clienteling and supply-chain applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "The infrastructure challenge at Deckers is not merely scale; it is keeping an authoritative view across stores, distribution centers, offices, cloud services and partner-connected networks as environments change. NetBox Labs provides the structured source of truth that network teams and automation can share. Applied across global commerce, data, marketing and supply-chain workloads, it can connect physical and virtual assets, configurations and ownership in one model. For the data organization, that improves planning, troubleshooting and change control while creating a dependable context layer for AI and workflow automation around seasonal product creation, allocation and omnichannel selling.",
+      "cases": [
+        "Create a maintained source of truth across stores, distribution centers, offices, cloud services and partner-connected networks.",
+        "Drive provisioning and change validation for global commerce, data, marketing and supply-chain workloads from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "The economics of Deckers' AI program will change as personalization, demand sensing, product content and merchandising agents move from pilots to sustained volume. Valar is designed for that stage. It schedules and batches inference across available accelerators inside the enterprise VPC, improving throughput and cost per token while preserving the existing security boundary. For workloads involving customer, product, channel, inventory and marketing-performance data, that architecture keeps model traffic, logs and policy enforcement under Deckers' control. The result is a production inference layer that advances more relevant consumer experiences and better inventory productivity across channels while preserving control over scale and data locality.",
+      "cases": [
+        "Run personalization, demand sensing, product content and merchandising agents inside Deckers' own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "Software supply-chain risk at Deckers begins with what applications and agents are built on. Echo provides CVE-free, maintained alternatives for container bases, libraries, VMs, Helm charts and end-of-life components, removing known vulnerability work at the source. Applied to commerce, planning, content, mobile and data-platform applications, it would let engineering and security teams spend less time patching the same underlying package across many products. That supports more relevant consumer experiences and better inventory productivity across channels while strengthening the evidence around consumer privacy, cross-border data, payment controls, brand standards and third-party assurance, particularly for workloads that need hardened or FIPS-aligned components.",
+      "cases": [
+        "Standardize hardened dependencies across commerce, planning, content, mobile and data-platform applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "The cloud-security question for Deckers is not only who has access; it is which application, service or agent can communicate with which other system. Act Security is built to answer that question continuously. By learning intended and observed pathways across global commerce, data, marketing and supply-chain workloads, the platform can identify unnecessary reachability and help teams lock it down with business context intact. That supports more relevant consumer experiences and better inventory productivity across channels by reducing lateral movement and configuration ambiguity while preserving the connections its people and production workflows genuinely need.",
+      "cases": [
+        "Map intended and actual communication across global commerce, data, marketing and supply-chain workloads.",
+        "Create least-privilege perimeters around commerce, merchandising, planning, clienteling and supply-chain applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For Deckers, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where merchants, planners, marketers, digital teams and store associates are defining new commerce, personalization, merchandising and store-associate experiences. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for commerce, merchandising, planning, clienteling and supply-chain applications, where early decisions touch consumer privacy, brand consistency, payment security and cross-border governance and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new commerce, personalization, merchandising and store-associate experiences while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across commerce, merchandising, planning, clienteling and supply-chain applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "Deckers' current agenda—scaling UGG and HOKA across direct-to-consumer, wholesale and international channels, with omnichannel insight and inventory productivity becoming core data priorities—means trust has to keep pace with releases, integrations and agent adoption. Drata's platform can continuously monitor the control environment around commerce, merchandising, planning, clienteling and supply-chain applications, organize evidence and connect risk to accountable owners. That helps the data organization move away from spreadsheet-driven point-in-time compliance toward an operating model in which readiness is always visible. For an organization exposed to consumer privacy, brand consistency, payment security and cross-border governance, that also improves the speed and consistency of customer, regulator and partner assurance.",
+      "cases": [
+        "Continuously map controls and evidence across commerce, merchandising, planning, clienteling and supply-chain applications and global commerce, data, marketing and supply-chain workloads.",
+        "Reuse assurance work across consumer privacy, cross-border data, payment controls, brand standards and third-party assurance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Deckers' cloud estate spans global commerce, data, marketing and supply-chain workloads, increasing the number of workloads, identities, data stores and AI services that security teams must understand together. Orca Security matters as an agentless CNAPP that unifies posture, workload, data, vulnerability and compliance context across AWS, Azure and GCP. It could give the data organization immediate coverage without another deployment campaign, then prioritize the attack paths that place customer, product, channel, inventory and marketing-performance data or commerce, merchandising, planning, clienteling and supply-chain applications at real risk. That context is critical to more relevant consumer experiences and better inventory productivity across channels because cloud scale makes raw alert volume an ineffective operating model.",
+      "cases": [
+        "Gain agentless visibility across Deckers' cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Deckers data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

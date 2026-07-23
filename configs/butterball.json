@@ -1,0 +1,152 @@
+{
+  "slug": "butterball",
+  "clientName": "Butterball",
+  "role": "CIO",
+  "accent": "#0055A5",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Butterball's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Butterball best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Butterball's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "For Butterball, AI value depends less on a single chatbot than on a dependable reasoning layer for farm-to-plant, lot-to-case and cold-chain workflows. Claude is built for that layer: dense-document analysis, governed agents and coding assistance delivered through enterprise deployment channels. Applied to farm records, flock data, lot identifiers, production schedules, quality inspections, temperatures and shipment events, Anthropic could give farm teams, plant operators, quality leaders, maintenance staff, planners and logistics teams faster synthesis and better workflow support while Claude Code accelerates the teams building farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications. The important point for the information and technology organization is control—clear model policies, human review and evaluation around food safety, animal care, production uptime, recall readiness and seasonal volatility as usage expands.",
+      "cases": [
+        "Reason across farm records, flock data, lot identifiers, production schedules, quality inspections, temperatures and shipment events without forcing teams into a separate knowledge system.",
+        "Use Claude Code across farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "Butterball's farm teams, plant operators, quality leaders, maintenance staff, planners and logistics teams generate valuable context through plant shift notes, animal-care observations, maintenance reports, quality checks and driver updates, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For Butterball, it could capture observations directly into farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind reliable holiday execution with faster traceability and less production disruption.",
+      "cases": [
+        "Turn plant shift notes, animal-care observations, maintenance reports, quality checks and driver updates into structured entries while the context is still fresh.",
+        "Work inside farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "Butterball is a vertically connected food operation spanning farms, processing plants, cold storage, distribution and major holiday demand peaks, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use retailer portals, supplier sites, carrier systems, quality tools and legacy operational web applications with controlled sessions and repeatable execution. It can also parallelize browser testing for farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications, catching failures before they reach farm teams, plant operators, quality leaders, maintenance staff, planners and logistics teams. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of reliable holiday execution with faster traceability and less production disruption.",
+      "cases": [
+        "Automate bounded tasks across retailer portals, supplier sites, carrier systems, quality tools and legacy operational web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at Butterball is constrained when setup, hardware and local configuration differ across the teams building farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to food safety, animal care, production uptime, recall readiness and seasonal volatility because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "For the information and technology organization, AI-agent governance becomes an identity problem before it becomes a model problem. Butterball is a vertically connected food operation spanning farms, processing plants, cold storage, distribution and major holiday demand peaks; adding device identities, plant integrations, sensors, automation bots and operational agents increases the number of principals acting at machine speed. Token Security provides the discovery, ownership, least-privilege and audit layer required to keep that population controlled. Applied across hybrid plant, farm, warehouse and cloud workloads supporting a cold-chain network, it can show where credentials are over-permissioned or orphaned and make access changes traceable. That gives Butterball a controlled path toward reliable holiday execution with faster traceability and less production disruption and avoids an invisible tier of privileged automation.",
+      "cases": [
+        "Inventory device identities, plant integrations, sensors, automation bots and operational agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific farm, flock, lot, production, quality, cold-chain and shipment data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Butterball has practical multimodal needs across quality imagery, line inspection video, training content and packaging assets. fal matters because it gives product and engineering teams a high-speed inference layer for image, video, audio and voice models through simple APIs, without forcing each use case to become an infrastructure project. The information and technology organization could use it to prototype and scale bounded generative experiences alongside farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications, from content production to simulation or visual assistance. The strongest fit is where latency and iteration speed matter but the risk profile around food safety, animal care, production uptime, recall readiness and seasonal volatility still requires approved models, controlled inputs and a clear review path.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new plant, traceability, quality, planning and logistics capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "As Butterball scales production planning, quality inspection, maintenance, traceability and logistics agents, data reliability and agent reliability become the same operating problem. Monte Carlo is designed for that convergence. It can observe pipelines, code, models and agents together, detect anomalies before they reach farm teams, plant operators, quality leaders, maintenance staff, planners and logistics teams and show the lineage needed to understand impact. Applied to farm, flock, lot, production, quality, cold-chain and shipment data, the platform would help the organization move from reactive data firefighting to managed service levels. That supports reliable holiday execution with faster traceability and less production disruption while giving leaders evidence that the information feeding automated decisions remains complete, timely and fit for purpose.",
+      "cases": [
+        "Monitor farm, flock, lot, production, quality, cold-chain and shipment data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining reliable holiday execution with faster traceability and less production disruption."
+      ]
+    },
+    "tonic": {
+      "pull": "Butterball's current agenda—operating a highly seasonal turkey supply chain where farm, plant, cold-chain, quality and retailer data must support both peak execution and recall readiness—makes safe access to representative data a bottleneck for software and AI teams. Tonic is designed for that bottleneck. It can replace production copies of farm, employee, supplier, lot, production and quality data with synthetic or de-identified datasets suitable for development, testing, demonstrations and model evaluation. This gives teams more freedom to iterate across farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications while reducing the number of environments that contain sensitive records. It also makes privacy controls easier to explain because protection is built into the dataset, not left entirely to downstream access policy.",
+      "cases": [
+        "Replace production copies of farm, employee, supplier, lot, production and quality data in development and test environments.",
+        "Generate rare and edge-case scenarios for farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As Butterball modernizes farm-to-plant, lot-to-case and cold-chain workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for farms, plants, cold storage, distribution sites, cloud services and operational networks. Engineers can use it to drive provisioning, validate changes and enrich incidents across hybrid plant, farm, warehouse and cloud workloads supporting a cold-chain network. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across farms, plants, cold storage, distribution sites, cloud services and operational networks.",
+        "Drive provisioning and change validation for hybrid plant, farm, warehouse and cloud workloads supporting a cold-chain network from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "The economics of Butterball's AI program will change as production planning, quality inspection, maintenance, traceability and logistics agents move from pilots to sustained volume. Valar is designed for that stage. It schedules and batches inference across available accelerators inside the enterprise VPC, improving throughput and cost per token while preserving the existing security boundary. For workloads involving farm, flock, lot, production, quality, cold-chain and shipment data, that architecture keeps model traffic, logs and policy enforcement under Butterball's control. The result is a production inference layer that advances reliable holiday execution with faster traceability and less production disruption while preserving control over scale and data locality.",
+      "cases": [
+        "Run production planning, quality inspection, maintenance, traceability and logistics agents inside Butterball's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "The applications supporting farm-to-plant, lot-to-case and cold-chain workflows depend on a deep open-source and container supply chain. Echo matters because it replaces vulnerable building blocks with maintained, hardened dependencies that can be consumed as standard inputs. That gives developers working on farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications a safer starting point and reduces the patch churn that pulls security and platform teams away from higher-order risks. It also strengthens auditability: the organization can show which approved components were used and how they are maintained across the lifecycle.",
+      "cases": [
+        "Standardize hardened dependencies across farm, plant, quality, traceability, warehouse and planning applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "The cloud-security question for Butterball is not only who has access; it is which application, service or agent can communicate with which other system. Act Security is built to answer that question continuously. By learning intended and observed pathways across hybrid plant, farm, warehouse and cloud workloads supporting a cold-chain network, the platform can identify unnecessary reachability and help teams lock it down with business context intact. That supports reliable holiday execution with faster traceability and less production disruption by reducing lateral movement and configuration ambiguity while preserving the connections its people and production workflows genuinely need.",
+      "cases": [
+        "Map intended and actual communication across hybrid plant, farm, warehouse and cloud workloads supporting a cold-chain network.",
+        "Create least-privilege perimeters around farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For Butterball, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where farm teams, plant operators, quality leaders, maintenance staff, planners and logistics teams are defining new plant, traceability, quality, planning and logistics capabilities. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications, where early decisions touch food safety, animal care, production uptime, recall readiness and seasonal volatility and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new plant, traceability, quality, planning and logistics capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "The assurance burden at Butterball spans USDA and food-safety rules, traceability, labor, animal care, privacy and retailer assurance, with evidence distributed across cloud platforms, business systems and external partners. Drata provides one continuous layer for interpreting those signals, assigning ownership and maintaining audit readiness. It can reduce repetitive evidence work around hybrid plant, farm, warehouse and cloud workloads supporting a cold-chain network while giving risk and technology leaders a shared view of control health. The value is not simply a faster audit; it is earlier visibility into where policy, system behavior or third-party posture has diverged from the standard required for farm-to-plant, lot-to-case and cold-chain workflows.",
+      "cases": [
+        "Continuously map controls and evidence across farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications and hybrid plant, farm, warehouse and cloud workloads supporting a cold-chain network.",
+        "Reuse assurance work across USDA and food-safety rules, traceability, labor, animal care, privacy and retailer assurance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Butterball's cloud estate spans hybrid plant, farm, warehouse and cloud workloads supporting a cold-chain network, increasing the number of workloads, identities, data stores and AI services that security teams must understand together. Orca Security matters as an agentless CNAPP that unifies posture, workload, data, vulnerability and compliance context across AWS, Azure and GCP. It could give the information and technology organization immediate coverage without another deployment campaign, then prioritize the attack paths that place farm, flock, lot, production, quality, cold-chain and shipment data or farm, manufacturing, quality, traceability, warehouse, maintenance and planning applications at real risk. That context is critical to reliable holiday execution with faster traceability and less production disruption because cloud scale makes raw alert volume an ineffective operating model.",
+      "cases": [
+        "Gain agentless visibility across Butterball's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Butterball data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "ihg",
+  "clientName": "IHG Hotels & Resorts",
+  "role": "CTO",
+  "accent": "#10212B",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of IHG Hotels & Resorts's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits IHG Hotels & Resorts best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits IHG Hotels & Resorts's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "For IHG, AI value depends less on a single chatbot than on a dependable reasoning layer for search-to-book, stay, service-recovery and owner-operations workflows. Claude is built for that layer: dense-document analysis, governed agents and coding assistance delivered through enterprise deployment channels. Applied to guest profiles, reservations, rates, property content, loyalty activity, service interactions and owner data, Anthropic could give hotel staff, revenue managers, owners, digital teams, customer-care agents and loyalty teams faster synthesis and better workflow support while Claude Code accelerates the teams building booking, loyalty, property-management, revenue, content, owner and customer-service applications. The important point for the technology organization is control—clear model policies, human review and evaluation around guest privacy, payment security, franchise consistency, uptime and cross-border governance as usage expands.",
+      "cases": [
+        "Reason across guest profiles, reservations, rates, property content, loyalty activity, service interactions and owner data without forcing teams into a separate knowledge system.",
+        "Use Claude Code across booking, loyalty, property-management, revenue, content, owner and customer-service applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "IHG's hotel staff, revenue managers, owners, digital teams, customer-care agents and loyalty teams generate valuable context through front-desk notes, guest calls, property inspections, owner conversations and maintenance reports, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For IHG, it could capture observations directly into booking, loyalty, property-management, revenue, content, owner and customer-service applications without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind more direct, personalized guest journeys and better owner economics at global scale.",
+      "cases": [
+        "Turn front-desk notes, guest calls, property inspections, owner conversations and maintenance reports into structured entries while the context is still fresh.",
+        "Work inside booking, loyalty, property-management, revenue, content, owner and customer-service applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "A meaningful share of IHG's work still crosses property portals, partner channels, travel sites, owner tools and legacy hotel applications. Those browser-bound steps are hard to automate reliably because they carry session state, changing interfaces and sensitive credentials. Browserbase matters as secure, programmable browser infrastructure for agents: it can let the technology organization automate web workflows and test booking, loyalty, property-management, revenue, content, owner and customer-service applications at scale without building a brittle fleet of headless browsers. The fit is strongest for repeatable, supervised tasks inside search-to-book, stay, service-recovery and owner-operations workflows, where centralized sessions, logs and controls are as important as the automation itself.",
+      "cases": [
+        "Automate bounded tasks across property portals, partner channels, travel sites, owner tools and legacy hotel applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across booking, loyalty, property-management, revenue, content, owner and customer-service applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "As IHG modernizes search-to-book, stay, service-recovery and owner-operations workflows, the development environment itself becomes part of the platform strategy. Coder moves workspaces off individual laptops and into cloud infrastructure where images, access, compute and network paths can be standardized. That would help engineers working across booking, loyalty, property-management, revenue, content, owner and customer-service applications reproduce one another's setup, adopt AI coding tools within guardrails and scale specialized compute without permanent endpoint upgrades. For the technology organization, the benefit is higher engineering throughput with tighter source-code control and clearer unit economics.",
+      "cases": [
+        "Standardize cloud workspaces for teams building booking, loyalty, property-management, revenue, content, owner and customer-service applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "As IHG adds agents to search-to-book, stay, service-recovery and owner-operations workflows, every useful workflow introduces a non-human principal with credentials, permissions and an owner—or an ownership gap. Token Security matters because it treats those identities as a distinct governance domain rather than an extension of employee access. The platform can continuously find property integrations, booking services, workflow bots, APIs and guest or operations agents, govern their lifecycle and enforce access based on intended purpose. That would help IHG scale automation while keeping the blast radius around guest, reservation, rate, inventory, property, loyalty and service data narrow and the audit trail clear.",
+      "cases": [
+        "Inventory property integrations, booking services, workflow bots, APIs and guest or operations agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific guest, reservation, rate, inventory, property, loyalty and service data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "IHG has practical multimodal needs across property imagery, multilingual marketing, virtual tours, training video and guest content. fal matters because it gives product and engineering teams a high-speed inference layer for image, video, audio and voice models through simple APIs, without forcing each use case to become an infrastructure project. The technology organization could use it to prototype and scale bounded generative experiences alongside booking, loyalty, property-management, revenue, content, owner and customer-service applications, from content production to simulation or visual assistance. The strongest fit is where latency and iteration speed matter but the risk profile around guest privacy, payment security, franchise consistency, uptime and cross-border governance still requires approved models, controlled inputs and a clear review path.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new booking, property, loyalty, owner and guest-service capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "IHG's AI and operating decisions increasingly depend on guest, reservation, rate, inventory, property, loyalty and service data. A broken pipeline, silent schema change or weak model input can therefore surface as a service, safety or operational problem rather than a data-team ticket. Monte Carlo matters because it unifies observability across data pipelines, systems, code, models and the agents built on top. The technology organization would gain a common view of lineage, incidents and downstream impact across conversational booking, revenue optimization, guest service, translation and property-operations agents. That trust layer is central to more direct, personalized guest journeys and better owner economics at global scale, especially where early detection and clear ownership are essential to managing guest privacy, payment security, franchise consistency, uptime and cross-border governance.",
+      "cases": [
+        "Monitor guest, reservation, rate, inventory, property, loyalty and service data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected booking, loyalty, property-management, revenue, content, owner and customer-service applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining more direct, personalized guest journeys and better owner economics at global scale."
+      ]
+    },
+    "tonic": {
+      "pull": "IHG's data is valuable precisely because it reflects real search-to-book, stay, service-recovery and owner-operations workflows; it is also too sensitive to copy casually into test, analytics or model-development environments. Tonic creates a privacy-preserving alternative by synthesizing and de-identifying guest, loyalty, reservation, payment, employee and property data while maintaining useful relationships and distributions. The technology organization could give teams working on booking, loyalty, property-management, revenue, content, owner and customer-service applications faster access to representative datasets, including rare scenarios that are difficult to find safely in production. It advances more direct, personalized guest journeys and better owner economics at global scale while avoiding the permanent trade-off between useful data access and privacy.",
+      "cases": [
+        "Replace production copies of guest, loyalty, reservation, payment, employee and property data in development and test environments.",
+        "Generate rare and edge-case scenarios for booking, loyalty, property-management, revenue, content, owner and customer-service applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As IHG modernizes search-to-book, stay, service-recovery and owner-operations workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for hotels, corporate offices, cloud platforms, property networks and partner connections. Engineers can use it to drive provisioning, validate changes and enrich incidents across global cloud platforms connected to thousands of independently operated properties. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across hotels, corporate offices, cloud platforms, property networks and partner connections.",
+        "Drive provisioning and change validation for global cloud platforms connected to thousands of independently operated properties from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "IHG is moving conversational booking, revenue optimization, guest service, translation and property-operations agents toward production, where throughput, cost and data boundaries become architecture decisions rather than model-selection details. Valar matters because it runs high-volume async, batch and agentic inference inside the customer's own VPC. The platform can optimize scheduling, batching, routing and accelerator placement while prompts, outputs, logs, models and policies remain inside IHG's environment. That is especially relevant to guest privacy, payment security, franchise consistency, uptime and cross-border governance: the technology organization can increase usable AI capacity without creating a separate external data path for sensitive workloads.",
+      "cases": [
+        "Run conversational booking, revenue optimization, guest service, translation and property-operations agents inside IHG's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "Software supply-chain risk at IHG begins with what applications and agents are built on. Echo provides CVE-free, maintained alternatives for container bases, libraries, VMs, Helm charts and end-of-life components, removing known vulnerability work at the source. Applied to booking, loyalty, property, revenue, owner, mobile and AI applications, it would let engineering and security teams spend less time patching the same underlying package across many products. That supports more direct, personalized guest journeys and better owner economics at global scale while strengthening the evidence around privacy, PCI, franchise controls, accessibility, cross-border data and third-party assurance, particularly for workloads that need hardened or FIPS-aligned components.",
+      "cases": [
+        "Standardize hardened dependencies across booking, loyalty, property, revenue, owner, mobile and AI applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Least privilege at IHG is increasingly a service-to-service problem. IHG's property integrations, booking services, workflow bots, APIs and guest or operations agents can reach across global cloud platforms connected to thousands of independently operated properties, while ownership and network policy are split among different tools. Act Security provides a shared view of what can talk to what, what actually does and what the business intended. It can then help teams segment booking, loyalty, property-management, revenue, content, owner and customer-service applications around real application context. For the technology organization, the value is a practical route to smaller cloud blast radii without introducing agents or waiting for a full architecture rewrite.",
+      "cases": [
+        "Map intended and actual communication across global cloud platforms connected to thousands of independently operated properties.",
+        "Create least-privilege perimeters around booking, loyalty, property-management, revenue, content, owner and customer-service applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "The security risk in IHG's roadmap is often created before code exists—when teams define new booking, property, loyalty, owner and guest-service capabilities without the right control requirements. Clover Security is built for that point in the lifecycle. By reading planning artifacts and returning actionable guidance inside existing product workflows, it can connect security leaders with the teams building booking, loyalty, property-management, revenue, content, owner and customer-service applications. For the technology organization, the value is earlier visibility, clearer ownership and less rework, especially because late vulnerabilities or design corrections are disproportionately costly in an environment shaped by guest privacy, payment security, franchise consistency, uptime and cross-border governance.",
+      "cases": [
+        "Review new booking, property, loyalty, owner and guest-service capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across booking, loyalty, property-management, revenue, content, owner and customer-service applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "The assurance burden at IHG spans privacy, PCI, franchise controls, accessibility, cross-border data and third-party assurance, with evidence distributed across cloud platforms, business systems and external partners. Drata provides one continuous layer for interpreting those signals, assigning ownership and maintaining audit readiness. It can reduce repetitive evidence work around global cloud platforms connected to thousands of independently operated properties while giving risk and technology leaders a shared view of control health. The value is not simply a faster audit; it is earlier visibility into where policy, system behavior or third-party posture has diverged from the standard required for search-to-book, stay, service-recovery and owner-operations workflows.",
+      "cases": [
+        "Continuously map controls and evidence across booking, loyalty, property-management, revenue, content, owner and customer-service applications and global cloud platforms connected to thousands of independently operated properties.",
+        "Reuse assurance work across privacy, PCI, franchise controls, accessibility, cross-border data and third-party assurance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "IHG is more than 7,000 hotels across over 100 countries, with central platforms that must work for owners, properties, guests and loyalty members. That scale creates a cloud-security requirement for broad coverage with low operational impact. Orca Security provides that through an agentless CNAPP spanning workload protection, data security, posture, vulnerability management and compliance. The platform can identify dangerous combinations around booking, loyalty, property-management, revenue, content, owner and customer-service applications, including exposed data, over-privileged identities and reachable vulnerabilities, then route teams toward the highest-consequence fixes. For an organization managing guest privacy, payment security, franchise consistency, uptime and cross-border governance, that context-aware prioritization is more useful than adding another feed of undifferentiated alerts.",
+      "cases": [
+        "Gain agentless visibility across IHG's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive IHG data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

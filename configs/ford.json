@@ -1,0 +1,152 @@
+{
+  "slug": "ford",
+  "clientName": "Ford",
+  "role": "CTO",
+  "accent": "#003478",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Ford's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Ford best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Ford's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "Ford is building connected, software-defined vehicles and Ford Pro services around telemetry, over-the-air software, fleet intelligence and increasingly agentic workflows. The hardest work is often buried in vehicle telemetry, service histories, software configurations, manufacturing data, parts records and fleet operations and the systems that surround them. Anthropic matters because Claude can handle long, interdependent context, support agentic workflows and give developers Claude Code inside the same enterprise AI strategy. That creates a practical bridge between vehicle engineers, factory teams, dealers, fleet managers, service technicians and software developers and the teams maintaining vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications. Deployed with explicit human checkpoints and evaluation, it can advance more useful connected services and fleet productivity without compromising vehicle safety while keeping functional safety, cyber resilience, driver privacy, software traceability and uptime visible rather than implicit.",
+      "cases": [
+        "Reason across vehicle telemetry, service histories, software configurations, manufacturing data, parts records and fleet operations without forcing teams into a separate knowledge system.",
+        "Use Claude Code across vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "For Ford, the fastest route to better operational data may be improving how people enter it. Wispr Flow sits beneath existing software as a voice-first input layer, allowing vehicle engineers, factory teams, dealers, fleet managers, service technicians and software developers to dictate technician notes, dealer conversations, driver feedback, plant observations and fleet-service calls into the systems already in use. Spoken observations become usable text at the speed of the work, including on mobile. That would reduce documentation friction across vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications, preserve more of the rationale behind decisions and create a higher-quality record for analytics, handoffs and agentic workflows.",
+      "cases": [
+        "Turn technician notes, dealer conversations, driver feedback, plant observations and fleet-service calls into structured entries while the context is still fresh.",
+        "Work inside vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "For Ford, browser automation is a practical way to connect modern agents with dealer portals, supplier sites, fleet systems, regulatory tools and customer web properties before every dependency is rebuilt or exposed through an API. Browserbase provides the secure, programmable sessions, scaling and observability needed to make that connection production-ready. Agents could complete narrow steps across design-to-build, vehicle-to-cloud and fleet-to-service workflows, while engineering teams use the same infrastructure to validate vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications under realistic conditions. The strategic value is less manual web work without accepting an unmanaged collection of scripts, stored credentials and opaque browser sessions.",
+      "cases": [
+        "Automate bounded tasks across dealer portals, supplier sites, fleet systems, regulatory tools and customer web properties without waiting for every system to expose an API.",
+        "Run repeatable browser tests across vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "As Ford modernizes design-to-build, vehicle-to-cloud and fleet-to-service workflows, the development environment itself becomes part of the platform strategy. Coder moves workspaces off individual laptops and into cloud infrastructure where images, access, compute and network paths can be standardized. That would help engineers working across vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications reproduce one another's setup, adopt AI coding tools within guardrails and scale specialized compute without permanent endpoint upgrades. For the technology organization, the benefit is higher engineering throughput with tighter source-code control and clearer unit economics.",
+      "cases": [
+        "Standardize cloud workspaces for teams building vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "As Ford adds agents to design-to-build, vehicle-to-cloud and fleet-to-service workflows, every useful workflow introduces a non-human principal with credentials, permissions and an owner—or an ownership gap. Token Security matters because it treats those identities as a distinct governance domain rather than an extension of employee access. The platform can continuously find vehicle certificates, service accounts, manufacturing robots, APIs and AI agents, govern their lifecycle and enforce access based on intended purpose. That would help Ford scale automation while keeping the blast radius around vehicle, fleet, manufacturing, dealer, service and customer data narrow and the audit trail clear.",
+      "cases": [
+        "Inventory vehicle certificates, service accounts, manufacturing robots, APIs and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific vehicle, fleet, manufacturing, dealer, service and customer data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at Ford will not be limited to text. Ford's vehicle imagery, design visualization, manufacturing video, training simulations and marketing content create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new connected-vehicle, fleet, manufacturing, dealer and customer capabilities. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new connected-vehicle, fleet, manufacturing, dealer and customer capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Ford is a global automotive and commercial-vehicle platform linking embedded systems, factories, dealerships, fleets and cloud services, so a small defect in vehicle, fleet, manufacturing, dealer, service and customer data can propagate across many users and workflows. Monte Carlo matters because it extends data observability into the model and agent layer rather than treating each as a separate monitoring stack. The technology team could trace an unreliable output back through pipelines, transformations and code, then prioritize remediation by downstream consequence. This is particularly relevant to design-to-build, vehicle-to-cloud and fleet-to-service workflows, where the cost of a silent issue is measured in service, safety, revenue or trust—not only in a failed job.",
+      "cases": [
+        "Monitor vehicle, fleet, manufacturing, dealer, service and customer data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining more useful connected services and fleet productivity without compromising vehicle safety."
+      ]
+    },
+    "tonic": {
+      "pull": "Ford's current agenda—building connected, software-defined vehicles and Ford Pro services around telemetry, over-the-air software, fleet intelligence and increasingly agentic workflows—makes safe access to representative data a bottleneck for software and AI teams. Tonic is designed for that bottleneck. It can replace production copies of driver, vehicle, fleet, service, warranty and manufacturing data with synthetic or de-identified datasets suitable for development, testing, demonstrations and model evaluation. This gives teams more freedom to iterate across vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications while reducing the number of environments that contain sensitive records. It also makes privacy controls easier to explain because protection is built into the dataset, not left entirely to downstream access policy.",
+      "cases": [
+        "Replace production copies of driver, vehicle, fleet, service, warranty and manufacturing data in development and test environments.",
+        "Generate rare and edge-case scenarios for vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As Ford modernizes design-to-build, vehicle-to-cloud and fleet-to-service workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for factories, dealerships, cloud platforms, connected vehicles and partner networks. Engineers can use it to drive provisioning, validate changes and enrich incidents across edge, vehicle, factory and cloud workloads that must remain synchronized and resilient. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across factories, dealerships, cloud platforms, connected vehicles and partner networks.",
+        "Drive provisioning and change validation for edge, vehicle, factory and cloud workloads that must remain synchronized and resilient from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As Ford develops new connected-vehicle, fleet, manufacturing, dealer and customer capabilities, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support fleet optimization, vehicle support, manufacturing quality, software development and service agents with better utilization and policy consistency. The strategic value for the technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for edge, vehicle, factory and cloud workloads that must remain synchronized and resilient.",
+      "cases": [
+        "Run fleet optimization, vehicle support, manufacturing quality, software development and service agents inside Ford's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "As Ford increases the release cadence across vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications, the organization needs secure dependencies that move at the same speed. Echo's model is to patch and harden the underlying components before teams consume them, rather than asking every application owner to remediate the same CVEs independently. This could materially simplify the software supply chain for embedded, vehicle, manufacturing, dealer, mobile and cloud applications, including agent and AI workloads. For the technology organization, the benefit is fewer inherited vulnerabilities, more consistent provenance and less conflict between developer velocity and the controls needed in an environment shaped by functional safety, cyber resilience, driver privacy, software traceability and uptime.",
+      "cases": [
+        "Standardize hardened dependencies across embedded, vehicle, manufacturing, dealer, mobile and cloud applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Ford's current agenda—building connected, software-defined vehicles and Ford Pro services around telemetry, over-the-air software, fleet intelligence and increasingly agentic workflows—will increase the number of connections among applications, data services and AI agents faster than traditional firewall review can keep pace. Act Security maps those relationships and highlights communication that is unnecessary or inconsistent with business purpose. Applied to edge, vehicle, factory and cloud workloads that must remain synchronized and resilient, it could guide safe, incremental perimeter changes around the systems handling vehicle, fleet, manufacturing, dealer, service and customer data. The result is enforceable least privilege that reflects the real communication paths behind design-to-build, vehicle-to-cloud and fleet-to-service workflows, rather than a static policy that becomes obsolete after the next release.",
+      "cases": [
+        "Map intended and actual communication across edge, vehicle, factory and cloud workloads that must remain synchronized and resilient.",
+        "Create least-privilege perimeters around vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "As Ford expands vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications, security decisions need to move upstream into the planning of new connected-vehicle, fleet, manufacturing, dealer and customer capabilities. Clover Security matters because it brings product-security context into the tools where requirements and designs are already being discussed, using sources such as Jira, Confluence and Drive to identify risk before implementation. That would help vehicle engineers, factory teams, dealers, fleet managers, service technicians and software developers receive concrete security guidance while changes are still inexpensive to make. The result is a design process that treats functional safety, cyber resilience, driver privacy, software traceability and uptime as an input to product work rather than a late release gate.",
+      "cases": [
+        "Review new connected-vehicle, fleet, manufacturing, dealer and customer capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "Ford is a global automotive and commercial-vehicle platform linking embedded systems, factories, dealerships, fleets and cloud services. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across edge, vehicle, factory and cloud workloads that must remain synchronized and resilient? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for vehicle safety, privacy, cyber, export controls, payments and product liability, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications and edge, vehicle, factory and cloud workloads that must remain synchronized and resilient.",
+        "Reuse assurance work across vehicle safety, privacy, cyber, export controls, payments and product liability instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Ford's cloud estate spans edge, vehicle, factory and cloud workloads that must remain synchronized and resilient, increasing the number of workloads, identities, data stores and AI services that security teams must understand together. Orca Security matters as an agentless CNAPP that unifies posture, workload, data, vulnerability and compliance context across AWS, Azure and GCP. It could give the technology organization immediate coverage without another deployment campaign, then prioritize the attack paths that place vehicle, fleet, manufacturing, dealer, service and customer data or vehicle software, Ford Pro, manufacturing, dealer, mobile, telematics and service applications at real risk. That context is critical to more useful connected services and fleet productivity without compromising vehicle safety because cloud scale makes raw alert volume an ineffective operating model.",
+      "cases": [
+        "Gain agentless visibility across Ford's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Ford data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "fanatics",
+  "clientName": "Fanatics",
+  "role": "CTO",
+  "accent": "#E53D2F",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Fanatics's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Fanatics best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Fanatics's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "Fanatics is integrating commerce, collectibles, gaming, live experiences and media around a common fan identity and a rapidly expanding digital sports platform. That makes the model layer consequential: it must reason over fan profiles, orders, collectibles provenance, live-event data, odds, payments, content and loyalty activity while remaining governable enough for fraud, responsible gaming, privacy, payments, identity and event-driven scale. Anthropic matters because Claude combines long-context reasoning, agent capabilities and Claude Code with an explicit emphasis on steerability and predictable enterprise behavior. It could help commerce teams, traders, engineers, fraud analysts, marketers, fulfillment staff and customer-care teams work through complex material, give engineering teams a common assistant across commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms, and support agents without turning the model into the final authority. The fit is strongest where Fanatics needs a coherent fan experience across business lines with strong real-time risk controls.",
+      "cases": [
+        "Reason across fan profiles, orders, collectibles provenance, live-event data, odds, payments, content and loyalty activity without forcing teams into a separate knowledge system.",
+        "Use Claude Code across commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "The information gap at Fanatics is not always a missing database; often it is what commerce teams, traders, engineers, fraud analysts, marketers, fulfillment staff and customer-care teams know but do not record during collector interactions, customer calls, event notes, fraud investigations and partner conversations. Wispr Flow lets users speak naturally into existing desktop and mobile tools, producing structured, edited text with commands and filler-word cleanup. That makes it well suited to distributed or frontline work around fan-acquisition, transaction, fulfillment and live-event workflows. The technology organization gains more timely operational context without asking teams to adopt a separate note-taking system or spend the end of a shift reconstructing what happened.",
+      "cases": [
+        "Turn collector interactions, customer calls, event notes, fraud investigations and partner conversations into structured entries while the context is still fresh.",
+        "Work inside commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "The API surface around Fanatics does not cover every workflow. Teams still depend on league portals, marketplace sites, payment consoles, regulatory systems and partner tools, creating manual handoffs and fragile scripts. Browserbase gives agents a managed browser layer that can navigate those tools, preserve session context and produce an observable execution trail. It would be useful both for automating bounded tasks and for continuously testing commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms across real browser conditions. For the technology organization, that means extending automation into the web estate while maintaining governance around credentials, data access and fraud, responsible gaming, privacy, payments, identity and event-driven scale.",
+      "cases": [
+        "Automate bounded tasks across league portals, marketplace sites, payment consoles, regulatory systems and partner tools without waiting for every system to expose an API.",
+        "Run repeatable browser tests across commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at Fanatics is constrained when setup, hardware and local configuration differ across the teams building commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to fraud, responsible gaming, privacy, payments, identity and event-driven scale because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "For the technology organization, AI-agent governance becomes an identity problem before it becomes a model problem. Fanatics is a consumer ecosystem spanning hundreds of sports properties, real-time events, global commerce and regulated wagering products; adding commerce services, trading systems, marketplace APIs, workflow bots and AI agents increases the number of principals acting at machine speed. Token Security provides the discovery, ownership, least-privilege and audit layer required to keep that population controlled. Applied across elastic cloud workloads spanning commerce peaks, live events and regulated gaming, it can show where credentials are over-permissioned or orphaned and make access changes traceable. That gives Fanatics a controlled path toward a coherent fan experience across business lines with strong real-time risk controls and avoids an invisible tier of privileged automation.",
+      "cases": [
+        "Inventory commerce services, trading systems, marketplace APIs, workflow bots and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific fan, transaction, inventory, collectibles, gaming, media and loyalty data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Fanatics has practical multimodal needs across product imagery, live video, highlights, collectibles content and personalized fan media. fal matters because it gives product and engineering teams a high-speed inference layer for image, video, audio and voice models through simple APIs, without forcing each use case to become an infrastructure project. The technology organization could use it to prototype and scale bounded generative experiences alongside commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms, from content production to simulation or visual assistance. The strongest fit is where latency and iteration speed matter but the risk profile around fraud, responsible gaming, privacy, payments, identity and event-driven scale still requires approved models, controlled inputs and a clear review path.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new fan, commerce, collectibles, gaming and live-event experiences.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Fanatics is a consumer ecosystem spanning hundreds of sports properties, real-time events, global commerce and regulated wagering products, so a small defect in fan, transaction, inventory, collectibles, gaming, media and loyalty data can propagate across many users and workflows. Monte Carlo matters because it extends data observability into the model and agent layer rather than treating each as a separate monitoring stack. The technology team could trace an unreliable output back through pipelines, transformations and code, then prioritize remediation by downstream consequence. This is particularly relevant to fan-acquisition, transaction, fulfillment and live-event workflows, where the cost of a silent issue is measured in service, safety, revenue or trust—not only in a failed job.",
+      "cases": [
+        "Monitor fan, transaction, inventory, collectibles, gaming, media and loyalty data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms and accountable engineering teams.",
+        "Prevent silent data failures from undermining a coherent fan experience across business lines with strong real-time risk controls."
+      ]
+    },
+    "tonic": {
+      "pull": "The teams building commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms need realistic data, but using production copies of fan, payment, wagering, identity, collectibles and transaction data creates unnecessary exposure and slows access approvals. Tonic matters because it can generate synthetic, de-identified datasets that preserve the shape and utility of enterprise data for development, testing and AI work. For Fanatics, that would let engineers reproduce edge cases, train or evaluate models and refresh lower environments without moving identifiable records into places they do not belong. The result is faster delivery with fewer sensitive records outside production—important in an environment shaped by fraud, responsible gaming, privacy, payments, identity and event-driven scale.",
+      "cases": [
+        "Replace production copies of fan, payment, wagering, identity, collectibles and transaction data in development and test environments.",
+        "Generate rare and edge-case scenarios for commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "Fanatics depends on cloud platforms, fulfillment sites, live-event infrastructure, partner connections and corporate networks, but automation is only as reliable as the inventory and configuration data behind it. NetBox Labs matters as a source of truth for documenting, managing and automating IT and network infrastructure. It could give the technology organization one current model of sites, devices, circuits, addresses and dependencies across that estate. That foundation makes changes to elastic cloud workloads spanning commerce peaks, live events and regulated gaming safer, improves incident context and gives infrastructure agents a trusted state to read before they act. It replaces stale spreadsheets with governed infrastructure context and supports a coherent fan experience across business lines with strong real-time risk controls.",
+      "cases": [
+        "Create a maintained source of truth across cloud platforms, fulfillment sites, live-event infrastructure, partner connections and corporate networks.",
+        "Drive provisioning and change validation for elastic cloud workloads spanning commerce peaks, live events and regulated gaming from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "Fanatics is moving personalization, fraud, trading support, commerce operations and customer-service agents toward production, where throughput, cost and data boundaries become architecture decisions rather than model-selection details. Valar matters because it runs high-volume async, batch and agentic inference inside the customer's own VPC. The platform can optimize scheduling, batching, routing and accelerator placement while prompts, outputs, logs, models and policies remain inside Fanatics' environment. That is especially relevant to fraud, responsible gaming, privacy, payments, identity and event-driven scale: the technology organization can increase usable AI capacity without creating a separate external data path for sensitive workloads.",
+      "cases": [
+        "Run personalization, fraud, trading support, commerce operations and customer-service agents inside Fanatics' own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "Fanatics' commerce, marketplace, gaming, payments, identity, mobile and media applications are assembled from thousands of base images, libraries and packages that can introduce vulnerabilities before application code is written. Echo matters because it supplies trusted, continuously patched and hardened software dependencies, including FIPS-validated options, at the component layer. The technology organization could use that foundation to reduce the vulnerability backlog across commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms and give developers secure defaults without slowing delivery. The fit is especially strong where the risk profile around fraud, responsible gaming, privacy, payments, identity and event-driven scale makes end-of-pipeline remediation too late or too expensive.",
+      "cases": [
+        "Standardize hardened dependencies across commerce, marketplace, gaming, payments, identity, mobile and media applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Fanatics' cloud estate now includes elastic cloud workloads spanning commerce peaks, live events and regulated gaming, with services and agents communicating across boundaries that are difficult to understand from identity or network controls alone. Act Security matters because it learns how applications are intended to communicate, compares that with actual behavior and guides teams in closing unnecessary paths. The agentless approach could help the technology organization create business-context perimeters around commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms without redesigning the network first. That is a direct fit for fraud, responsible gaming, privacy, payments, identity and event-driven scale, where one over-permissioned pathway can expand the blast radius of a compromise.",
+      "cases": [
+        "Map intended and actual communication across elastic cloud workloads spanning commerce peaks, live events and regulated gaming.",
+        "Create least-privilege perimeters around commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "The security risk in Fanatics' roadmap is often created before code exists—when teams define new fan, commerce, collectibles, gaming and live-event experiences without the right control requirements. Clover Security is built for that point in the lifecycle. By reading planning artifacts and returning actionable guidance inside existing product workflows, it can connect security leaders with the teams building commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms. For the technology organization, the value is earlier visibility, clearer ownership and less rework, especially because late vulnerabilities or design corrections are disproportionately costly in an environment shaped by fraud, responsible gaming, privacy, payments, identity and event-driven scale.",
+      "cases": [
+        "Review new fan, commerce, collectibles, gaming and live-event experiences while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "Fanatics is a consumer ecosystem spanning hundreds of sports properties, real-time events, global commerce and regulated wagering products. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across elastic cloud workloads spanning commerce peaks, live events and regulated gaming? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for gaming regulation, payments, age controls, privacy, anti-money-laundering and consumer protection, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms and elastic cloud workloads spanning commerce peaks, live events and regulated gaming.",
+        "Reuse assurance work across gaming regulation, payments, age controls, privacy, anti-money-laundering and consumer protection instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Fanatics is a consumer ecosystem spanning hundreds of sports properties, real-time events, global commerce and regulated wagering products. That scale creates a cloud-security requirement for broad coverage with low operational impact. Orca Security provides that through an agentless CNAPP spanning workload protection, data security, posture, vulnerability management and compliance. The platform can identify dangerous combinations around commerce, collectibles, gaming, identity, payments, live, media and customer-service platforms, including exposed data, over-privileged identities and reachable vulnerabilities, then route teams toward the highest-consequence fixes. For an organization managing fraud, responsible gaming, privacy, payments, identity and event-driven scale, that context-aware prioritization is more useful than adding another feed of undifferentiated alerts.",
+      "cases": [
+        "Gain agentless visibility across Fanatics' cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Fanatics data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

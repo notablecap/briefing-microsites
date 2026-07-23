@@ -1,0 +1,152 @@
+{
+  "slug": "aritzia",
+  "clientName": "Aritzia",
+  "role": "CTO",
+  "accent": "#1A1A1A",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Aritzia's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Aritzia best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Aritzia's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "Aritzia is accelerating U.S. boutique expansion and digital growth while investing in its app, brand marketing and disciplined inventory management. That makes the model layer consequential: it must reason over client profiles, product attributes, digital behavior, campaign performance, inventory positions and allocation plans while remaining governable enough for privacy, brand consistency, inventory accuracy, payment security and release quality. Anthropic matters because Claude combines long-context reasoning, agent capabilities and Claude Code with an explicit emphasis on steerability and predictable enterprise behavior. It could help merchants, planners, stylists, marketers, digital teams and distribution staff work through complex material, give engineering teams a common assistant across commerce, app, clienteling, planning, allocation and distribution applications, and support agents without turning the model into the final authority. The fit is strongest where Aritzia needs consistent luxury service and better product availability across digital and boutique channels.",
+      "cases": [
+        "Reason across client profiles, product attributes, digital behavior, campaign performance, inventory positions and allocation plans without forcing teams into a separate knowledge system.",
+        "Use Claude Code across commerce, app, clienteling, planning, allocation and distribution applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "Aritzia's merchants, planners, stylists, marketers, digital teams and distribution staff generate valuable context through boutique consultations, fit feedback, field observations, customer calls and merchandising notes, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For Aritzia, it could capture observations directly into commerce, app, clienteling, planning, allocation and distribution applications without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind consistent luxury service and better product availability across digital and boutique channels.",
+      "cases": [
+        "Turn boutique consultations, fit feedback, field observations, customer calls and merchandising notes into structured entries while the context is still fresh.",
+        "Work inside commerce, app, clienteling, planning, allocation and distribution applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "The API surface around Aritzia does not cover every workflow. Teams still depend on carrier sites, vendor portals, marketplace tools, boutique systems and digital-experience consoles, creating manual handoffs and fragile scripts. Browserbase gives agents a managed browser layer that can navigate those tools, preserve session context and produce an observable execution trail. It would be useful both for automating bounded tasks and for continuously testing commerce, app, clienteling, planning, allocation and distribution applications across real browser conditions. For the technology organization, that means extending automation into the web estate while maintaining governance around credentials, data access and privacy, brand consistency, inventory accuracy, payment security and release quality.",
+      "cases": [
+        "Automate bounded tasks across carrier sites, vendor portals, marketplace tools, boutique systems and digital-experience consoles without waiting for every system to expose an API.",
+        "Run repeatable browser tests across commerce, app, clienteling, planning, allocation and distribution applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Aritzia's engineering surface spans commerce, app, clienteling, planning, allocation and distribution applications, with different dependencies, access requirements and release cadences. Coder gives the technology organization a way to define those environments once and deliver them as secure cloud workspaces. Developers gain a ready-to-use stack; security teams keep code and sensitive tooling away from unmanaged endpoints; platform teams can observe utilization and control compute. That creates a practical foundation for consistent luxury service and better product availability across digital and boutique channels, particularly as AI-assisted development increases both the pace of change and the need for reproducible environments.",
+      "cases": [
+        "Standardize cloud workspaces for teams building commerce, app, clienteling, planning, allocation and distribution applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "For the technology organization, AI-agent governance becomes an identity problem before it becomes a model problem. Aritzia is a vertically integrated fashion retailer balancing high-touch boutiques with a digital channel that represents a substantial share of sales; adding commerce services, marketing automations, integration accounts and AI agents increases the number of principals acting at machine speed. Token Security provides the discovery, ownership, least-privilege and audit layer required to keep that population controlled. Applied across cloud commerce and data workloads connected to a rapidly expanding boutique network, it can show where credentials are over-permissioned or orphaned and make access changes traceable. That gives Aritzia a controlled path toward consistent luxury service and better product availability across digital and boutique channels and avoids an invisible tier of privileged automation.",
+      "cases": [
+        "Inventory commerce services, marketing automations, integration accounts and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific client, product, channel, marketing, inventory and distribution data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Aritzia has practical multimodal needs across product imagery, campaign video, localized content and virtual styling assets. fal matters because it gives product and engineering teams a high-speed inference layer for image, video, audio and voice models through simple APIs, without forcing each use case to become an infrastructure project. The technology organization could use it to prototype and scale bounded generative experiences alongside commerce, app, clienteling, planning, allocation and distribution applications, from content production to simulation or visual assistance. The strongest fit is where latency and iteration speed matter but the risk profile around privacy, brand consistency, inventory accuracy, payment security and release quality still requires approved models, controlled inputs and a clear review path.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new app, commerce, clienteling, boutique and merchandising capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Aritzia's data platform has to support its current agenda—accelerating U.S. boutique expansion and digital growth while investing in its app, brand marketing and disciplined inventory management—and remain trusted continuously, not only after a dashboard or agent produces a bad answer. Monte Carlo can monitor client, product, channel, marketing, inventory and distribution data from ingestion through transformation, model and agent behavior, connecting a failure to the systems and teams affected. That gives merchants, planners, stylists, marketers, digital teams and distribution staff a faster way to isolate incidents and prevent recurrence. For the technology organization, the value is a single trust plane across traditional analytics and emerging agentic workflows, reducing the gap between data quality, model reliability and business impact.",
+      "cases": [
+        "Monitor client, product, channel, marketing, inventory and distribution data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected commerce, app, clienteling, planning, allocation and distribution applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining consistent luxury service and better product availability across digital and boutique channels."
+      ]
+    },
+    "tonic": {
+      "pull": "Aritzia's data is valuable precisely because it reflects real product launch, clienteling, allocation and omnichannel fulfillment workflows; it is also too sensitive to copy casually into test, analytics or model-development environments. Tonic creates a privacy-preserving alternative by synthesizing and de-identifying client, transaction, product, inventory and digital-behavior data while maintaining useful relationships and distributions. The technology organization could give teams working on commerce, app, clienteling, planning, allocation and distribution applications faster access to representative datasets, including rare scenarios that are difficult to find safely in production. It advances consistent luxury service and better product availability across digital and boutique channels while avoiding the permanent trade-off between useful data access and privacy.",
+      "cases": [
+        "Replace production copies of client, transaction, product, inventory and digital-behavior data in development and test environments.",
+        "Generate rare and edge-case scenarios for commerce, app, clienteling, planning, allocation and distribution applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As Aritzia modernizes product launch, clienteling, allocation and omnichannel fulfillment workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for boutiques, distribution centers, offices, cloud services and partner networks. Engineers can use it to drive provisioning, validate changes and enrich incidents across cloud commerce and data workloads connected to a rapidly expanding boutique network. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across boutiques, distribution centers, offices, cloud services and partner networks.",
+        "Drive provisioning and change validation for cloud commerce and data workloads connected to a rapidly expanding boutique network from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "The economics of Aritzia's AI program will change as personalization, merchandising, inventory, content and customer-service agents move from pilots to sustained volume. Valar is designed for that stage. It schedules and batches inference across available accelerators inside the enterprise VPC, improving throughput and cost per token while preserving the existing security boundary. For workloads involving client, product, channel, marketing, inventory and distribution data, that architecture keeps model traffic, logs and policy enforcement under Aritzia's control. The result is a production inference layer that advances consistent luxury service and better product availability across digital and boutique channels while preserving control over scale and data locality.",
+      "cases": [
+        "Run personalization, merchandising, inventory, content and customer-service agents inside Aritzia's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "The applications supporting product launch, clienteling, allocation and omnichannel fulfillment workflows depend on a deep open-source and container supply chain. Echo matters because it replaces vulnerable building blocks with maintained, hardened dependencies that can be consumed as standard inputs. That gives developers working on commerce, app, clienteling, planning, allocation and distribution applications a safer starting point and reduces the patch churn that pulls security and platform teams away from higher-order risks. It also strengthens auditability: the organization can show which approved components were used and how they are maintained across the lifecycle.",
+      "cases": [
+        "Standardize hardened dependencies across commerce, mobile, clienteling, planning and distribution applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "The cloud-security question for Aritzia is not only who has access; it is which application, service or agent can communicate with which other system. Act Security is built to answer that question continuously. By learning intended and observed pathways across cloud commerce and data workloads connected to a rapidly expanding boutique network, the platform can identify unnecessary reachability and help teams lock it down with business context intact. That supports consistent luxury service and better product availability across digital and boutique channels by reducing lateral movement and configuration ambiguity while preserving the connections its people and production workflows genuinely need.",
+      "cases": [
+        "Map intended and actual communication across cloud commerce and data workloads connected to a rapidly expanding boutique network.",
+        "Create least-privilege perimeters around commerce, app, clienteling, planning, allocation and distribution applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For Aritzia, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where merchants, planners, stylists, marketers, digital teams and distribution staff are defining new app, commerce, clienteling, boutique and merchandising capabilities. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for commerce, app, clienteling, planning, allocation and distribution applications, where early decisions touch privacy, brand consistency, inventory accuracy, payment security and release quality and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new app, commerce, clienteling, boutique and merchandising capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across commerce, app, clienteling, planning, allocation and distribution applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "Aritzia is a vertically integrated fashion retailer balancing high-touch boutiques with a digital channel that represents a substantial share of sales. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across cloud commerce and data workloads connected to a rapidly expanding boutique network? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for consumer privacy, payments, cross-border data, accessibility and brand governance, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across commerce, app, clienteling, planning, allocation and distribution applications and cloud commerce and data workloads connected to a rapidly expanding boutique network.",
+        "Reuse assurance work across consumer privacy, payments, cross-border data, accessibility and brand governance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "The cloud-security problem at Aritzia is not a shortage of findings; it is knowing which combinations of exposure, identity, vulnerability and data actually matter across cloud commerce and data workloads connected to a rapidly expanding boutique network. Orca Security connects those signals in one agentless platform and guides remediation by business context. For the technology organization, that can reduce coverage gaps across commerce, app, clienteling, planning, allocation and distribution applications and emerging AI workloads while avoiding host-agent overhead. The value is a clearer, faster path from a cloud risk to the owner and action required to protect product launch, clienteling, allocation and omnichannel fulfillment workflows.",
+      "cases": [
+        "Gain agentless visibility across Aritzia's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Aritzia data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

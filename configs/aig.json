@@ -7,129 +7,145 @@
   "favicon": "favicon.png",
   "password": "",
   "emailRecipients": "bzabel@notablecap.com",
-  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of AIG's data organization: an enterprise AI stack moving from pilots to governed production, a semantic layer that structures underwriting and claims context, and the data quality, privacy, and security foundations that regulated decisioning demands.",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of AIG's data organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
   "noteP2": "Each card opens to a brief and the angle we think fits AIG best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
-  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits AIG's data and AI agenda. Filter by category, then expand any card for the brief.",
-  "roster": ["anthropic", "wispr", "browserbase", "coder", "token", "fal", "montecarlo", "tonic", "netbox", "valar", "echo", "act", "clover", "drata", "orca"],
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits AIG's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
   "angles": {
     "anthropic": {
-      "pull": "AIG has already named Anthropic as part of its enterprise AI stack, alongside the ontology work that structures underwriting, claims, and operations context. Claude is built for exactly that workload: long, dense documents like submissions, loss runs, and policy wordings, with the steerability and safety posture that NAIC and New York governance expectations demand when AI output reaches a regulated decision.",
+      "pull": "AIG already has Anthropic in its strategic AI orbit; the next question is how broadly Claude can support the operating model behind AIG Assist. The opportunity spans underwriting submissions, policy language, claims files, loss histories and broker correspondence, where long-context reasoning and controlled agents can help underwriters, claims professionals, actuaries and distribution teams move faster without obscuring judgment. Claude Code also gives engineering teams a common assistant across underwriting, claims, pricing and broker-service applications. The expansion case is strongest when model policies, human review and evidence capture are treated as part of the workflow, preserving model transparency, privacy, auditability and regulated decision accountability as AIG scales from targeted copilots to an enterprise AI layer.",
       "cases": [
-        "Document intelligence across submissions, loss runs, and policy wordings, where LLM pilots already moved data accuracy from roughly 75% to 90%.",
-        "Agentic underwriting and claims workflows grounded in the enterprise ontology rather than free-floating prompts.",
-        "Claude Code for the teams building data and AI platforms out of the new innovation hub."
+        "Reason across underwriting submissions, policy language, claims files, loss histories and broker correspondence without forcing teams into a separate knowledge system.",
+        "Use Claude Code across underwriting, claims, pricing and broker-service applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
       ]
     },
     "wispr": {
-      "pull": "Adjusters, underwriters, and service teams produce the raw text the data organization later mines, and most of it gets compressed at the keyboard. Wispr Flow turns natural speech into clean, formatted text in any application, about 4x faster than typing, so claim files and account records arrive complete instead of abbreviated, and the ontology has richer material to structure.",
+      "pull": "For AIG, the fastest route to better operational data may be improving how people enter it. Wispr Flow sits beneath existing software as a voice-first input layer, allowing underwriters, claims professionals, actuaries and distribution teams to dictate loss-adjuster interviews, claim notes, broker conversations and field inspections into the systems already in use. Spoken observations become usable text at the speed of the work, including on mobile. That would reduce documentation friction across underwriting, claims, pricing and broker-service applications, preserve more of the rationale behind decisions and create a higher-quality record for analytics, handoffs and agentic workflows.",
       "cases": [
-        "Claims and inspection notes dictated in full detail at the speed of speech.",
-        "Cut after-call documentation time across service and distribution teams.",
-        "Works inside every application teams already use, with no retraining or workflow change."
+        "Turn loss-adjuster interviews, claim notes, broker conversations and field inspections into structured entries while the context is still fresh.",
+        "Work inside underwriting, claims, pricing and broker-service applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
       ]
     },
     "browserbase": {
-      "pull": "A surprising share of an insurer's data still arrives through a browser: TPA and vendor portals, state filings, broker systems, medical and repair networks. Browserbase gives AIG's engineering and AI teams managed headless-browser infrastructure to automate those portal-bound workflows reliably, so agentic programs can reach the systems that have no API.",
+      "pull": "The API surface around AIG does not cover every workflow. Teams still depend on broker portals, third-party risk sites, regulatory filing systems and legacy web tools, creating manual handoffs and fragile scripts. Browserbase gives agents a managed browser layer that can navigate those tools, preserve session context and produce an observable execution trail. It would be useful both for automating bounded tasks and for continuously testing underwriting, claims, pricing and broker-service applications across real browser conditions. For the data organization, that means extending automation into the web estate while maintaining governance around credentials, data access and model transparency, privacy, auditability and regulated decision accountability.",
       "cases": [
-        "Automate data pulls from TPA, broker, and state-filing portals into governed pipelines.",
-        "Give AI agents a secure, observable browser runtime instead of brittle scripts on laptops.",
-        "Scale web-based verification and enrichment tasks that block straight-through processing."
+        "Automate bounded tasks across broker portals, third-party risk sites, regulatory filing systems and legacy web tools without waiting for every system to expose an API.",
+        "Run repeatable browser tests across underwriting, claims, pricing and broker-service applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
       ]
     },
     "coder": {
-      "pull": "AIG is centralizing data engineering and AI operations while modernizing toward zero-trust, and the development environment is where those two pushes meet. Coder moves developer workspaces off laptops into governed cloud environments, keeping source code and sensitive data inside the perimeter, the same pattern Goldman Sachs, Morgan Stanley, and Progressive run at scale.",
+      "pull": "The teams maintaining underwriting, claims, pricing and broker-service applications need fast access to complex toolchains, but local workstations make environments inconsistent and put source code, credentials and regulated data closer to the edge. Coder matters because it moves developer workspaces into centrally governed cloud environments. For AIG, that can standardize onboarding, reproduce builds and apply security controls to the place where engineers work, not only to the pipeline after they commit. That matters because the current agenda—scaling agentic AI in underwriting and claims while building an enterprise ontology that can contextualize the business in real time—requires more teams to gain approved access to modern AI, data and platform tooling.",
       "cases": [
-        "Standardized, pre-configured environments for data and AI platform teams from day one.",
-        "Source code and policyholder data never resident on endpoint devices.",
-        "Consistent tooling across a global engineering footprint and the new hub."
+        "Standardize cloud workspaces for teams building underwriting, claims, pricing and broker-service applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
       ]
     },
     "token": {
-      "pull": "An agentic AI program multiplies non-human identities: every agent, pipeline, and service account is a credential regulators will expect AIG to govern as rigorously as a human underwriter's access. Token Security is the control plane for non-human and AI-agent identity, giving the data organization ownership, visibility, and least-privilege control as agent counts grow.",
+      "pull": "As AIG adds agents to submission-to-bind and notice-to-settlement workflows, every useful workflow introduces a non-human principal with credentials, permissions and an owner—or an ownership gap. Token Security matters because it treats those identities as a distinct governance domain rather than an extension of employee access. The platform can continuously find service accounts, APIs, workflow bots and underwriting or claims agents, govern their lifecycle and enforce access based on intended purpose. That would help AIG scale automation while keeping the blast radius around policy, exposure, pricing, claims and broker data narrow and the audit trail clear.",
       "cases": [
-        "Inventory and assign ownership for every non-human identity across the AI stack.",
-        "Least-privilege enforcement for agents touching underwriting and claims data.",
-        "Identity evidence that stands up in AI governance and audit reviews."
+        "Inventory service accounts, APIs, workflow bots and underwriting or claims agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific policy, exposure, pricing, claims and broker data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
       ]
     },
     "fal": {
-      "pull": "Claims and underwriting increasingly run on visual evidence: property photos, damage assessments, catastrophe imagery, document scans. fal is the inference platform for generative and vision models behind simple APIs, letting AIG's teams put image and document models into production workflows without building and operating GPU infrastructure themselves.",
+      "pull": "For AIG, multimodal AI can make submission-to-bind and notice-to-settlement workflows more visual, interactive and accessible. fal provides the infrastructure to run image, video, audio and voice models at production speed without requiring every product team to manage GPU serving. That could support damage imagery, inspection video and policyholder communications across internal tools and external experiences, with the application retaining control over data, approvals and user context. The strategic benefit is a reusable inference layer that lets teams test more ideas, standardize deployment and reserve custom infrastructure work for the workloads that truly require it.",
       "cases": [
-        "Fast inference APIs for damage assessment and document-vision models in claims.",
-        "Prototype-to-production path for media models without standing up GPU fleets.",
-        "Elastic capacity for catastrophe-event surges in imagery processing."
+        "Embed image, video, audio or voice generation into new underwriting, claims and broker-service capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
       ]
     },
     "montecarlo": {
-      "pull": "The pilot result AIG cites, underwriting data accuracy lifted from roughly 75% to 90%, is a data quality story, and holding that gain in production is an observability problem. Monte Carlo unifies data and agent observability in one platform, so the pipelines feeding the ontology and the agents acting on it are monitored end to end, the way PepsiCo, JetBlue, and Salesforce run it.",
+      "pull": "AIG's data platform has to support its current agenda—scaling agentic AI in underwriting and claims while building an enterprise ontology that can contextualize the business in real time—and remain trusted continuously, not only after a dashboard or agent produces a bad answer. Monte Carlo can monitor policy, exposure, pricing, claims and broker data from ingestion through transformation, model and agent behavior, connecting a failure to the systems and teams affected. That gives underwriters, claims professionals, actuaries and distribution teams a faster way to isolate incidents and prevent recurrence. For the data organization, the value is a single trust plane across traditional analytics and emerging agentic workflows, reducing the gap between data quality, model reliability and business impact.",
       "cases": [
-        "Detect pipeline breaks and quality drift before they reach underwriting models.",
-        "Observability across the multi-cloud stack rather than per-platform silos.",
-        "Trust monitoring for agentic workflows, not just tables and dashboards."
+        "Monitor policy, exposure, pricing, claims and broker data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected underwriting, claims, pricing and broker-service applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining shorter cycle times without weakening underwriting discipline or claims controls."
       ]
     },
     "tonic": {
-      "pull": "New York's Circular Letter No. 7 and the NAIC bulletin put explainability and data governance in scope for exactly the systems AIG is building, and policyholder data can't leak into every dev and test environment along the way. Tonic generates synthetic, de-identified data that preserves statistical utility, so teams consolidating systems and training models work on safe data by default, as American Express and JPMorgan Chase do.",
+      "pull": "For AIG, better test data can improve both delivery speed and production safety. Tonic can create high-fidelity synthetic versions of policyholder, claimant, broker and loss data, allowing developers to exercise underwriting, claims, pricing and broker-service applications against realistic volumes and relationships without relying on raw production data. The same approach can support model training, fine-tuning and evaluation for document extraction, underwriting copilots, claims triage and risk agents. The strategic fit is strongest where data provisioning is slowed by model transparency, privacy, auditability and regulated decision accountability, yet inadequate test coverage would expose the organization to even greater operational or customer risk.",
       "cases": [
-        "De-identified test data for the platform consolidation program's migrations.",
-        "Synthetic datasets for model development without policyholder exposure.",
-        "Privacy-safe data for the AI features regulators will scrutinize hardest."
+        "Replace production copies of policyholder, claimant, broker and loss data in development and test environments.",
+        "Generate rare and edge-case scenarios for underwriting, claims, pricing and broker-service applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
       ]
     },
     "netbox": {
-      "pull": "Zero-trust modernization and a multi-cloud buildout both depend on knowing exactly what infrastructure exists, and legacy consolidation is where that record usually breaks. NetBox is the source of truth for IT and network infrastructure that Westfield, CoreWeave, and the Wikimedia Foundation rely on, giving AIG's teams one authoritative model of the estate as it transforms.",
+      "pull": "AIG depends on corporate, branch, partner-connected and multi-cloud infrastructure, but automation is only as reliable as the inventory and configuration data behind it. NetBox Labs matters as a source of truth for documenting, managing and automating IT and network infrastructure. It could give the data organization one current model of sites, devices, circuits, addresses and dependencies across that estate. That foundation makes changes to multi-cloud data, underwriting, claims and AI workloads safer, improves incident context and gives infrastructure agents a trusted state to read before they act. It replaces stale spreadsheets with governed infrastructure context and supports shorter cycle times without weakening underwriting discipline or claims controls.",
       "cases": [
-        "One documented source of truth spanning data centers and cloud during consolidation.",
-        "Intended-state records that make zero-trust segmentation enforceable.",
-        "Automation-ready infrastructure data for network and platform teams."
+        "Create a maintained source of truth across corporate, branch, partner-connected and multi-cloud infrastructure.",
+        "Drive provisioning and change validation for multi-cloud data, underwriting, claims and AI workloads from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
       ]
     },
     "valar": {
-      "pull": "Underwriting and claims models will increasingly run high-volume, asynchronous inference, and a regulated insurer wants that happening inside its own boundary, not on someone else's multi-tenant service. Valar is the enterprise inference platform that runs high-volume AI workloads inside your VPC, optimizing batching, routing, and accelerator placement so cost per token falls without data leaving AIG's control.",
+      "pull": "The economics of AIG's AI program will change as document extraction, underwriting copilots, claims triage and risk agents move from pilots to sustained volume. Valar is designed for that stage. It schedules and batches inference across available accelerators inside the enterprise VPC, improving throughput and cost per token while preserving the existing security boundary. For workloads involving policy, exposure, pricing, claims and broker data, that architecture keeps model traffic, logs and policy enforcement under AIG's control. The result is a production inference layer that advances shorter cycle times without weakening underwriting discipline or claims controls while preserving control over scale and data locality.",
       "cases": [
-        "In-VPC inference for models touching policyholder and pricing data.",
-        "Batch and agentic workloads scheduled for maximum accelerator utilization.",
-        "One inference layer across a multi-cloud footprint."
+        "Run document extraction, underwriting copilots, claims triage and risk agents inside AIG's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
       ]
     },
     "echo": {
-      "pull": "Every AI application AIG ships sits on a stack of open-source dependencies, and vulnerability backlogs in that layer are exactly what security and audit teams flag. Echo delivers trusted, CVE-free dependencies, from container base images to libraries and Helm charts, automatically patched and hardened, the approach Varonis, UiPath, and JFrog use to keep the software supply chain clean.",
+      "pull": "AIG's underwriting, claims, analytics and agent applications are assembled from thousands of base images, libraries and packages that can introduce vulnerabilities before application code is written. Echo matters because it supplies trusted, continuously patched and hardened software dependencies, including FIPS-validated options, at the component layer. The data organization could use that foundation to reduce the vulnerability backlog across underwriting, claims, pricing and broker-service applications and give developers secure defaults without slowing delivery. The fit is especially strong where the risk profile around model transparency, privacy, auditability and regulated decision accountability makes end-of-pipeline remediation too late or too expensive.",
       "cases": [
-        "CVE-free base images for the platforms coming out of consolidation.",
-        "Shrink vulnerability backlogs without diverting engineers to patching.",
-        "Hardened dependencies for AI services under regulatory scrutiny."
+        "Standardize hardened dependencies across underwriting, claims, analytics and agent applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
       ]
     },
     "act": {
-      "pull": "Zero-trust is easy to mandate and hard to operationalize: in a multi-cloud estate, answering what can talk to what spans identity and network controls that don't share a model. Act Security builds adaptive cloud perimeters that make least-privilege real, already proving it with design partners in financial services, so segmentation intent becomes enforced policy.",
+      "pull": "The cloud-security question for AIG is not only who has access; it is which application, service or agent can communicate with which other system. Act Security is built to answer that question continuously. By learning intended and observed pathways across multi-cloud data, underwriting, claims and AI workloads, the platform can identify unnecessary reachability and help teams lock it down with business context intact. That supports shorter cycle times without weakening underwriting discipline or claims controls by reducing lateral movement and configuration ambiguity while preserving the connections its people and production workflows genuinely need.",
       "cases": [
-        "Enforce least-privilege connectivity around underwriting and claims data stores.",
-        "Unify identity and network views of access instead of reconciling silos.",
-        "Adaptive perimeters that keep pace as workloads move to cloud."
+        "Map intended and actual communication across multi-cloud data, underwriting, claims and AI workloads.",
+        "Create least-privilege perimeters around underwriting, claims, pricing and broker-service applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
       ]
     },
     "clover": {
-      "pull": "The cheapest place to catch a security or compliance flaw in the systems AIG is rebuilding is the design document, not the penetration test. Clover embeds security into the design and planning phase, reading the specs and tickets teams already write in Confluence and Jira to flag risky features early, the way Expedia, ServiceNow, and Plaid run product security.",
+      "pull": "AIG's technology agenda spans new underwriting, claims and broker-service capabilities, each with different data, identity and operational assumptions. Clover Security gives product-security teams a way to review that intent directly from planning and design materials instead of waiting for a scan at the end. It can flag missing requirements, route decisions to accountable owners and keep the rationale attached to the work item. That supports shorter cycle times without weakening underwriting discipline or claims controls by making secure design part of the normal delivery motion across underwriting, claims, pricing and broker-service applications, not a separate process teams learn to avoid.",
       "cases": [
-        "Design-phase review for new underwriting, claims, and data platform features.",
-        "Catch governance-relevant decisions, like new uses of policyholder data, before build.",
-        "Scale product security coverage without scaling headcount linearly."
+        "Review new underwriting, claims and broker-service capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across underwriting, claims, pricing and broker-service applications without adding another approval queue."
       ]
     },
     "drata": {
-      "pull": "AI governance under the NAIC bulletin and New York's circular letter is becoming an evidence problem: showing, continuously, that controls exist and operate. Drata is the trust graph for continuous GRC, automating control monitoring and evidence collection across frameworks, so the governance posture AIG is formalizing produces its own audit trail instead of quarterly fire drills.",
+      "pull": "AIG's current agenda—scaling agentic AI in underwriting and claims while building an enterprise ontology that can contextualize the business in real time—means trust has to keep pace with releases, integrations and agent adoption. Drata's platform can continuously monitor the control environment around underwriting, claims, pricing and broker-service applications, organize evidence and connect risk to accountable owners. That helps the data organization move away from spreadsheet-driven point-in-time compliance toward an operating model in which readiness is always visible. For an organization exposed to model transparency, privacy, auditability and regulated decision accountability, that also improves the speed and consistency of customer, regulator and partner assurance.",
       "cases": [
-        "Continuous evidence for AI governance and model-risk control operation.",
-        "One platform spanning SOC 2, privacy, and insurance regulatory frameworks.",
-        "Vendor and third-party risk visibility as the AI stack multiplies suppliers."
+        "Continuously map controls and evidence across underwriting, claims, pricing and broker-service applications and multi-cloud data, underwriting, claims and AI workloads.",
+        "Reuse assurance work across insurance regulation, model risk, privacy, audit and third-party assurance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
       ]
     },
     "orca": {
-      "pull": "A multi-cloud AI buildout across AWS and Google widens the estate security has to see, and agent-based tooling never covers all of it. Orca is the agentless cloud security platform SAP, Nestlé, and Bayer use: full-estate visibility within hours of connecting, with attack paths prioritized by what actually reaches sensitive data, like policyholder records, rather than raw alert volume.",
+      "pull": "The cloud-security problem at AIG is not a shortage of findings; it is knowing which combinations of exposure, identity, vulnerability and data actually matter across multi-cloud data, underwriting, claims and AI workloads. Orca Security connects those signals in one agentless platform and guides remediation by business context. For the data organization, that can reduce coverage gaps across underwriting, claims, pricing and broker-service applications and emerging AI workloads while avoiding host-agent overhead. The value is a clearer, faster path from a cloud risk to the owner and action required to protect submission-to-bind and notice-to-settlement workflows.",
       "cases": [
-        "Agentless coverage of the full multi-cloud estate, including AI workloads.",
-        "Attack-path prioritization centered on policyholder and pricing data.",
-        "One CNAPP for posture, vulnerabilities, workload protection, and compliance evidence."
+        "Gain agentless visibility across AIG's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive AIG data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
       ]
     }
   }

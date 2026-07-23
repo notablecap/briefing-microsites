@@ -1,0 +1,152 @@
+{
+  "slug": "boeing",
+  "clientName": "Boeing",
+  "role": "CTO",
+  "accent": "#002DAD",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Boeing's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Boeing best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Boeing's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "The AI program at Boeing sits inside a global aerospace and defense enterprise where the digital thread must connect design, certification, factories, suppliers, fleets and sustainment. In that setting, a frontier model has to be useful across knowledge work and software delivery without creating an unmanageable decision surface. Anthropic gives the technology organization one platform for reasoning over engineering requirements, test results, quality records, maintenance data, supplier documentation and certification evidence, orchestrating bounded agents and assisting development across digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications. Claude's focus on steerability and predictable behavior is especially relevant where airworthiness, configuration control, classified boundaries, export controls and software assurance cannot be bolted on later. The result would be a safer path from isolated copilots to a traceable digital thread that improves quality and production without weakening certification evidence.",
+      "cases": [
+        "Reason across engineering requirements, test results, quality records, maintenance data, supplier documentation and certification evidence without forcing teams into a separate knowledge system.",
+        "Use Claude Code across digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "Boeing's engineers, quality teams, factory workers, program leaders, suppliers and maintainers generate valuable context through factory observations, inspection notes, engineering reviews, maintenance reports and supplier discussions, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For Boeing, it could capture observations directly into digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind a traceable digital thread that improves quality and production without weakening certification evidence.",
+      "cases": [
+        "Turn factory observations, inspection notes, engineering reviews, maintenance reports and supplier discussions into structured entries while the context is still fresh.",
+        "Work inside digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "For Boeing, browser automation is a practical way to connect modern agents with supplier portals, regulatory systems, maintenance sites, program tools and legacy web applications before every dependency is rebuilt or exposed through an API. Browserbase provides the secure, programmable sessions, scaling and observability needed to make that connection production-ready. Agents could complete narrow steps across requirement-to-design, build-to-inspection and fleet-to-maintenance workflows, while engineering teams use the same infrastructure to validate digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications under realistic conditions. The strategic value is less manual web work without accepting an unmanaged collection of scripts, stored credentials and opaque browser sessions.",
+      "cases": [
+        "Automate bounded tasks across supplier portals, regulatory systems, maintenance sites, program tools and legacy web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at Boeing is constrained when setup, hardware and local configuration differ across the teams building digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to airworthiness, configuration control, classified boundaries, export controls and software assurance because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "Boeing's next wave of automation will create more service accounts, build pipelines, factory robots, APIs and engineering or quality agents, often faster than teams can assign owners, rotate credentials or review permissions. Token Security provides a control plane for that machine population, combining continuous discovery, lifecycle governance and intent-based access. It could give the technology organization a current inventory of the identities touching digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications and the paths into engineering, configuration, test, quality, manufacturing, supplier and fleet data. That is a direct response to airworthiness, configuration control, classified boundaries, export controls and software assurance: agents can move quickly, but their authority should remain explicit, minimal and fully auditable.",
+      "cases": [
+        "Inventory service accounts, build pipelines, factory robots, APIs and engineering or quality agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific engineering, configuration, test, quality, manufacturing, supplier and fleet data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at Boeing will not be limited to text. Boeing's inspection imagery, simulation video, digital-twin scenes, training content and technical illustrations create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new engineering, quality, factory, supplier and sustainment capabilities. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new engineering, quality, factory, supplier and sustainment capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Boeing's AI and operating decisions increasingly depend on engineering, configuration, test, quality, manufacturing, supplier and fleet data. A broken pipeline, silent schema change or weak model input can therefore surface as a service, safety or operational problem rather than a data-team ticket. Monte Carlo matters because it unifies observability across data pipelines, systems, code, models and the agents built on top. The technology organization would gain a common view of lineage, incidents and downstream impact across engineering assistants, quality inspection, simulation, manufacturing optimization and maintenance agents. That trust layer is central to a traceable digital thread that improves quality and production without weakening certification evidence, especially where early detection and clear ownership are essential to managing airworthiness, configuration control, classified boundaries, export controls and software assurance.",
+      "cases": [
+        "Monitor engineering, configuration, test, quality, manufacturing, supplier and fleet data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining a traceable digital thread that improves quality and production without weakening certification evidence."
+      ]
+    },
+    "tonic": {
+      "pull": "Boeing's data is valuable precisely because it reflects real requirement-to-design, build-to-inspection and fleet-to-maintenance workflows; it is also too sensitive to copy casually into test, analytics or model-development environments. Tonic creates a privacy-preserving alternative by synthesizing and de-identifying aircraft, engineering, test, quality, supplier and maintenance data while maintaining useful relationships and distributions. The technology organization could give teams working on digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications faster access to representative datasets, including rare scenarios that are difficult to find safely in production. It advances a traceable digital thread that improves quality and production without weakening certification evidence while avoiding the permanent trade-off between useful data access and privacy.",
+      "cases": [
+        "Replace production copies of aircraft, engineering, test, quality, supplier and maintenance data in development and test environments.",
+        "Generate rare and edge-case scenarios for digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "Boeing is a global aerospace and defense enterprise where the digital thread must connect design, certification, factories, suppliers, fleets and sustainment. That scale creates a persistent infrastructure-data problem: asset records, topology and configuration intent are often split across tools and local teams. NetBox Labs can centralize that context for factories, engineering networks, classified environments, cloud platforms and supplier connections and expose it programmatically to operations and automation. That is useful for everyday network changes, but also for the agentic future—the safest infrastructure agent is one grounded in an authoritative model of devices, sites, addresses and dependencies. For Boeing, that supports faster change with less operational ambiguity.",
+      "cases": [
+        "Create a maintained source of truth across factories, engineering networks, classified environments, cloud platforms and supplier connections.",
+        "Drive provisioning and change validation for commercial cloud, on-premises, factory and classified workloads with stringent separation requirements from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "For Boeing, the highest-value AI workloads sit close to engineering, configuration, test, quality, manufacturing, supplier and fleet data and often need bursty batch or agentic execution. Valar provides an in-VPC inference platform built for that pattern, using scheduling, routing and accelerator placement to turn installed compute into more usable capacity. It would give platform teams one operating layer for engineering assistants, quality inspection, simulation, manufacturing optimization and maintenance agents, while prompts, outputs and telemetry remain within the enterprise boundary. That makes Valar a strong fit where external model traffic is constrained by airworthiness, configuration control, classified boundaries, export controls and software assurance, but the business still needs production-grade throughput.",
+      "cases": [
+        "Run engineering assistants, quality inspection, simulation, manufacturing optimization and maintenance agents inside Boeing's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "Boeing's engineering, simulation, manufacturing, quality, sustainment and AI applications are assembled from thousands of base images, libraries and packages that can introduce vulnerabilities before application code is written. Echo matters because it supplies trusted, continuously patched and hardened software dependencies, including FIPS-validated options, at the component layer. The technology organization could use that foundation to reduce the vulnerability backlog across digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications and give developers secure defaults without slowing delivery. The fit is especially strong where the risk profile around airworthiness, configuration control, classified boundaries, export controls and software assurance makes end-of-pipeline remediation too late or too expensive.",
+      "cases": [
+        "Standardize hardened dependencies across engineering, simulation, manufacturing, quality, sustainment and AI applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Least privilege at Boeing is increasingly a service-to-service problem. Boeing's service accounts, build pipelines, factory robots, APIs and engineering or quality agents can reach across commercial cloud, on-premises, factory and classified workloads with stringent separation requirements, while ownership and network policy are split among different tools. Act Security provides a shared view of what can talk to what, what actually does and what the business intended. It can then help teams segment digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications around real application context. For the technology organization, the value is a practical route to smaller cloud blast radii without introducing agents or waiting for a full architecture rewrite.",
+      "cases": [
+        "Map intended and actual communication across commercial cloud, on-premises, factory and classified workloads with stringent separation requirements.",
+        "Create least-privilege perimeters around digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "The security risk in Boeing's roadmap is often created before code exists—when teams define new engineering, quality, factory, supplier and sustainment capabilities without the right control requirements. Clover Security is built for that point in the lifecycle. By reading planning artifacts and returning actionable guidance inside existing product workflows, it can connect security leaders with the teams building digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications. For the technology organization, the value is earlier visibility, clearer ownership and less rework, especially because late vulnerabilities or design corrections are disproportionately costly in an environment shaped by airworthiness, configuration control, classified boundaries, export controls and software assurance.",
+      "cases": [
+        "Review new engineering, quality, factory, supplier and sustainment capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "Boeing is a global aerospace and defense enterprise where the digital thread must connect design, certification, factories, suppliers, fleets and sustainment. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across commercial cloud, on-premises, factory and classified workloads with stringent separation requirements? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for FAA and defense requirements, export controls, classified data, safety, audit and supply-chain assurance, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across digital-engineering, simulation, manufacturing, quality, supplier and sustainment applications and commercial cloud, on-premises, factory and classified workloads with stringent separation requirements.",
+        "Reuse assurance work across FAA and defense requirements, export controls, classified data, safety, audit and supply-chain assurance instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Cloud and AI assets at Boeing will change faster as the organization pursues its current agenda: prioritizing safety, quality and production recovery through digital engineering, model-based systems, smart factories and a growing portfolio of secure AI applications. Orca Security discovers that estate agentlessly, maps the relationships among workloads, identities, data and vulnerabilities, and ranks risk by likely impact. Applied to commercial cloud, on-premises, factory and classified workloads with stringent separation requirements, it can give security and platform teams a shared picture of the exposures affecting engineering, configuration, test, quality, manufacturing, supplier and fleet data. The result is fewer blind spots, less alert fatigue and a remediation plan grounded in actual attack paths—all in service of a traceable digital thread that improves quality and production without weakening certification evidence.",
+      "cases": [
+        "Gain agentless visibility across Boeing's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Boeing data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

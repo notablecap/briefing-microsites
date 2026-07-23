@@ -1,0 +1,152 @@
+{
+  "slug": "sara-lee",
+  "clientName": "Sara Lee Frozen Bakery",
+  "role": "CIO",
+  "accent": "#85141F",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Sara Lee Frozen Bakery's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Sara Lee Frozen Bakery best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Sara Lee Frozen Bakery's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "Sara Lee Frozen Bakery is using a more data-driven planning model to improve forecast accuracy, fill rates and inventory decisions across a frozen bakery network. The hardest work is often buried in forecasts, orders, recipes, production schedules, inventory, quality records, promotions and shipment data and the systems that surround them. Anthropic matters because Claude can handle long, interdependent context, support agentic workflows and give developers Claude Code inside the same enterprise AI strategy. That creates a practical bridge between demand planners, plant teams, quality leaders, sales teams, logistics staff and finance partners and the teams maintaining planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications. Deployed with explicit human checkpoints and evaluation, it can advance higher service levels with less waste, inventory bias and manual planning effort while keeping food safety, production uptime, seasonal demand, traceability and retailer commitments visible rather than implicit.",
+      "cases": [
+        "Reason across forecasts, orders, recipes, production schedules, inventory, quality records, promotions and shipment data without forcing teams into a separate knowledge system.",
+        "Use Claude Code across planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "For Sara Lee Frozen Bakery, the fastest route to better operational data may be improving how people enter it. Wispr Flow sits beneath existing software as a voice-first input layer, allowing demand planners, plant teams, quality leaders, sales teams, logistics staff and finance partners to dictate plant shift notes, quality observations, sales calls, maintenance reports and warehouse updates into the systems already in use. Spoken observations become usable text at the speed of the work, including on mobile. That would reduce documentation friction across planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications, preserve more of the rationale behind decisions and create a higher-quality record for analytics, handoffs and agentic workflows.",
+      "cases": [
+        "Turn plant shift notes, quality observations, sales calls, maintenance reports and warehouse updates into structured entries while the context is still fresh.",
+        "Work inside planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "Sara Lee Frozen Bakery is a seasonal food manufacturer balancing retailer service, plant capacity, ingredient supply, cold storage and product freshness, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use retailer portals, supplier sites, carrier systems, quality portals and legacy web tools with controlled sessions and repeatable execution. It can also parallelize browser testing for planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications, catching failures before they reach demand planners, plant teams, quality leaders, sales teams, logistics staff and finance partners. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of higher service levels with less waste, inventory bias and manual planning effort.",
+      "cases": [
+        "Automate bounded tasks across retailer portals, supplier sites, carrier systems, quality portals and legacy web tools without waiting for every system to expose an API.",
+        "Run repeatable browser tests across planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Sara Lee Frozen Bakery's engineering surface spans planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications, with different dependencies, access requirements and release cadences. Coder gives the information and technology organization a way to define those environments once and deliver them as secure cloud workspaces. Developers gain a ready-to-use stack; security teams keep code and sensitive tooling away from unmanaged endpoints; platform teams can observe utilization and control compute. That creates a practical foundation for higher service levels with less waste, inventory bias and manual planning effort, particularly as AI-assisted development increases both the pace of change and the need for reproducible environments.",
+      "cases": [
+        "Standardize cloud workspaces for teams building planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "For the information and technology organization, AI-agent governance becomes an identity problem before it becomes a model problem. Sara Lee Frozen Bakery is a seasonal food manufacturer balancing retailer service, plant capacity, ingredient supply, cold storage and product freshness; adding service accounts, plant integrations, warehouse devices, bots and operational agents increases the number of principals acting at machine speed. Token Security provides the discovery, ownership, least-privilege and audit layer required to keep that population controlled. Applied across hybrid plant, warehouse and cloud workloads supporting a temperature-controlled supply chain, it can show where credentials are over-permissioned or orphaned and make access changes traceable. That gives Sara Lee Frozen Bakery a controlled path toward higher service levels with less waste, inventory bias and manual planning effort and avoids an invisible tier of privileged automation.",
+      "cases": [
+        "Inventory service accounts, plant integrations, warehouse devices, bots and operational agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific demand, order, inventory, production, quality, customer and logistics data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at Sara Lee Frozen Bakery will not be limited to text. Sara Lee Frozen Bakery's product imagery, quality inspection video, training content and packaging assets create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new planning, plant, quality, logistics and customer-service capabilities. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new planning, plant, quality, logistics and customer-service capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Sara Lee Frozen Bakery's data platform has to support its current agenda—using a more data-driven planning model to improve forecast accuracy, fill rates and inventory decisions across a frozen bakery network—and remain trusted continuously, not only after a dashboard or agent produces a bad answer. Monte Carlo can monitor demand, order, inventory, production, quality, customer and logistics data from ingestion through transformation, model and agent behavior, connecting a failure to the systems and teams affected. That gives demand planners, plant teams, quality leaders, sales teams, logistics staff and finance partners a faster way to isolate incidents and prevent recurrence. For the information and technology organization, the value is a single trust plane across traditional analytics and emerging agentic workflows, reducing the gap between data quality, model reliability and business impact.",
+      "cases": [
+        "Monitor demand, order, inventory, production, quality, customer and logistics data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining higher service levels with less waste, inventory bias and manual planning effort."
+      ]
+    },
+    "tonic": {
+      "pull": "For Sara Lee Frozen Bakery, better test data can improve both delivery speed and production safety. Tonic can create high-fidelity synthetic versions of customer, order, recipe, production, employee and quality data, allowing developers to exercise planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications against realistic volumes and relationships without relying on raw production data. The same approach can support model training, fine-tuning and evaluation for demand planning, production scheduling, quality, maintenance and customer-service agents. The strategic fit is strongest where data provisioning is slowed by food safety, production uptime, seasonal demand, traceability and retailer commitments, yet inadequate test coverage would expose the organization to even greater operational or customer risk.",
+      "cases": [
+        "Replace production copies of customer, order, recipe, production, employee and quality data in development and test environments.",
+        "Generate rare and edge-case scenarios for planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As Sara Lee Frozen Bakery modernizes forecast-to-production and order-to-delivery workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for plants, cold storage, distribution sites, cloud services and partner-connected networks. Engineers can use it to drive provisioning, validate changes and enrich incidents across hybrid plant, warehouse and cloud workloads supporting a temperature-controlled supply chain. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across plants, cold storage, distribution sites, cloud services and partner-connected networks.",
+        "Drive provisioning and change validation for hybrid plant, warehouse and cloud workloads supporting a temperature-controlled supply chain from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "For Sara Lee Frozen Bakery, the highest-value AI workloads sit close to demand, order, inventory, production, quality, customer and logistics data and often need bursty batch or agentic execution. Valar provides an in-VPC inference platform built for that pattern, using scheduling, routing and accelerator placement to turn installed compute into more usable capacity. It would give platform teams one operating layer for demand planning, production scheduling, quality, maintenance and customer-service agents, while prompts, outputs and telemetry remain within the enterprise boundary. That makes Valar a strong fit where external model traffic is constrained by food safety, production uptime, seasonal demand, traceability and retailer commitments, but the business still needs production-grade throughput.",
+      "cases": [
+        "Run demand planning, production scheduling, quality, maintenance and customer-service agents inside Sara Lee Frozen Bakery's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "Software supply-chain risk at Sara Lee Frozen Bakery begins with what applications and agents are built on. Echo provides CVE-free, maintained alternatives for container bases, libraries, VMs, Helm charts and end-of-life components, removing known vulnerability work at the source. Applied to planning, ERP, manufacturing, quality, warehouse and logistics applications, it would let engineering and security teams spend less time patching the same underlying package across many products. That supports higher service levels with less waste, inventory bias and manual planning effort while strengthening the evidence around food safety, traceability, labor, retailer assurance, privacy and financial controls, particularly for workloads that need hardened or FIPS-aligned components.",
+      "cases": [
+        "Standardize hardened dependencies across planning, ERP, manufacturing, quality, warehouse and logistics applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Least privilege at Sara Lee Frozen Bakery is increasingly a service-to-service problem. Sara Lee Frozen Bakery's service accounts, plant integrations, warehouse devices, bots and operational agents can reach across hybrid plant, warehouse and cloud workloads supporting a temperature-controlled supply chain, while ownership and network policy are split among different tools. Act Security provides a shared view of what can talk to what, what actually does and what the business intended. It can then help teams segment planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications around real application context. For the information and technology organization, the value is a practical route to smaller cloud blast radii without introducing agents or waiting for a full architecture rewrite.",
+      "cases": [
+        "Map intended and actual communication across hybrid plant, warehouse and cloud workloads supporting a temperature-controlled supply chain.",
+        "Create least-privilege perimeters around planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "As Sara Lee Frozen Bakery expands planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications, security decisions need to move upstream into the planning of new planning, plant, quality, logistics and customer-service capabilities. Clover Security matters because it brings product-security context into the tools where requirements and designs are already being discussed, using sources such as Jira, Confluence and Drive to identify risk before implementation. That would help demand planners, plant teams, quality leaders, sales teams, logistics staff and finance partners receive concrete security guidance while changes are still inexpensive to make. The result is a design process that treats food safety, production uptime, seasonal demand, traceability and retailer commitments as an input to product work rather than a late release gate.",
+      "cases": [
+        "Review new planning, plant, quality, logistics and customer-service capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "Sara Lee Frozen Bakery's current agenda—using a more data-driven planning model to improve forecast accuracy, fill rates and inventory decisions across a frozen bakery network—means trust has to keep pace with releases, integrations and agent adoption. Drata's platform can continuously monitor the control environment around planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications, organize evidence and connect risk to accountable owners. That helps the information and technology organization move away from spreadsheet-driven point-in-time compliance toward an operating model in which readiness is always visible. For an organization exposed to food safety, production uptime, seasonal demand, traceability and retailer commitments, that also improves the speed and consistency of customer, regulator and partner assurance.",
+      "cases": [
+        "Continuously map controls and evidence across planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications and hybrid plant, warehouse and cloud workloads supporting a temperature-controlled supply chain.",
+        "Reuse assurance work across food safety, traceability, labor, retailer assurance, privacy and financial controls instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Sara Lee Frozen Bakery's cloud estate spans hybrid plant, warehouse and cloud workloads supporting a temperature-controlled supply chain, increasing the number of workloads, identities, data stores and AI services that security teams must understand together. Orca Security matters as an agentless CNAPP that unifies posture, workload, data, vulnerability and compliance context across AWS, Azure and GCP. It could give the information and technology organization immediate coverage without another deployment campaign, then prioritize the attack paths that place demand, order, inventory, production, quality, customer and logistics data or planning, ERP, manufacturing, quality, warehouse, transportation and customer-service applications at real risk. That context is critical to higher service levels with less waste, inventory bias and manual planning effort because cloud scale makes raw alert volume an ineffective operating model.",
+      "cases": [
+        "Gain agentless visibility across Sara Lee Frozen Bakery's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Sara Lee Frozen Bakery data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

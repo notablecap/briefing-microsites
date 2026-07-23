@@ -1,0 +1,23 @@
+{
+  "name": "briefing-sites",
+  "version": "1.0.0",
+  "description": "One template, N client sites. Each client microsite (\"Curated for X\") is generated from `template/index.template.html` + `shared/companies.json` + one config in `configs/`.",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notablecap/briefing-microsites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notablecap/briefing-microsites/issues"
+  },
+  "homepage": "https://github.com/notablecap/briefing-microsites#readme",
+  "dependencies": {
+    "xlsx": "0.18.5"
+  }
+}

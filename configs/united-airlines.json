@@ -1,0 +1,152 @@
+{
+  "slug": "united-airlines",
+  "clientName": "United Airlines",
+  "role": "CIO",
+  "accent": "#1414D3",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of United Airlines's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits United Airlines best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits United Airlines's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "United Airlines is modernizing operations and customer technology in the cloud while applying AI to flight communications, baggage, connections, scheduling and employee decision support. The hardest work is often buried in flight plans, crew schedules, maintenance records, passenger itineraries, baggage scans, weather and disruption data and the systems that surround them. Anthropic matters because Claude can handle long, interdependent context, support agentic workflows and give developers Claude Code inside the same enterprise AI strategy. That creates a practical bridge between operations controllers, pilots, airport teams, maintenance staff, customer-care agents and engineers and the teams maintaining operations, crew, maintenance, mobile, booking, baggage and customer-service applications. Deployed with explicit human checkpoints and evaluation, it can advance more resilient operations and clearer customer experiences during irregular events while keeping safety, uptime, privacy, operational continuity and accountable automation visible rather than implicit.",
+      "cases": [
+        "Reason across flight plans, crew schedules, maintenance records, passenger itineraries, baggage scans, weather and disruption data without forcing teams into a separate knowledge system.",
+        "Use Claude Code across operations, crew, maintenance, mobile, booking, baggage and customer-service applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "United Airlines' operations controllers, pilots, airport teams, maintenance staff, customer-care agents and engineers generate valuable context through gate reports, maintenance notes, customer calls, ramp observations and operational briefings, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For United Airlines, it could capture observations directly into operations, crew, maintenance, mobile, booking, baggage and customer-service applications without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind more resilient operations and clearer customer experiences during irregular events.",
+      "cases": [
+        "Turn gate reports, maintenance notes, customer calls, ramp observations and operational briefings into structured entries while the context is still fresh.",
+        "Work inside operations, crew, maintenance, mobile, booking, baggage and customer-service applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "The API surface around United Airlines does not cover every workflow. Teams still depend on airport portals, partner airline systems, regulatory sites, weather tools and legacy operational applications, creating manual handoffs and fragile scripts. Browserbase gives agents a managed browser layer that can navigate those tools, preserve session context and produce an observable execution trail. It would be useful both for automating bounded tasks and for continuously testing operations, crew, maintenance, mobile, booking, baggage and customer-service applications across real browser conditions. For the information and technology organization, that means extending automation into the web estate while maintaining governance around credentials, data access and safety, uptime, privacy, operational continuity and accountable automation.",
+      "cases": [
+        "Automate bounded tasks across airport portals, partner airline systems, regulatory sites, weather tools and legacy operational applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across operations, crew, maintenance, mobile, booking, baggage and customer-service applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "United Airlines' engineering surface spans operations, crew, maintenance, mobile, booking, baggage and customer-service applications, with different dependencies, access requirements and release cadences. Coder gives the information and technology organization a way to define those environments once and deliver them as secure cloud workspaces. Developers gain a ready-to-use stack; security teams keep code and sensitive tooling away from unmanaged endpoints; platform teams can observe utilization and control compute. That creates a practical foundation for more resilient operations and clearer customer experiences during irregular events, particularly as AI-assisted development increases both the pace of change and the need for reproducible environments.",
+      "cases": [
+        "Standardize cloud workspaces for teams building operations, crew, maintenance, mobile, booking, baggage and customer-service applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "United Airlines' next wave of automation will create more service accounts, aircraft and airport integrations, workflow bots and operational agents, often faster than teams can assign owners, rotate credentials or review permissions. Token Security provides a control plane for that machine population, combining continuous discovery, lifecycle governance and intent-based access. It could give the information and technology organization a current inventory of the identities touching operations, crew, maintenance, mobile, booking, baggage and customer-service applications and the paths into flight, crew, passenger, baggage, maintenance, airport and disruption data. That is a direct response to safety, uptime, privacy, operational continuity and accountable automation: agents can move quickly, but their authority should remain explicit, minimal and fully auditable.",
+      "cases": [
+        "Inventory service accounts, aircraft and airport integrations, workflow bots and operational agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific flight, crew, passenger, baggage, maintenance, airport and disruption data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "For United Airlines, multimodal AI can make schedule-to-departure, disruption recovery and passenger-reaccommodation workflows more visual, interactive and accessible. fal provides the infrastructure to run image, video, audio and voice models at production speed without requiring every product team to manage GPU serving. That could support aircraft imagery, training simulations, disruption communications and destination content across internal tools and external experiences, with the application retaining control over data, approvals and user context. The strategic benefit is a reusable inference layer that lets teams test more ideas, standardize deployment and reserve custom infrastructure work for the workloads that truly require it.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new operations, mobile, airport, customer and employee capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "As United Airlines scales disruption management, connection protection, maintenance, customer service and employee agents, data reliability and agent reliability become the same operating problem. Monte Carlo is designed for that convergence. It can observe pipelines, code, models and agents together, detect anomalies before they reach operations controllers, pilots, airport teams, maintenance staff, customer-care agents and engineers and show the lineage needed to understand impact. Applied to flight, crew, passenger, baggage, maintenance, airport and disruption data, the platform would help the organization move from reactive data firefighting to managed service levels. That supports more resilient operations and clearer customer experiences during irregular events while giving leaders evidence that the information feeding automated decisions remains complete, timely and fit for purpose.",
+      "cases": [
+        "Monitor flight, crew, passenger, baggage, maintenance, airport and disruption data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected operations, crew, maintenance, mobile, booking, baggage and customer-service applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining more resilient operations and clearer customer experiences during irregular events."
+      ]
+    },
+    "tonic": {
+      "pull": "United Airlines' data is valuable precisely because it reflects real schedule-to-departure, disruption recovery and passenger-reaccommodation workflows; it is also too sensitive to copy casually into test, analytics or model-development environments. Tonic creates a privacy-preserving alternative by synthesizing and de-identifying passenger, employee, itinerary, payment, maintenance and operational data while maintaining useful relationships and distributions. The information and technology organization could give teams working on operations, crew, maintenance, mobile, booking, baggage and customer-service applications faster access to representative datasets, including rare scenarios that are difficult to find safely in production. It advances more resilient operations and clearer customer experiences during irregular events while avoiding the permanent trade-off between useful data access and privacy.",
+      "cases": [
+        "Replace production copies of passenger, employee, itinerary, payment, maintenance and operational data in development and test environments.",
+        "Generate rare and edge-case scenarios for operations, crew, maintenance, mobile, booking, baggage and customer-service applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "The infrastructure challenge at United Airlines is not merely scale; it is keeping an authoritative view across airports, operations centers, aircraft connections, cloud services and partner networks as environments change. NetBox Labs provides the structured source of truth that network teams and automation can share. Applied across cloud and airport workloads with hard real-time dependencies and a significant legacy estate, it can connect physical and virtual assets, configurations and ownership in one model. For the information and technology organization, that improves planning, troubleshooting and change control while creating a dependable context layer for AI and workflow automation around schedule-to-departure, disruption recovery and passenger-reaccommodation workflows.",
+      "cases": [
+        "Create a maintained source of truth across airports, operations centers, aircraft connections, cloud services and partner networks.",
+        "Drive provisioning and change validation for cloud and airport workloads with hard real-time dependencies and a significant legacy estate from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As United Airlines develops new operations, mobile, airport, customer and employee capabilities, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support disruption management, connection protection, maintenance, customer service and employee agents with better utilization and policy consistency. The strategic value for the information and technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for cloud and airport workloads with hard real-time dependencies and a significant legacy estate.",
+      "cases": [
+        "Run disruption management, connection protection, maintenance, customer service and employee agents inside United Airlines' own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "As United Airlines increases the release cadence across operations, crew, maintenance, mobile, booking, baggage and customer-service applications, the organization needs secure dependencies that move at the same speed. Echo's model is to patch and harden the underlying components before teams consume them, rather than asking every application owner to remediate the same CVEs independently. This could materially simplify the software supply chain for operations, booking, mobile, crew, maintenance and customer applications, including agent and AI workloads. For the information and technology organization, the benefit is fewer inherited vulnerabilities, more consistent provenance and less conflict between developer velocity and the controls needed in an environment shaped by safety, uptime, privacy, operational continuity and accountable automation.",
+      "cases": [
+        "Standardize hardened dependencies across operations, booking, mobile, crew, maintenance and customer applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "United Airlines' current agenda—modernizing operations and customer technology in the cloud while applying AI to flight communications, baggage, connections, scheduling and employee decision support—will increase the number of connections among applications, data services and AI agents faster than traditional firewall review can keep pace. Act Security maps those relationships and highlights communication that is unnecessary or inconsistent with business purpose. Applied to cloud and airport workloads with hard real-time dependencies and a significant legacy estate, it could guide safe, incremental perimeter changes around the systems handling flight, crew, passenger, baggage, maintenance, airport and disruption data. The result is enforceable least privilege that reflects the real communication paths behind schedule-to-departure, disruption recovery and passenger-reaccommodation workflows, rather than a static policy that becomes obsolete after the next release.",
+      "cases": [
+        "Map intended and actual communication across cloud and airport workloads with hard real-time dependencies and a significant legacy estate.",
+        "Create least-privilege perimeters around operations, crew, maintenance, mobile, booking, baggage and customer-service applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For United Airlines, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where operations controllers, pilots, airport teams, maintenance staff, customer-care agents and engineers are defining new operations, mobile, airport, customer and employee capabilities. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for operations, crew, maintenance, mobile, booking, baggage and customer-service applications, where early decisions touch safety, uptime, privacy, operational continuity and accountable automation and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new operations, mobile, airport, customer and employee capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across operations, crew, maintenance, mobile, booking, baggage and customer-service applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "United Airlines has to prove trust across FAA and transportation rules, privacy, payments, safety, accessibility and records requirements while its technology estate and third-party relationships continue to change. Drata matters because it turns controls, evidence, risks and assurance signals into a continuously monitored trust graph rather than a periodic collection exercise. The information and technology organization could use it to connect policies and owners to the systems behind operations, crew, maintenance, mobile, booking, baggage and customer-service applications, surface control drift and reuse evidence across overlapping reviews. That makes compliance more operational and gives leadership a current view of the risks that could slow progress toward more resilient operations and clearer customer experiences during irregular events.",
+      "cases": [
+        "Continuously map controls and evidence across operations, crew, maintenance, mobile, booking, baggage and customer-service applications and cloud and airport workloads with hard real-time dependencies and a significant legacy estate.",
+        "Reuse assurance work across FAA and transportation rules, privacy, payments, safety, accessibility and records requirements instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Cloud and AI assets at United Airlines will change faster as the organization pursues its current agenda: modernizing operations and customer technology in the cloud while applying AI to flight communications, baggage, connections, scheduling and employee decision support. Orca Security discovers that estate agentlessly, maps the relationships among workloads, identities, data and vulnerabilities, and ranks risk by likely impact. Applied to cloud and airport workloads with hard real-time dependencies and a significant legacy estate, it can give security and platform teams a shared picture of the exposures affecting flight, crew, passenger, baggage, maintenance, airport and disruption data. The result is fewer blind spots, less alert fatigue and a remediation plan grounded in actual attack paths—all in service of more resilient operations and clearer customer experiences during irregular events.",
+      "cases": [
+        "Gain agentless visibility across United Airlines' cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive United Airlines data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

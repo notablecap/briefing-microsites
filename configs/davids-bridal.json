@@ -1,0 +1,152 @@
+{
+  "slug": "davids-bridal",
+  "clientName": "David's Bridal",
+  "role": "CTO",
+  "accent": "#1A1A1A",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of David's Bridal's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits David's Bridal best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits David's Bridal's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "The AI program at David's Bridal sits inside an omnichannel specialty retailer serving highly personal, event-driven journeys across digital planning tools and a national store network. In that setting, a frontier model has to be useful across knowledge work and software delivery without creating an unmanageable decision surface. Anthropic gives the technology organization one platform for reasoning over style preferences, event dates, budgets, appointment histories, vendor interactions and purchase records, orchestrating bounded agents and assisting development across Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications. Claude's focus on steerability and predictable behavior is especially relevant where sensitive life-event data, recommendation quality, consent and brand trust cannot be bolted on later. The result would be a safer path from isolated copilots to a lower-friction planning journey that turns personal context into useful next steps.",
+      "cases": [
+        "Reason across style preferences, event dates, budgets, appointment histories, vendor interactions and purchase records without forcing teams into a separate knowledge system.",
+        "Use Claude Code across Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "For David's Bridal, the fastest route to better operational data may be improving how people enter it. Wispr Flow sits beneath existing software as a voice-first input layer, allowing stylists, planners, merchants, digital teams, customer-care staff and vendor partners to dictate stylist consultations, fitting notes, planning conversations and vendor calls into the systems already in use. Spoken observations become usable text at the speed of the work, including on mobile. That would reduce documentation friction across Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications, preserve more of the rationale behind decisions and create a higher-quality record for analytics, handoffs and agentic workflows.",
+      "cases": [
+        "Turn stylist consultations, fitting notes, planning conversations and vendor calls into structured entries while the context is still fresh.",
+        "Work inside Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "David's Bridal is an omnichannel specialty retailer serving highly personal, event-driven journeys across digital planning tools and a national store network, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use vendor sites, planning portals, marketplace tools, store systems and customer-service consoles with controlled sessions and repeatable execution. It can also parallelize browser testing for Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications, catching failures before they reach stylists, planners, merchants, digital teams, customer-care staff and vendor partners. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of a lower-friction planning journey that turns personal context into useful next steps.",
+      "cases": [
+        "Automate bounded tasks across vendor sites, planning portals, marketplace tools, store systems and customer-service consoles without waiting for every system to expose an API.",
+        "Run repeatable browser tests across Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at David's Bridal is constrained when setup, hardware and local configuration differ across the teams building Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to sensitive life-event data, recommendation quality, consent and brand trust because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "David's Bridal's next wave of automation will create more commerce services, vendor integrations, workflow bots and planning agents, often faster than teams can assign owners, rotate credentials or review permissions. Token Security provides a control plane for that machine population, combining continuous discovery, lifecycle governance and intent-based access. It could give the technology organization a current inventory of the identities touching Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications and the paths into customer, event, style, appointment, vendor, product and transaction data. That is a direct response to sensitive life-event data, recommendation quality, consent and brand trust: agents can move quickly, but their authority should remain explicit, minimal and fully auditable.",
+      "cases": [
+        "Inventory commerce services, vendor integrations, workflow bots and planning agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific customer, event, style, appointment, vendor, product and transaction data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "The next digital experiences at David's Bridal may need to generate or transform inspiration boards, dress imagery, venue visuals, personalized content and planning video in real time. fal gives engineers an inference platform built for those media-heavy workloads, abstracting accelerator scheduling and model serving behind straightforward APIs. It would complement Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications by making multimodal capabilities easier to embed and scale. The fit is especially useful for narrow, reviewable workflows that advance a lower-friction planning journey that turns personal context into useful next steps—while brand, privacy, safety or regulatory controls remain in the surrounding application rather than being assumed from the model alone.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new planning, styling, vendor, appointment and shopping experiences.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "David's Bridal's data platform has to support its current agenda—expanding Pearl Planner into an AI-enabled wedding platform that connects inspiration, planning, vendor discovery and bridal commerce—and remain trusted continuously, not only after a dashboard or agent produces a bad answer. Monte Carlo can monitor customer, event, style, appointment, vendor, product and transaction data from ingestion through transformation, model and agent behavior, connecting a failure to the systems and teams affected. That gives stylists, planners, merchants, digital teams, customer-care staff and vendor partners a faster way to isolate incidents and prevent recurrence. For the technology organization, the value is a single trust plane across traditional analytics and emerging agentic workflows, reducing the gap between data quality, model reliability and business impact.",
+      "cases": [
+        "Monitor customer, event, style, appointment, vendor, product and transaction data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining a lower-friction planning journey that turns personal context into useful next steps."
+      ]
+    },
+    "tonic": {
+      "pull": "For David's Bridal, better test data can improve both delivery speed and production safety. Tonic can create high-fidelity synthetic versions of customer, event, budget, appointment and transaction data, allowing developers to exercise Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications against realistic volumes and relationships without relying on raw production data. The same approach can support model training, fine-tuning and evaluation for planning assistants, recommendations, customer service and visual inspiration generation. The strategic fit is strongest where data provisioning is slowed by sensitive life-event data, recommendation quality, consent and brand trust, yet inadequate test coverage would expose the organization to even greater operational or customer risk.",
+      "cases": [
+        "Replace production copies of customer, event, budget, appointment and transaction data in development and test environments.",
+        "Generate rare and edge-case scenarios for Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As David's Bridal modernizes inspiration-to-appointment and planning-to-purchase workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for stores, digital platforms, vendor connections, cloud services and corporate infrastructure. Engineers can use it to drive provisioning, validate changes and enrich incidents across cloud-based consumer, commerce and AI workloads connected to store operations. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across stores, digital platforms, vendor connections, cloud services and corporate infrastructure.",
+        "Drive provisioning and change validation for cloud-based consumer, commerce and AI workloads connected to store operations from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "David's Bridal is moving planning assistants, recommendations, customer service and visual inspiration generation toward production, where throughput, cost and data boundaries become architecture decisions rather than model-selection details. Valar matters because it runs high-volume async, batch and agentic inference inside the customer's own VPC. The platform can optimize scheduling, batching, routing and accelerator placement while prompts, outputs, logs, models and policies remain inside David's Bridal's environment. That is especially relevant to sensitive life-event data, recommendation quality, consent and brand trust: the technology organization can increase usable AI capacity without creating a separate external data path for sensitive workloads.",
+      "cases": [
+        "Run planning assistants, recommendations, customer service and visual inspiration generation inside David's Bridal's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "The applications supporting inspiration-to-appointment and planning-to-purchase workflows depend on a deep open-source and container supply chain. Echo matters because it replaces vulnerable building blocks with maintained, hardened dependencies that can be consumed as standard inputs. That gives developers working on Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications a safer starting point and reduces the patch churn that pulls security and platform teams away from higher-order risks. It also strengthens auditability: the organization can show which approved components were used and how they are maintained across the lifecycle.",
+      "cases": [
+        "Standardize hardened dependencies across planning, commerce, appointment, mobile and marketplace applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Least privilege at David's Bridal is increasingly a service-to-service problem. David's Bridal's commerce services, vendor integrations, workflow bots and planning agents can reach across cloud-based consumer, commerce and AI workloads connected to store operations, while ownership and network policy are split among different tools. Act Security provides a shared view of what can talk to what, what actually does and what the business intended. It can then help teams segment Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications around real application context. For the technology organization, the value is a practical route to smaller cloud blast radii without introducing agents or waiting for a full architecture rewrite.",
+      "cases": [
+        "Map intended and actual communication across cloud-based consumer, commerce and AI workloads connected to store operations.",
+        "Create least-privilege perimeters around Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "The security risk in David's Bridal's roadmap is often created before code exists—when teams define new planning, styling, vendor, appointment and shopping experiences without the right control requirements. Clover Security is built for that point in the lifecycle. By reading planning artifacts and returning actionable guidance inside existing product workflows, it can connect security leaders with the teams building Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications. For the technology organization, the value is earlier visibility, clearer ownership and less rework, especially because late vulnerabilities or design corrections are disproportionately costly in an environment shaped by sensitive life-event data, recommendation quality, consent and brand trust.",
+      "cases": [
+        "Review new planning, styling, vendor, appointment and shopping experiences while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "David's Bridal's current agenda—expanding Pearl Planner into an AI-enabled wedding platform that connects inspiration, planning, vendor discovery and bridal commerce—means trust has to keep pace with releases, integrations and agent adoption. Drata's platform can continuously monitor the control environment around Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications, organize evidence and connect risk to accountable owners. That helps the technology organization move away from spreadsheet-driven point-in-time compliance toward an operating model in which readiness is always visible. For an organization exposed to sensitive life-event data, recommendation quality, consent and brand trust, that also improves the speed and consistency of customer, regulator and partner assurance.",
+      "cases": [
+        "Continuously map controls and evidence across Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications and cloud-based consumer, commerce and AI workloads connected to store operations.",
+        "Reuse assurance work across consumer privacy, payments, consent, advertising, accessibility and vendor risk instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "The cloud-security problem at David's Bridal is not a shortage of findings; it is knowing which combinations of exposure, identity, vulnerability and data actually matter across cloud-based consumer, commerce and AI workloads connected to store operations. Orca Security connects those signals in one agentless platform and guides remediation by business context. For the technology organization, that can reduce coverage gaps across Pearl Planner, commerce, appointment, clienteling, vendor-marketplace and customer-service applications and emerging AI workloads while avoiding host-agent overhead. The value is a clearer, faster path from a cloud risk to the owner and action required to protect inspiration-to-appointment and planning-to-purchase workflows.",
+      "cases": [
+        "Gain agentless visibility across David's Bridal's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive David's Bridal data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

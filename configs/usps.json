@@ -1,0 +1,152 @@
+{
+  "slug": "usps",
+  "clientName": "United States Postal Service",
+  "role": "CTO",
+  "accent": "#004B87",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of United States Postal Service's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits United States Postal Service best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits United States Postal Service's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "USPS is modernizing a nationwide processing and delivery network through major investments in facilities, vehicles, digital services and operational technology. The hardest work is often buried in address, route, scan, package, facility, vehicle, workforce and customer-service data and the systems that surround them. Anthropic matters because Claude can handle long, interdependent context, support agentic workflows and give developers Claude Code inside the same enterprise AI strategy. That creates a practical bridge between carriers, plant employees, dispatchers, maintenance teams, customer-care staff and network planners and the teams maintaining sorting, tracking, route, facility, fleet, customer and workforce applications. Deployed with explicit human checkpoints and evaluation, it can advance more reliable and economical delivery with better real-time operating visibility while keeping mission continuity, privacy, legacy dependencies, cyber exposure and public accountability visible rather than implicit.",
+      "cases": [
+        "Reason across address, route, scan, package, facility, vehicle, workforce and customer-service data without forcing teams into a separate knowledge system.",
+        "Use Claude Code across sorting, tracking, route, facility, fleet, customer and workforce applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "USPS's carriers, plant employees, dispatchers, maintenance teams, customer-care staff and network planners generate valuable context through carrier observations, maintenance notes, customer calls, facility inspections and incident reports, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For USPS, it could capture observations directly into sorting, tracking, route, facility, fleet, customer and workforce applications without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind more reliable and economical delivery with better real-time operating visibility.",
+      "cases": [
+        "Turn carrier observations, maintenance notes, customer calls, facility inspections and incident reports into structured entries while the context is still fresh.",
+        "Work inside sorting, tracking, route, facility, fleet, customer and workforce applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "For USPS, browser automation is a practical way to connect modern agents with shipper portals, customs sites, partner systems, facility tools and legacy web applications before every dependency is rebuilt or exposed through an API. Browserbase provides the secure, programmable sessions, scaling and observability needed to make that connection production-ready. Agents could complete narrow steps across acceptance-to-delivery and plant-to-last-mile workflows, while engineering teams use the same infrastructure to validate sorting, tracking, route, facility, fleet, customer and workforce applications under realistic conditions. The strategic value is less manual web work without accepting an unmanaged collection of scripts, stored credentials and opaque browser sessions.",
+      "cases": [
+        "Automate bounded tasks across shipper portals, customs sites, partner systems, facility tools and legacy web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across sorting, tracking, route, facility, fleet, customer and workforce applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "The teams maintaining sorting, tracking, route, facility, fleet, customer and workforce applications need fast access to complex toolchains, but local workstations make environments inconsistent and put source code, credentials and regulated data closer to the edge. Coder matters because it moves developer workspaces into centrally governed cloud environments. For USPS, that can standardize onboarding, reproduce builds and apply security controls to the place where engineers work, not only to the pipeline after they commit. That matters because the current agenda—modernizing a nationwide processing and delivery network through major investments in facilities, vehicles, digital services and operational technology—requires more teams to gain approved access to modern AI, data and platform tooling.",
+      "cases": [
+        "Standardize cloud workspaces for teams building sorting, tracking, route, facility, fleet, customer and workforce applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "USPS's next wave of automation will create more device identities, service accounts, APIs, sorting automations and operational agents, often faster than teams can assign owners, rotate credentials or review permissions. Token Security provides a control plane for that machine population, combining continuous discovery, lifecycle governance and intent-based access. It could give the technology organization a current inventory of the identities touching sorting, tracking, route, facility, fleet, customer and workforce applications and the paths into package, scan, route, address, facility, vehicle and workforce data. That is a direct response to mission continuity, privacy, legacy dependencies, cyber exposure and public accountability: agents can move quickly, but their authority should remain explicit, minimal and fully auditable.",
+      "cases": [
+        "Inventory device identities, service accounts, APIs, sorting automations and operational agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific package, scan, route, address, facility, vehicle and workforce data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "USPS has practical multimodal needs across package imagery, facility video, training content and customer communications. fal matters because it gives product and engineering teams a high-speed inference layer for image, video, audio and voice models through simple APIs, without forcing each use case to become an infrastructure project. The technology organization could use it to prototype and scale bounded generative experiences alongside sorting, tracking, route, facility, fleet, customer and workforce applications, from content production to simulation or visual assistance. The strongest fit is where latency and iteration speed matter but the risk profile around mission continuity, privacy, legacy dependencies, cyber exposure and public accountability still requires approved models, controlled inputs and a clear review path.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new delivery, tracking, facility, fleet and customer-service capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "USPS's AI and operating decisions increasingly depend on package, scan, route, address, facility, vehicle and workforce data. A broken pipeline, silent schema change or weak model input can therefore surface as a service, safety or operational problem rather than a data-team ticket. Monte Carlo matters because it unifies observability across data pipelines, systems, code, models and the agents built on top. The technology organization would gain a common view of lineage, incidents and downstream impact across route optimization, package visibility, maintenance, customer service and network-planning agents. That trust layer is central to more reliable and economical delivery with better real-time operating visibility, especially where early detection and clear ownership are essential to managing mission continuity, privacy, legacy dependencies, cyber exposure and public accountability.",
+      "cases": [
+        "Monitor package, scan, route, address, facility, vehicle and workforce data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected sorting, tracking, route, facility, fleet, customer and workforce applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining more reliable and economical delivery with better real-time operating visibility."
+      ]
+    },
+    "tonic": {
+      "pull": "USPS's current agenda—modernizing a nationwide processing and delivery network through major investments in facilities, vehicles, digital services and operational technology—makes safe access to representative data a bottleneck for software and AI teams. Tonic is designed for that bottleneck. It can replace production copies of address, shipment, customer, employee and operational data with synthetic or de-identified datasets suitable for development, testing, demonstrations and model evaluation. This gives teams more freedom to iterate across sorting, tracking, route, facility, fleet, customer and workforce applications while reducing the number of environments that contain sensitive records. It also makes privacy controls easier to explain because protection is built into the dataset, not left entirely to downstream access policy.",
+      "cases": [
+        "Replace production copies of address, shipment, customer, employee and operational data in development and test environments.",
+        "Generate rare and edge-case scenarios for sorting, tracking, route, facility, fleet, customer and workforce applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "USPS is a universal-service logistics network reaching more than 170 million addresses through thousands of facilities and last-mile delivery units. That scale creates a persistent infrastructure-data problem: asset records, topology and configuration intent are often split across tools and local teams. NetBox Labs can centralize that context for processing plants, delivery units, retail locations, cloud services, vehicles and operational networks and expose it programmatically to operations and automation. That is useful for everyday network changes, but also for the agentic future—the safest infrastructure agent is one grounded in an authoritative model of devices, sites, addresses and dependencies. For USPS, that supports faster change with less operational ambiguity.",
+      "cases": [
+        "Create a maintained source of truth across processing plants, delivery units, retail locations, cloud services, vehicles and operational networks.",
+        "Drive provisioning and change validation for hybrid federal, cloud and operational-technology workloads across a nationwide physical network from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "USPS is moving route optimization, package visibility, maintenance, customer service and network-planning agents toward production, where throughput, cost and data boundaries become architecture decisions rather than model-selection details. Valar matters because it runs high-volume async, batch and agentic inference inside the customer's own VPC. The platform can optimize scheduling, batching, routing and accelerator placement while prompts, outputs, logs, models and policies remain inside USPS's environment. That is especially relevant to mission continuity, privacy, legacy dependencies, cyber exposure and public accountability: the technology organization can increase usable AI capacity without creating a separate external data path for sensitive workloads.",
+      "cases": [
+        "Run route optimization, package visibility, maintenance, customer service and network-planning agents inside USPS's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "USPS's sorting, tracking, route, fleet, facility and customer applications are assembled from thousands of base images, libraries and packages that can introduce vulnerabilities before application code is written. Echo matters because it supplies trusted, continuously patched and hardened software dependencies, including FIPS-validated options, at the component layer. The technology organization could use that foundation to reduce the vulnerability backlog across sorting, tracking, route, facility, fleet, customer and workforce applications and give developers secure defaults without slowing delivery. The fit is especially strong where the risk profile around mission continuity, privacy, legacy dependencies, cyber exposure and public accountability makes end-of-pipeline remediation too late or too expensive.",
+      "cases": [
+        "Standardize hardened dependencies across sorting, tracking, route, fleet, facility and customer applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "USPS's current agenda—modernizing a nationwide processing and delivery network through major investments in facilities, vehicles, digital services and operational technology—will increase the number of connections among applications, data services and AI agents faster than traditional firewall review can keep pace. Act Security maps those relationships and highlights communication that is unnecessary or inconsistent with business purpose. Applied to hybrid federal, cloud and operational-technology workloads across a nationwide physical network, it could guide safe, incremental perimeter changes around the systems handling package, scan, route, address, facility, vehicle and workforce data. The result is enforceable least privilege that reflects the real communication paths behind acceptance-to-delivery and plant-to-last-mile workflows, rather than a static policy that becomes obsolete after the next release.",
+      "cases": [
+        "Map intended and actual communication across hybrid federal, cloud and operational-technology workloads across a nationwide physical network.",
+        "Create least-privilege perimeters around sorting, tracking, route, facility, fleet, customer and workforce applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "USPS's technology agenda spans new delivery, tracking, facility, fleet and customer-service capabilities, each with different data, identity and operational assumptions. Clover Security gives product-security teams a way to review that intent directly from planning and design materials instead of waiting for a scan at the end. It can flag missing requirements, route decisions to accountable owners and keep the rationale attached to the work item. That supports more reliable and economical delivery with better real-time operating visibility by making secure design part of the normal delivery motion across sorting, tracking, route, facility, fleet, customer and workforce applications, not a separate process teams learn to avoid.",
+      "cases": [
+        "Review new delivery, tracking, facility, fleet and customer-service capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across sorting, tracking, route, facility, fleet, customer and workforce applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "USPS is a universal-service logistics network reaching more than 170 million addresses through thousands of facilities and last-mile delivery units. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across hybrid federal, cloud and operational-technology workloads across a nationwide physical network? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for federal privacy, records, procurement, accessibility, cyber and universal-service accountability, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across sorting, tracking, route, facility, fleet, customer and workforce applications and hybrid federal, cloud and operational-technology workloads across a nationwide physical network.",
+        "Reuse assurance work across federal privacy, records, procurement, accessibility, cyber and universal-service accountability instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Cloud and AI assets at USPS will change faster as the organization pursues its current agenda: modernizing a nationwide processing and delivery network through major investments in facilities, vehicles, digital services and operational technology. Orca Security discovers that estate agentlessly, maps the relationships among workloads, identities, data and vulnerabilities, and ranks risk by likely impact. Applied to hybrid federal, cloud and operational-technology workloads across a nationwide physical network, it can give security and platform teams a shared picture of the exposures affecting package, scan, route, address, facility, vehicle and workforce data. The result is fewer blind spots, less alert fatigue and a remediation plan grounded in actual attack paths—all in service of more reliable and economical delivery with better real-time operating visibility.",
+      "cases": [
+        "Gain agentless visibility across USPS's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive USPS data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

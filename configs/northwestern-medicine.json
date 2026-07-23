@@ -1,0 +1,152 @@
+{
+  "slug": "northwestern-medicine",
+  "clientName": "Northwestern Medicine",
+  "role": "CIO",
+  "accent": "#4E2A84",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Northwestern Medicine's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Northwestern Medicine best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Northwestern Medicine's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "The AI program at Northwestern Medicine sits inside an integrated academic health system where clinical operations, research data and AI development must meet the same high bar for safety and privacy. In that setting, a frontier model has to be useful across knowledge work and software delivery without creating an unmanageable decision surface. Anthropic gives the information and technology organization one platform for reasoning over EHR records, imaging, pathology, trial criteria, unstructured referrals, research data and operational measures, orchestrating bounded agents and assisting development across EHR, imaging, pathology, trial, research, analytics and patient applications. Claude's focus on steerability and predictable behavior is especially relevant where patient safety, PHI, validation, bias, workflow fit and human oversight cannot be bolted on later. The result would be a safer path from isolated copilots to production AI that improves care and research throughput without eroding clinical trust.",
+      "cases": [
+        "Reason across EHR records, imaging, pathology, trial criteria, unstructured referrals, research data and operational measures without forcing teams into a separate knowledge system.",
+        "Use Claude Code across EHR, imaging, pathology, trial, research, analytics and patient applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "For Northwestern Medicine, the fastest route to better operational data may be improving how people enter it. Wispr Flow sits beneath existing software as a voice-first input layer, allowing clinicians, radiologists, pathologists, researchers, trial teams, data scientists and IT leaders to dictate clinical encounters, radiology dictation, trial-screening notes, research observations and operational huddles into the systems already in use. Spoken observations become usable text at the speed of the work, including on mobile. That would reduce documentation friction across EHR, imaging, pathology, trial, research, analytics and patient applications, preserve more of the rationale behind decisions and create a higher-quality record for analytics, handoffs and agentic workflows.",
+      "cases": [
+        "Turn clinical encounters, radiology dictation, trial-screening notes, research observations and operational huddles into structured entries while the context is still fresh.",
+        "Work inside EHR, imaging, pathology, trial, research, analytics and patient applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "For Northwestern Medicine, browser automation is a practical way to connect modern agents with payer sites, referral portals, trial systems, regulatory tools and legacy clinical web applications before every dependency is rebuilt or exposed through an API. Browserbase provides the secure, programmable sessions, scaling and observability needed to make that connection production-ready. Agents could complete narrow steps across referral-to-trial, image-to-report and research-to-care workflows, while engineering teams use the same infrastructure to validate EHR, imaging, pathology, trial, research, analytics and patient applications under realistic conditions. The strategic value is less manual web work without accepting an unmanaged collection of scripts, stored credentials and opaque browser sessions.",
+      "cases": [
+        "Automate bounded tasks across payer sites, referral portals, trial systems, regulatory tools and legacy clinical web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across EHR, imaging, pathology, trial, research, analytics and patient applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at Northwestern Medicine is constrained when setup, hardware and local configuration differ across the teams building EHR, imaging, pathology, trial, research, analytics and patient applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to patient safety, PHI, validation, bias, workflow fit and human oversight because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building EHR, imaging, pathology, trial, research, analytics and patient applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "The growth of clinical integrations, research pipelines, service accounts, devices and AI agents across Azure research analytics, clinical systems, cloud-native pathology and on-premises healthcare workloads creates an ownership and least-privilege problem that traditional workforce IAM does not fully cover. Token Security matters because it is purpose-built to discover, govern and audit non-human and AI-agent identities across their lifecycle. For Northwestern Medicine, that would make it possible to see which machine identity can reach clinical, imaging, pathology, trial, research and operational data, who owns it and whether access still matches business intent. Northwestern Medicine's current agenda—moving AI from research into care through digital pathology, generative radiology, clinical-trial matching and a modernized Azure research analytics environment—will increase the number of autonomous credentials operating inside a high-consequence environment.",
+      "cases": [
+        "Inventory clinical integrations, research pipelines, service accounts, devices and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific clinical, imaging, pathology, trial, research and operational data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at Northwestern Medicine will not be limited to text. Northwestern Medicine's medical imaging, pathology slides, research video, clinical education and scientific visualization create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new clinical, research, pathology, radiology and trial-operations capabilities. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new clinical, research, pathology, radiology and trial-operations capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Northwestern Medicine's data platform has to support its current agenda—moving AI from research into care through digital pathology, generative radiology, clinical-trial matching and a modernized Azure research analytics environment—and remain trusted continuously, not only after a dashboard or agent produces a bad answer. Monte Carlo can monitor clinical, imaging, pathology, trial, research and operational data from ingestion through transformation, model and agent behavior, connecting a failure to the systems and teams affected. That gives clinicians, radiologists, pathologists, researchers, trial teams, data scientists and IT leaders a faster way to isolate incidents and prevent recurrence. For the information and technology organization, the value is a single trust plane across traditional analytics and emerging agentic workflows, reducing the gap between data quality, model reliability and business impact.",
+      "cases": [
+        "Monitor clinical, imaging, pathology, trial, research and operational data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected EHR, imaging, pathology, trial, research, analytics and patient applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining production AI that improves care and research throughput without eroding clinical trust."
+      ]
+    },
+    "tonic": {
+      "pull": "Northwestern Medicine's data is valuable precisely because it reflects real referral-to-trial, image-to-report and research-to-care workflows; it is also too sensitive to copy casually into test, analytics or model-development environments. Tonic creates a privacy-preserving alternative by synthesizing and de-identifying patient, imaging, pathology, trial, research and employee data while maintaining useful relationships and distributions. The information and technology organization could give teams working on EHR, imaging, pathology, trial, research, analytics and patient applications faster access to representative datasets, including rare scenarios that are difficult to find safely in production. It advances production AI that improves care and research throughput without eroding clinical trust while avoiding the permanent trade-off between useful data access and privacy.",
+      "cases": [
+        "Replace production copies of patient, imaging, pathology, trial, research and employee data in development and test environments.",
+        "Generate rare and edge-case scenarios for EHR, imaging, pathology, trial, research, analytics and patient applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "Northwestern Medicine is an integrated academic health system where clinical operations, research data and AI development must meet the same high bar for safety and privacy. That scale creates a persistent infrastructure-data problem: asset records, topology and configuration intent are often split across tools and local teams. NetBox Labs can centralize that context for hospitals, clinics, labs, Azure research services, medical devices and enterprise networks and expose it programmatically to operations and automation. That is useful for everyday network changes, but also for the agentic future—the safest infrastructure agent is one grounded in an authoritative model of devices, sites, addresses and dependencies. For Northwestern Medicine, that supports faster change with less operational ambiguity.",
+      "cases": [
+        "Create a maintained source of truth across hospitals, clinics, labs, Azure research services, medical devices and enterprise networks.",
+        "Drive provisioning and change validation for Azure research analytics, clinical systems, cloud-native pathology and on-premises healthcare workloads from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As Northwestern Medicine develops new clinical, research, pathology, radiology and trial-operations capabilities, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support radiology reporting, pathology, trial matching, research analytics and clinical operations agents with better utilization and policy consistency. The strategic value for the information and technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for Azure research analytics, clinical systems, cloud-native pathology and on-premises healthcare workloads.",
+      "cases": [
+        "Run radiology reporting, pathology, trial matching, research analytics and clinical operations agents inside Northwestern Medicine's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "The applications supporting referral-to-trial, image-to-report and research-to-care workflows depend on a deep open-source and container supply chain. Echo matters because it replaces vulnerable building blocks with maintained, hardened dependencies that can be consumed as standard inputs. That gives developers working on EHR, imaging, pathology, trial, research, analytics and patient applications a safer starting point and reduces the patch churn that pulls security and platform teams away from higher-order risks. It also strengthens auditability: the organization can show which approved components were used and how they are maintained across the lifecycle.",
+      "cases": [
+        "Standardize hardened dependencies across clinical, imaging, pathology, trial, research, analytics and AI applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Least privilege at Northwestern Medicine is increasingly a service-to-service problem. Northwestern Medicine's clinical integrations, research pipelines, service accounts, devices and AI agents can reach across Azure research analytics, clinical systems, cloud-native pathology and on-premises healthcare workloads, while ownership and network policy are split among different tools. Act Security provides a shared view of what can talk to what, what actually does and what the business intended. It can then help teams segment EHR, imaging, pathology, trial, research, analytics and patient applications around real application context. For the information and technology organization, the value is a practical route to smaller cloud blast radii without introducing agents or waiting for a full architecture rewrite.",
+      "cases": [
+        "Map intended and actual communication across Azure research analytics, clinical systems, cloud-native pathology and on-premises healthcare workloads.",
+        "Create least-privilege perimeters around EHR, imaging, pathology, trial, research, analytics and patient applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "Northwestern Medicine's technology agenda spans new clinical, research, pathology, radiology and trial-operations capabilities, each with different data, identity and operational assumptions. Clover Security gives product-security teams a way to review that intent directly from planning and design materials instead of waiting for a scan at the end. It can flag missing requirements, route decisions to accountable owners and keep the rationale attached to the work item. That supports production AI that improves care and research throughput without eroding clinical trust by making secure design part of the normal delivery motion across EHR, imaging, pathology, trial, research, analytics and patient applications, not a separate process teams learn to avoid.",
+      "cases": [
+        "Review new clinical, research, pathology, radiology and trial-operations capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across EHR, imaging, pathology, trial, research, analytics and patient applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "The assurance burden at Northwestern Medicine spans HIPAA, clinical safety, research consent, bias, validation, records and data-use controls, with evidence distributed across cloud platforms, business systems and external partners. Drata provides one continuous layer for interpreting those signals, assigning ownership and maintaining audit readiness. It can reduce repetitive evidence work around Azure research analytics, clinical systems, cloud-native pathology and on-premises healthcare workloads while giving risk and technology leaders a shared view of control health. The value is not simply a faster audit; it is earlier visibility into where policy, system behavior or third-party posture has diverged from the standard required for referral-to-trial, image-to-report and research-to-care workflows.",
+      "cases": [
+        "Continuously map controls and evidence across EHR, imaging, pathology, trial, research, analytics and patient applications and Azure research analytics, clinical systems, cloud-native pathology and on-premises healthcare workloads.",
+        "Reuse assurance work across HIPAA, clinical safety, research consent, bias, validation, records and data-use controls instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Northwestern Medicine is an integrated academic health system where clinical operations, research data and AI development must meet the same high bar for safety and privacy. That scale creates a cloud-security requirement for broad coverage with low operational impact. Orca Security provides that through an agentless CNAPP spanning workload protection, data security, posture, vulnerability management and compliance. The platform can identify dangerous combinations around EHR, imaging, pathology, trial, research, analytics and patient applications, including exposed data, over-privileged identities and reachable vulnerabilities, then route teams toward the highest-consequence fixes. For an organization managing patient safety, PHI, validation, bias, workflow fit and human oversight, that context-aware prioritization is more useful than adding another feed of undifferentiated alerts.",
+      "cases": [
+        "Gain agentless visibility across Northwestern Medicine's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Northwestern Medicine data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "portillos",
+  "clientName": "Portillo's",
+  "role": "CIO",
+  "accent": "#D7292F",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Portillo's's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Portillo's best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Portillo's's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "The AI program at Portillo's sits inside a multi-channel restaurant business where drive-thru throughput, kitchen execution, digital ordering and guest identity must stay synchronized. In that setting, a frontier model has to be useful across knowledge work and software delivery without creating an unmanageable decision surface. Anthropic gives the information and technology organization one platform for reasoning over guest profiles, orders, menu data, loyalty activity, restaurant performance, labor and inventory records, orchestrating bounded agents and assisting development across ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications. Claude's focus on steerability and predictable behavior is especially relevant where payment security, food safety, guest privacy, uptime and store-level simplicity cannot be bolted on later. The result would be a safer path from isolated copilots to more loyal guests and faster service without adding friction for restaurant teams.",
+      "cases": [
+        "Reason across guest profiles, orders, menu data, loyalty activity, restaurant performance, labor and inventory records without forcing teams into a separate knowledge system.",
+        "Use Claude Code across ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "The information gap at Portillo's is not always a missing database; often it is what restaurant managers, crew members, digital teams, marketers, supply-chain staff and customer-care teams know but do not record during manager shift notes, guest calls, kitchen observations, maintenance reports and catering conversations. Wispr Flow lets users speak naturally into existing desktop and mobile tools, producing structured, edited text with commands and filler-word cleanup. That makes it well suited to distributed or frontline work around browse-to-order, kitchen-to-handoff and loyalty-to-return workflows. The information and technology organization gains more timely operational context without asking teams to adopt a separate note-taking system or spend the end of a shift reconstructing what happened.",
+      "cases": [
+        "Turn manager shift notes, guest calls, kitchen observations, maintenance reports and catering conversations into structured entries while the context is still fresh.",
+        "Work inside ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "The API surface around Portillo's does not cover every workflow. Teams still depend on delivery marketplaces, supplier sites, payment consoles, restaurant tools and customer-service systems, creating manual handoffs and fragile scripts. Browserbase gives agents a managed browser layer that can navigate those tools, preserve session context and produce an observable execution trail. It would be useful both for automating bounded tasks and for continuously testing ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications across real browser conditions. For the information and technology organization, that means extending automation into the web estate while maintaining governance around credentials, data access and payment security, food safety, guest privacy, uptime and store-level simplicity.",
+      "cases": [
+        "Automate bounded tasks across delivery marketplaces, supplier sites, payment consoles, restaurant tools and customer-service systems without waiting for every system to expose an API.",
+        "Run repeatable browser tests across ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at Portillo's is constrained when setup, hardware and local configuration differ across the teams building ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to payment security, food safety, guest privacy, uptime and store-level simplicity because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "As Portillo's adds agents to browse-to-order, kitchen-to-handoff and loyalty-to-return workflows, every useful workflow introduces a non-human principal with credentials, permissions and an owner—or an ownership gap. Token Security matters because it treats those identities as a distinct governance domain rather than an extension of employee access. The platform can continuously find POS services, delivery integrations, device identities, bots and guest-service agents, govern their lifecycle and enforce access based on intended purpose. That would help Portillo's scale automation while keeping the blast radius around guest, order, menu, loyalty, restaurant, labor and inventory data narrow and the audit trail clear.",
+      "cases": [
+        "Inventory POS services, delivery integrations, device identities, bots and guest-service agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific guest, order, menu, loyalty, restaurant, labor and inventory data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "For Portillo's, multimodal AI can make browse-to-order, kitchen-to-handoff and loyalty-to-return workflows more visual, interactive and accessible. fal provides the infrastructure to run image, video, audio and voice models at production speed without requiring every product team to manage GPU serving. That could support menu imagery, campaign video, restaurant training and personalized offer content across internal tools and external experiences, with the application retaining control over data, approvals and user context. The strategic benefit is a reusable inference layer that lets teams test more ideas, standardize deployment and reserve custom infrastructure work for the workloads that truly require it.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new loyalty, ordering, kitchen, restaurant and guest-service capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Portillo's AI and operating decisions increasingly depend on guest, order, menu, loyalty, restaurant, labor and inventory data. A broken pipeline, silent schema change or weak model input can therefore surface as a service, safety or operational problem rather than a data-team ticket. Monte Carlo matters because it unifies observability across data pipelines, systems, code, models and the agents built on top. The information and technology organization would gain a common view of lineage, incidents and downstream impact across personalization, ordering, kitchen support, labor planning and customer-service agents. That trust layer is central to more loyal guests and faster service without adding friction for restaurant teams, especially where early detection and clear ownership are essential to managing payment security, food safety, guest privacy, uptime and store-level simplicity.",
+      "cases": [
+        "Monitor guest, order, menu, loyalty, restaurant, labor and inventory data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining more loyal guests and faster service without adding friction for restaurant teams."
+      ]
+    },
+    "tonic": {
+      "pull": "Portillo's data is valuable precisely because it reflects real browse-to-order, kitchen-to-handoff and loyalty-to-return workflows; it is also too sensitive to copy casually into test, analytics or model-development environments. Tonic creates a privacy-preserving alternative by synthesizing and de-identifying guest, payment, employee, order, loyalty and location data while maintaining useful relationships and distributions. The information and technology organization could give teams working on ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications faster access to representative datasets, including rare scenarios that are difficult to find safely in production. It advances more loyal guests and faster service without adding friction for restaurant teams while avoiding the permanent trade-off between useful data access and privacy.",
+      "cases": [
+        "Replace production copies of guest, payment, employee, order, loyalty and location data in development and test environments.",
+        "Generate rare and edge-case scenarios for ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "Portillo's depends on restaurants, kitchens, drive-thrus, cloud services and partner-connected networks, but automation is only as reliable as the inventory and configuration data behind it. NetBox Labs matters as a source of truth for documenting, managing and automating IT and network infrastructure. It could give the information and technology organization one current model of sites, devices, circuits, addresses and dependencies across that estate. That foundation makes changes to cloud and restaurant-edge workloads supporting always-on ordering and in-store execution safer, improves incident context and gives infrastructure agents a trusted state to read before they act. It replaces stale spreadsheets with governed infrastructure context and supports more loyal guests and faster service without adding friction for restaurant teams.",
+      "cases": [
+        "Create a maintained source of truth across restaurants, kitchens, drive-thrus, cloud services and partner-connected networks.",
+        "Drive provisioning and change validation for cloud and restaurant-edge workloads supporting always-on ordering and in-store execution from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As Portillo's develops new loyalty, ordering, kitchen, restaurant and guest-service capabilities, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support personalization, ordering, kitchen support, labor planning and customer-service agents with better utilization and policy consistency. The strategic value for the information and technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for cloud and restaurant-edge workloads supporting always-on ordering and in-store execution.",
+      "cases": [
+        "Run personalization, ordering, kitchen support, labor planning and customer-service agents inside Portillo's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "The applications supporting browse-to-order, kitchen-to-handoff and loyalty-to-return workflows depend on a deep open-source and container supply chain. Echo matters because it replaces vulnerable building blocks with maintained, hardened dependencies that can be consumed as standard inputs. That gives developers working on ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications a safer starting point and reduces the patch churn that pulls security and platform teams away from higher-order risks. It also strengthens auditability: the organization can show which approved components were used and how they are maintained across the lifecycle.",
+      "cases": [
+        "Standardize hardened dependencies across ordering, loyalty, POS, kitchen, labor and mobile applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Portillo's cloud estate now includes cloud and restaurant-edge workloads supporting always-on ordering and in-store execution, with services and agents communicating across boundaries that are difficult to understand from identity or network controls alone. Act Security matters because it learns how applications are intended to communicate, compares that with actual behavior and guides teams in closing unnecessary paths. The agentless approach could help the information and technology organization create business-context perimeters around ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications without redesigning the network first. That is a direct fit for payment security, food safety, guest privacy, uptime and store-level simplicity, where one over-permissioned pathway can expand the blast radius of a compromise.",
+      "cases": [
+        "Map intended and actual communication across cloud and restaurant-edge workloads supporting always-on ordering and in-store execution.",
+        "Create least-privilege perimeters around ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For Portillo's, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where restaurant managers, crew members, digital teams, marketers, supply-chain staff and customer-care teams are defining new loyalty, ordering, kitchen, restaurant and guest-service capabilities. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications, where early decisions touch payment security, food safety, guest privacy, uptime and store-level simplicity and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new loyalty, ordering, kitchen, restaurant and guest-service capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "The assurance burden at Portillo's spans PCI, consumer privacy, food safety, labor, accessibility and third-party delivery risk, with evidence distributed across cloud platforms, business systems and external partners. Drata provides one continuous layer for interpreting those signals, assigning ownership and maintaining audit readiness. It can reduce repetitive evidence work around cloud and restaurant-edge workloads supporting always-on ordering and in-store execution while giving risk and technology leaders a shared view of control health. The value is not simply a faster audit; it is earlier visibility into where policy, system behavior or third-party posture has diverged from the standard required for browse-to-order, kitchen-to-handoff and loyalty-to-return workflows.",
+      "cases": [
+        "Continuously map controls and evidence across ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications and cloud and restaurant-edge workloads supporting always-on ordering and in-store execution.",
+        "Reuse assurance work across PCI, consumer privacy, food safety, labor, accessibility and third-party delivery risk instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Portillo's cloud estate spans cloud and restaurant-edge workloads supporting always-on ordering and in-store execution, increasing the number of workloads, identities, data stores and AI services that security teams must understand together. Orca Security matters as an agentless CNAPP that unifies posture, workload, data, vulnerability and compliance context across AWS, Azure and GCP. It could give the information and technology organization immediate coverage without another deployment campaign, then prioritize the attack paths that place guest, order, menu, loyalty, restaurant, labor and inventory data or ordering, loyalty, kitchen, point-of-sale, labor, inventory and guest-service applications at real risk. That context is critical to more loyal guests and faster service without adding friction for restaurant teams because cloud scale makes raw alert volume an ineffective operating model.",
+      "cases": [
+        "Gain agentless visibility across Portillo's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Portillo's data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

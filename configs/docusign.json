@@ -1,0 +1,152 @@
+{
+  "slug": "docusign",
+  "clientName": "Docusign",
+  "role": "CTO",
+  "accent": "#4C00FF",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Docusign's technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Docusign best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Docusign's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "DocuSign and Anthropic already meet at the agreement-agent layer, so the value is not a generic model experiment; it is deeper, governed reasoning across the agreement lifecycle. Claude can work through contracts, clauses, obligations, approvals, identity evidence, negotiation history and signature records, support agents that move work among IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms, and help engineers build against DocuSign's open integration surface with Claude Code. The strategic fit is a model layer capable of understanding dense legal and commercial context while remaining steerable, reviewable and subordinate to enterprise policy—exactly the balance required for turning agreement data into action while preserving enterprise trust and interoperability.",
+      "cases": [
+        "Reason across contracts, clauses, obligations, approvals, identity evidence, negotiation history and signature records without forcing teams into a separate knowledge system.",
+        "Use Claude Code across IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "DocuSign's engineers, product teams, legal professionals, sales operations, procurement teams and trust leaders generate valuable context through negotiation calls, legal intake, sales discussions, implementation notes and customer-support conversations, but much of it never reaches a structured system because typing is slow or happens after the fact. Wispr Flow matters as a voice input layer that works inside the applications people already use, turning natural speech into polished text and commands. For DocuSign, it could capture observations directly into IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms without introducing another destination application. The result is a cleaner human decision trace, faster documentation and better data for the workflows behind turning agreement data into action while preserving enterprise trust and interoperability.",
+      "cases": [
+        "Turn negotiation calls, legal intake, sales discussions, implementation notes and customer-support conversations into structured entries while the context is still fresh.",
+        "Work inside IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "DocuSign is an enterprise agreement platform serving more than 1.8 million customers and connecting legal, sales, procurement, finance and operations workflows, but many critical interactions still happen through web interfaces rather than clean service integrations. Browserbase gives the technology team an infrastructure layer for agents to use customer portals, partner apps, procurement systems, CRM tools and web-based agreement workflows with controlled sessions and repeatable execution. It can also parallelize browser testing for IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms, catching failures before they reach engineers, product teams, legal professionals, sales operations, procurement teams and trust leaders. That makes it a useful bridge between near-term automation and longer-term modernization by removing small web-based bottlenecks that stand in the way of turning agreement data into action while preserving enterprise trust and interoperability.",
+      "cases": [
+        "Automate bounded tasks across customer portals, partner apps, procurement systems, CRM tools and web-based agreement workflows without waiting for every system to expose an API.",
+        "Run repeatable browser tests across IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "As DocuSign modernizes prepare-to-sign, negotiate, execute and obligation-management workflows, the development environment itself becomes part of the platform strategy. Coder moves workspaces off individual laptops and into cloud infrastructure where images, access, compute and network paths can be standardized. That would help engineers working across IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms reproduce one another's setup, adopt AI coding tools within guardrails and scale specialized compute without permanent endpoint upgrades. For the technology organization, the benefit is higher engineering throughput with tighter source-code control and clearer unit economics.",
+      "cases": [
+        "Standardize cloud workspaces for teams building IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "The growth of integration credentials, workflow bots, APIs, connectors and agreement agents across large-scale multi-tenant cloud and agent workloads connected to customer systems of record creates an ownership and least-privilege problem that traditional workforce IAM does not fully cover. Token Security matters because it is purpose-built to discover, govern and audit non-human and AI-agent identities across their lifecycle. For DocuSign, that would make it possible to see which machine identity can reach agreement, clause, workflow, identity, customer and usage data, who owns it and whether access still matches business intent. DocuSign's current agenda—expanding from electronic signature into Intelligent Agreement Management, with Iris AI, contract agents and an increasingly open model and integration ecosystem—will increase the number of autonomous credentials operating inside a high-consequence environment.",
+      "cases": [
+        "Inventory integration credentials, workflow bots, APIs, connectors and agreement agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific agreement, clause, workflow, identity, customer and usage data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Generative AI at DocuSign will not be limited to text. DocuSign's agreement explainers, training media, document visuals and customer enablement content create opportunities in customer experience, training, design and operations, but serving those models reliably can absorb scarce platform capacity. fal provides managed inference optimized for generative media, letting teams access image, video, audio and voice capabilities through a consistent developer surface. That can shorten the distance from prototype to production across new agreement, agent, identity, workflow and developer-platform capabilities. For the technology organization, the value is faster multimodal experimentation with a separable layer for model choice, throughput and cost.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new agreement, agent, identity, workflow and developer-platform capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "DocuSign is an enterprise agreement platform serving more than 1.8 million customers and connecting legal, sales, procurement, finance and operations workflows, so a small defect in agreement, clause, workflow, identity, customer and usage data can propagate across many users and workflows. Monte Carlo matters because it extends data observability into the model and agent layer rather than treating each as a separate monitoring stack. The technology team could trace an unreliable output back through pipelines, transformations and code, then prioritize remediation by downstream consequence. This is particularly relevant to prepare-to-sign, negotiate, execute and obligation-management workflows, where the cost of a silent issue is measured in service, safety, revenue or trust—not only in a failed job.",
+      "cases": [
+        "Monitor agreement, clause, workflow, identity, customer and usage data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms and accountable engineering teams.",
+        "Prevent silent data failures from undermining turning agreement data into action while preserving enterprise trust and interoperability."
+      ]
+    },
+    "tonic": {
+      "pull": "For DocuSign, better test data can improve both delivery speed and production safety. Tonic can create high-fidelity synthetic versions of customer, contract, identity, transaction and usage data, allowing developers to exercise IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms against realistic volumes and relationships without relying on raw production data. The same approach can support model training, fine-tuning and evaluation for contract review, obligation management, workflow orchestration, customer support and coding agents. The strategic fit is strongest where data provisioning is slowed by contract confidentiality, identity assurance, legal accuracy, auditability and ecosystem control, yet inadequate test coverage would expose the organization to even greater operational or customer risk.",
+      "cases": [
+        "Replace production copies of customer, contract, identity, transaction and usage data in development and test environments.",
+        "Generate rare and edge-case scenarios for IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "DocuSign depends on cloud platforms, customer integrations, corporate networks and high-availability agreement infrastructure, but automation is only as reliable as the inventory and configuration data behind it. NetBox Labs matters as a source of truth for documenting, managing and automating IT and network infrastructure. It could give the technology organization one current model of sites, devices, circuits, addresses and dependencies across that estate. That foundation makes changes to large-scale multi-tenant cloud and agent workloads connected to customer systems of record safer, improves incident context and gives infrastructure agents a trusted state to read before they act. It replaces stale spreadsheets with governed infrastructure context and supports turning agreement data into action while preserving enterprise trust and interoperability.",
+      "cases": [
+        "Create a maintained source of truth across cloud platforms, customer integrations, corporate networks and high-availability agreement infrastructure.",
+        "Drive provisioning and change validation for large-scale multi-tenant cloud and agent workloads connected to customer systems of record from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "As DocuSign develops new agreement, agent, identity, workflow and developer-platform capabilities, model serving can become a hidden bottleneck: teams compete for accelerators, batch jobs wait, and each application invents its own routing logic. Valar centralizes those concerns inside the customer's VPC. By optimizing asynchronous, batch and agentic inference, it can support contract review, obligation management, workflow orchestration, customer support and coding agents with better utilization and policy consistency. The strategic value for the technology organization is control—capacity, prompts, outputs, logs and models stay inside the same boundary used for large-scale multi-tenant cloud and agent workloads connected to customer systems of record.",
+      "cases": [
+        "Run contract review, obligation management, workflow orchestration, customer support and coding agents inside DocuSign's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "As DocuSign increases the release cadence across IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms, the organization needs secure dependencies that move at the same speed. Echo's model is to patch and harden the underlying components before teams consume them, rather than asking every application owner to remediate the same CVEs independently. This could materially simplify the software supply chain for agreement, identity, workflow, integration, mobile and AI-platform applications, including agent and AI workloads. For the technology organization, the benefit is fewer inherited vulnerabilities, more consistent provenance and less conflict between developer velocity and the controls needed in an environment shaped by contract confidentiality, identity assurance, legal accuracy, auditability and ecosystem control.",
+      "cases": [
+        "Standardize hardened dependencies across agreement, identity, workflow, integration, mobile and AI-platform applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Least privilege at DocuSign is increasingly a service-to-service problem. DocuSign's integration credentials, workflow bots, APIs, connectors and agreement agents can reach across large-scale multi-tenant cloud and agent workloads connected to customer systems of record, while ownership and network policy are split among different tools. Act Security provides a shared view of what can talk to what, what actually does and what the business intended. It can then help teams segment IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms around real application context. For the technology organization, the value is a practical route to smaller cloud blast radii without introducing agents or waiting for a full architecture rewrite.",
+      "cases": [
+        "Map intended and actual communication across large-scale multi-tenant cloud and agent workloads connected to customer systems of record.",
+        "Create least-privilege perimeters around IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "As DocuSign expands IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms, security decisions need to move upstream into the planning of new agreement, agent, identity, workflow and developer-platform capabilities. Clover Security matters because it brings product-security context into the tools where requirements and designs are already being discussed, using sources such as Jira, Confluence and Drive to identify risk before implementation. That would help engineers, product teams, legal professionals, sales operations, procurement teams and trust leaders receive concrete security guidance while changes are still inexpensive to make. The result is a design process that treats contract confidentiality, identity assurance, legal accuracy, auditability and ecosystem control as an input to product work rather than a late release gate.",
+      "cases": [
+        "Review new agreement, agent, identity, workflow and developer-platform capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "DocuSign's current agenda—expanding from electronic signature into Intelligent Agreement Management, with Iris AI, contract agents and an increasingly open model and integration ecosystem—means trust has to keep pace with releases, integrations and agent adoption. Drata's platform can continuously monitor the control environment around IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms, organize evidence and connect risk to accountable owners. That helps the technology organization move away from spreadsheet-driven point-in-time compliance toward an operating model in which readiness is always visible. For an organization exposed to contract confidentiality, identity assurance, legal accuracy, auditability and ecosystem control, that also improves the speed and consistency of customer, regulator and partner assurance.",
+      "cases": [
+        "Continuously map controls and evidence across IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms and large-scale multi-tenant cloud and agent workloads connected to customer systems of record.",
+        "Reuse assurance work across electronic-signature law, privacy, identity assurance, records, AI governance and third-party risk instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "The cloud-security problem at DocuSign is not a shortage of findings; it is knowing which combinations of exposure, identity, vulnerability and data actually matter across large-scale multi-tenant cloud and agent workloads connected to customer systems of record. Orca Security connects those signals in one agentless platform and guides remediation by business context. For the technology organization, that can reduce coverage gaps across IAM, eSignature, contract analytics, workflow, identity, integration and agent platforms and emerging AI workloads while avoiding host-agent overhead. The value is a clearer, faster path from a cloud risk to the owner and action required to protect prepare-to-sign, negotiate, execute and obligation-management workflows.",
+      "cases": [
+        "Gain agentless visibility across DocuSign's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive DocuSign data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

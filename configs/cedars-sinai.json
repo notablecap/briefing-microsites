@@ -1,0 +1,152 @@
+{
+  "slug": "cedars-sinai",
+  "clientName": "Cedars-Sinai",
+  "role": "CIO",
+  "accent": "#DB1F35",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of Cedars-Sinai's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Cedars-Sinai best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits Cedars-Sinai's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "Cedars-Sinai is building a systemwide data and AI strategy around privacy-preserving research, clinical models, digital pathology and clinician efficiency. The hardest work is often buried in EHR records, imaging, pathology, genomics, research data, clinical notes and operational measures and the systems that surround them. Anthropic matters because Claude can handle long, interdependent context, support agentic workflows and give developers Claude Code inside the same enterprise AI strategy. That creates a practical bridge between clinicians, researchers, data scientists, pathologists, administrators and technology teams and the teams maintaining EHR, imaging, pathology, research, analytics, patient and administrative applications. Deployed with explicit human checkpoints and evaluation, it can advance validated AI that improves patient outcomes and clinician efficiency at system scale while keeping patient safety, PHI, bias, validation, explainability and clinical accountability visible rather than implicit.",
+      "cases": [
+        "Reason across EHR records, imaging, pathology, genomics, research data, clinical notes and operational measures without forcing teams into a separate knowledge system.",
+        "Use Claude Code across EHR, imaging, pathology, research, analytics, patient and administrative applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "The information gap at Cedars-Sinai is not always a missing database; often it is what clinicians, researchers, data scientists, pathologists, administrators and technology teams know but do not record during clinical encounters, rounding notes, research observations, patient calls and operational huddles. Wispr Flow lets users speak naturally into existing desktop and mobile tools, producing structured, edited text with commands and filler-word cleanup. That makes it well suited to distributed or frontline work around encounter-to-decision, image-to-diagnosis and research-to-care workflows. The information and technology organization gains more timely operational context without asking teams to adopt a separate note-taking system or spend the end of a shift reconstructing what happened.",
+      "cases": [
+        "Turn clinical encounters, rounding notes, research observations, patient calls and operational huddles into structured entries while the context is still fresh.",
+        "Work inside EHR, imaging, pathology, research, analytics, patient and administrative applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "For Cedars-Sinai, browser automation is a practical way to connect modern agents with payer sites, research systems, regulatory portals, clinical tools and legacy web applications before every dependency is rebuilt or exposed through an API. Browserbase provides the secure, programmable sessions, scaling and observability needed to make that connection production-ready. Agents could complete narrow steps across encounter-to-decision, image-to-diagnosis and research-to-care workflows, while engineering teams use the same infrastructure to validate EHR, imaging, pathology, research, analytics, patient and administrative applications under realistic conditions. The strategic value is less manual web work without accepting an unmanaged collection of scripts, stored credentials and opaque browser sessions.",
+      "cases": [
+        "Automate bounded tasks across payer sites, research systems, regulatory portals, clinical tools and legacy web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across EHR, imaging, pathology, research, analytics, patient and administrative applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at Cedars-Sinai is constrained when setup, hardware and local configuration differ across the teams building EHR, imaging, pathology, research, analytics, patient and administrative applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to patient safety, PHI, bias, validation, explainability and clinical accountability because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building EHR, imaging, pathology, research, analytics, patient and administrative applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "As Cedars-Sinai adds agents to encounter-to-decision, image-to-diagnosis and research-to-care workflows, every useful workflow introduces a non-human principal with credentials, permissions and an owner—or an ownership gap. Token Security matters because it treats those identities as a distinct governance domain rather than an extension of employee access. The platform can continuously find clinical integrations, service accounts, medical devices, research pipelines and AI agents, govern their lifecycle and enforce access based on intended purpose. That would help Cedars-Sinai scale automation while keeping the blast radius around clinical, imaging, pathology, genomic, research and operational data narrow and the audit trail clear.",
+      "cases": [
+        "Inventory clinical integrations, service accounts, medical devices, research pipelines and AI agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific clinical, imaging, pathology, genomic, research and operational data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "Cedars-Sinai has practical multimodal needs across medical imaging, pathology slides, educational video, research visualization and patient content. fal matters because it gives product and engineering teams a high-speed inference layer for image, video, audio and voice models through simple APIs, without forcing each use case to become an infrastructure project. The information and technology organization could use it to prototype and scale bounded generative experiences alongside EHR, imaging, pathology, research, analytics, patient and administrative applications, from content production to simulation or visual assistance. The strongest fit is where latency and iteration speed matter but the risk profile around patient safety, PHI, bias, validation, explainability and clinical accountability still requires approved models, controlled inputs and a clear review path.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new clinical, research, pathology, patient and administrative capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Cedars-Sinai's AI and operating decisions increasingly depend on clinical, imaging, pathology, genomic, research and operational data. A broken pipeline, silent schema change or weak model input can therefore surface as a service, safety or operational problem rather than a data-team ticket. Monte Carlo matters because it unifies observability across data pipelines, systems, code, models and the agents built on top. The information and technology organization would gain a common view of lineage, incidents and downstream impact across clinical documentation, pathology, research discovery, patient service and operations agents. That trust layer is central to validated AI that improves patient outcomes and clinician efficiency at system scale, especially where early detection and clear ownership are essential to managing patient safety, PHI, bias, validation, explainability and clinical accountability.",
+      "cases": [
+        "Monitor clinical, imaging, pathology, genomic, research and operational data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected EHR, imaging, pathology, research, analytics, patient and administrative applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining validated AI that improves patient outcomes and clinician efficiency at system scale."
+      ]
+    },
+    "tonic": {
+      "pull": "The teams building EHR, imaging, pathology, research, analytics, patient and administrative applications need realistic data, but using production copies of patient, imaging, genomic, pathology, research and employee data creates unnecessary exposure and slows access approvals. Tonic matters because it can generate synthetic, de-identified datasets that preserve the shape and utility of enterprise data for development, testing and AI work. For Cedars-Sinai, that would let engineers reproduce edge cases, train or evaluate models and refresh lower environments without moving identifiable records into places they do not belong. The result is faster delivery with fewer sensitive records outside production—important in an environment shaped by patient safety, PHI, bias, validation, explainability and clinical accountability.",
+      "cases": [
+        "Replace production copies of patient, imaging, genomic, pathology, research and employee data in development and test environments.",
+        "Generate rare and edge-case scenarios for EHR, imaging, pathology, research, analytics, patient and administrative applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As Cedars-Sinai modernizes encounter-to-decision, image-to-diagnosis and research-to-care workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for hospitals, clinics, labs, cloud platforms, research compute and medical-device networks. Engineers can use it to drive provisioning, validate changes and enrich incidents across hybrid clinical, research, cloud and medical-device workloads. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across hospitals, clinics, labs, cloud platforms, research compute and medical-device networks.",
+        "Drive provisioning and change validation for hybrid clinical, research, cloud and medical-device workloads from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "Cedars-Sinai is moving clinical documentation, pathology, research discovery, patient service and operations agents toward production, where throughput, cost and data boundaries become architecture decisions rather than model-selection details. Valar matters because it runs high-volume async, batch and agentic inference inside the customer's own VPC. The platform can optimize scheduling, batching, routing and accelerator placement while prompts, outputs, logs, models and policies remain inside Cedars-Sinai's environment. That is especially relevant to patient safety, PHI, bias, validation, explainability and clinical accountability: the information and technology organization can increase usable AI capacity without creating a separate external data path for sensitive workloads.",
+      "cases": [
+        "Run clinical documentation, pathology, research discovery, patient service and operations agents inside Cedars-Sinai's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "Cedars-Sinai's clinical, research, imaging, pathology, analytics and AI applications are assembled from thousands of base images, libraries and packages that can introduce vulnerabilities before application code is written. Echo matters because it supplies trusted, continuously patched and hardened software dependencies, including FIPS-validated options, at the component layer. The information and technology organization could use that foundation to reduce the vulnerability backlog across EHR, imaging, pathology, research, analytics, patient and administrative applications and give developers secure defaults without slowing delivery. The fit is especially strong where the risk profile around patient safety, PHI, bias, validation, explainability and clinical accountability makes end-of-pipeline remediation too late or too expensive.",
+      "cases": [
+        "Standardize hardened dependencies across clinical, research, imaging, pathology, analytics and AI applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "Cedars-Sinai's current agenda—building a systemwide data and AI strategy around privacy-preserving research, clinical models, digital pathology and clinician efficiency—will increase the number of connections among applications, data services and AI agents faster than traditional firewall review can keep pace. Act Security maps those relationships and highlights communication that is unnecessary or inconsistent with business purpose. Applied to hybrid clinical, research, cloud and medical-device workloads, it could guide safe, incremental perimeter changes around the systems handling clinical, imaging, pathology, genomic, research and operational data. The result is enforceable least privilege that reflects the real communication paths behind encounter-to-decision, image-to-diagnosis and research-to-care workflows, rather than a static policy that becomes obsolete after the next release.",
+      "cases": [
+        "Map intended and actual communication across hybrid clinical, research, cloud and medical-device workloads.",
+        "Create least-privilege perimeters around EHR, imaging, pathology, research, analytics, patient and administrative applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "For Cedars-Sinai, shipping faster only works if security can understand the roadmap at the same speed. Clover Security integrates into the design and planning stage, where clinicians, researchers, data scientists, pathologists, administrators and technology teams are defining new clinical, research, pathology, patient and administrative capabilities. It can surface risks from the context already captured in tickets and documents, then return specific requirements before architecture and code harden around a weak assumption. The fit is strongest for EHR, imaging, pathology, research, analytics, patient and administrative applications, where early decisions touch patient safety, PHI, bias, validation, explainability and clinical accountability and where a preventable redesign near release would slow the broader technology program.",
+      "cases": [
+        "Review new clinical, research, pathology, patient and administrative capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across EHR, imaging, pathology, research, analytics, patient and administrative applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "Cedars-Sinai is an academic health system combining high-acuity care, research and innovation across a complex clinical technology environment. That scale creates many versions of the same trust question: is the right control present, operating and evidenced across hybrid clinical, research, cloud and medical-device workloads? Drata centralizes those answers in a trust graph spanning governance, risk, compliance and assurance. It can automate evidence collection, highlight exceptions and make third-party reviews more reusable. The strategic fit is a lower-friction control layer for HIPAA, clinical safety, research consent, bias, records, medical-device and data-use controls, giving teams more time to remediate actual risk and less incentive to treat compliance as a recurring manual project.",
+      "cases": [
+        "Continuously map controls and evidence across EHR, imaging, pathology, research, analytics, patient and administrative applications and hybrid clinical, research, cloud and medical-device workloads.",
+        "Reuse assurance work across HIPAA, clinical safety, research consent, bias, records, medical-device and data-use controls instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "Cloud and AI assets at Cedars-Sinai will change faster as the organization pursues its current agenda: building a systemwide data and AI strategy around privacy-preserving research, clinical models, digital pathology and clinician efficiency. Orca Security discovers that estate agentlessly, maps the relationships among workloads, identities, data and vulnerabilities, and ranks risk by likely impact. Applied to hybrid clinical, research, cloud and medical-device workloads, it can give security and platform teams a shared picture of the exposures affecting clinical, imaging, pathology, genomic, research and operational data. The result is fewer blind spots, less alert fatigue and a remediation plan grounded in actual attack paths—all in service of validated AI that improves patient outcomes and clinician efficiency at system scale.",
+      "cases": [
+        "Gain agentless visibility across Cedars-Sinai's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive Cedars-Sinai data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}

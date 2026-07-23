@@ -1,0 +1,152 @@
+{
+  "slug": "us-navy",
+  "clientName": "The U.S. Navy",
+  "role": "CIO",
+  "accent": "#00205B",
+  "clientLogo": "logo.png",
+  "favicon": "favicon.png",
+  "password": "",
+  "emailRecipients": "bzabel@notablecap.com",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the priorities of The U.S. Navy's information and technology organization: frontier AI and the infrastructure to run it economically, the data foundations underneath, and the security and developer tooling that let both move to production.",
+  "noteP2": "Each card opens to a brief and the angle we think fits The U.S. Navy best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling, with an angle on where it fits The U.S. Navy's agenda. Filter by category, then expand any card for the brief.",
+  "roster": [
+    "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
+    "montecarlo",
+    "tonic",
+    "netbox",
+    "valar",
+    "echo",
+    "act",
+    "clover",
+    "drata",
+    "orca"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "U.S. Navy is implementing a department-wide strategy to weaponize data and AI while standardizing infrastructure, DevSecOps and secure generative AI for mission use. That makes the model layer consequential: it must reason over operational plans, intelligence reports, maintenance records, logistics data, sensor feeds, technical manuals and cyber findings while remaining governable enough for classification, operational security, zero trust, software assurance and disconnected operations. Anthropic matters because Claude combines long-context reasoning, agent capabilities and Claude Code with an explicit emphasis on steerability and predictable enterprise behavior. It could help sailors, Marines, operators, maintainers, logisticians, engineers, cyber teams and acquisition staff work through complex material, give engineering teams a common assistant across command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications, and support agents without turning the model into the final authority. The fit is strongest where U.S. Navy needs decision advantage and mission resilience across enterprise and contested-edge environments.",
+      "cases": [
+        "Reason across operational plans, intelligence reports, maintenance records, logistics data, sensor feeds, technical manuals and cyber findings without forcing teams into a separate knowledge system.",
+        "Use Claude Code across command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications and the integration services behind them.",
+        "Keep human review, model policy and audit evidence explicit in high-consequence workflows."
+      ]
+    },
+    "wispr": {
+      "pull": "Across U.S. Navy, many small observations arise during sensor-to-decision, supply-to-unit and maintenance-to-readiness workflows and are easy to lose between the field, floor, meeting or call and the system of record. Wispr Flow can convert those spoken inputs into clean text and commands directly inside command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications. Because it is an input layer rather than another application, adoption does not require teams to change where work is completed. The strategic fit is simple: capture more context from sailors, Marines, operators, maintainers, logisticians, engineers, cyber teams and acquisition staff, with less typing, so downstream service and AI systems begin with a more complete record.",
+      "cases": [
+        "Turn watch notes, maintenance reports, after-action reviews, inspections and operational briefings into structured entries while the context is still fresh.",
+        "Work inside command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications rather than creating another application to manage.",
+        "Create a richer decision trail for handoffs, analytics and supervised agents."
+      ]
+    },
+    "browserbase": {
+      "pull": "For U.S. Navy, browser automation is a practical way to connect modern agents with logistics portals, acquisition systems, maintenance sites, partner tools and legacy federal web applications before every dependency is rebuilt or exposed through an API. Browserbase provides the secure, programmable sessions, scaling and observability needed to make that connection production-ready. Agents could complete narrow steps across sensor-to-decision, supply-to-unit and maintenance-to-readiness workflows, while engineering teams use the same infrastructure to validate command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications under realistic conditions. The strategic value is less manual web work without accepting an unmanaged collection of scripts, stored credentials and opaque browser sessions.",
+      "cases": [
+        "Automate bounded tasks across logistics portals, acquisition systems, maintenance sites, partner tools and legacy federal web applications without waiting for every system to expose an API.",
+        "Run repeatable browser tests across command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications before customer- or employee-facing releases.",
+        "Centralize sessions, credentials and execution logs for governed agent activity."
+      ]
+    },
+    "coder": {
+      "pull": "Developer productivity at U.S. Navy is constrained when setup, hardware and local configuration differ across the teams building command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications. Coder replaces that variability with centrally configured cloud development environments that can be provisioned from policy and shut down when not in use. The model is relevant to classification, operational security, zero trust, software assurance and disconnected operations because code, credentials and regulated tools remain inside the enterprise boundary. It also gives new engineers and acquired or distributed teams a consistent starting point, shortening the path from access request to a productive, compliant workspace.",
+      "cases": [
+        "Standardize cloud workspaces for teams building command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications.",
+        "Keep source code, credentials and approved AI tooling inside controlled infrastructure.",
+        "Reduce onboarding and environment drift across distributed, acquired or specialized teams."
+      ]
+    },
+    "token": {
+      "pull": "For the information and technology organization, AI-agent governance becomes an identity problem before it becomes a model problem. U.S. Navy is a globally distributed military enterprise operating across classified networks, ships, submarines, aircraft, bases and contested communications environments; adding workload identities, service accounts, tactical devices, robots and mission agents increases the number of principals acting at machine speed. Token Security provides the discovery, ownership, least-privilege and audit layer required to keep that population controlled. Applied across IL5 and classified cloud, data-center, shipboard and disconnected edge workloads, it can show where credentials are over-permissioned or orphaned and make access changes traceable. That gives U.S. Navy a controlled path toward decision advantage and mission resilience across enterprise and contested-edge environments and avoids an invisible tier of privileged automation.",
+      "cases": [
+        "Inventory workload identities, service accounts, tactical devices, robots and mission agents and tie every credential to an accountable owner.",
+        "Constrain agent access to the specific operational, intelligence, logistics, maintenance, personnel, cyber and sensor data required for each workflow.",
+        "Preserve lifecycle and entitlement evidence for audits, regulators and internal risk review."
+      ]
+    },
+    "fal": {
+      "pull": "The next digital experiences at U.S. Navy may need to generate or transform sensor imagery, simulation video, training scenarios, technical visualization and mission media in real time. fal gives engineers an inference platform built for those media-heavy workloads, abstracting accelerator scheduling and model serving behind straightforward APIs. It would complement command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications by making multimodal capabilities easier to embed and scale. The fit is especially useful for narrow, reviewable workflows that advance decision advantage and mission resilience across enterprise and contested-edge environments—while brand, privacy, safety or regulatory controls remain in the surrounding application rather than being assumed from the model alone.",
+      "cases": [
+        "Embed image, video, audio or voice generation into new mission, logistics, maintenance, cyber and business capabilities.",
+        "Prototype against multiple media models through one developer-facing inference layer.",
+        "Keep review, consent and brand or safety controls in the surrounding application workflow."
+      ]
+    },
+    "montecarlo": {
+      "pull": "U.S. Navy is a globally distributed military enterprise operating across classified networks, ships, submarines, aircraft, bases and contested communications environments, so a small defect in operational, intelligence, logistics, maintenance, personnel, cyber and sensor data can propagate across many users and workflows. Monte Carlo matters because it extends data observability into the model and agent layer rather than treating each as a separate monitoring stack. The technology team could trace an unreliable output back through pipelines, transformations and code, then prioritize remediation by downstream consequence. This is particularly relevant to sensor-to-decision, supply-to-unit and maintenance-to-readiness workflows, where the cost of a silent issue is measured in service, safety, revenue or trust—not only in a failed job.",
+      "cases": [
+        "Monitor operational, intelligence, logistics, maintenance, personnel, cyber and sensor data from source through dashboards, models and agent actions.",
+        "Trace incidents to the affected command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications and accountable engineering teams.",
+        "Prevent silent data failures from undermining decision advantage and mission resilience across enterprise and contested-edge environments."
+      ]
+    },
+    "tonic": {
+      "pull": "U.S. Navy's current agenda—implementing a department-wide strategy to weaponize data and AI while standardizing infrastructure, DevSecOps and secure generative AI for mission use—makes safe access to representative data a bottleneck for software and AI teams. Tonic is designed for that bottleneck. It can replace production copies of personnel, mission, maintenance, logistics, intelligence and sensor data with synthetic or de-identified datasets suitable for development, testing, demonstrations and model evaluation. This gives teams more freedom to iterate across command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications while reducing the number of environments that contain sensitive records. It also makes privacy controls easier to explain because protection is built into the dataset, not left entirely to downstream access policy.",
+      "cases": [
+        "Replace production copies of personnel, mission, maintenance, logistics, intelligence and sensor data in development and test environments.",
+        "Generate rare and edge-case scenarios for command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications and AI evaluation.",
+        "Reduce privacy exposure while giving teams faster access to useful data."
+      ]
+    },
+    "netbox": {
+      "pull": "As U.S. Navy modernizes sensor-to-decision, supply-to-unit and maintenance-to-readiness workflows, the organization needs more than monitoring—it needs to know what infrastructure should exist and how it is connected. NetBox Labs supplies that intended-state model for ships, bases, tactical edge, cloud platforms, classified enclaves and enterprise networks. Engineers can use it to drive provisioning, validate changes and enrich incidents across IL5 and classified cloud, data-center, shipboard and disconnected edge workloads. The result is a common infrastructure language across teams and sites, reducing configuration drift and making automation safer because every workflow begins from a maintained source of truth rather than fragmented inventories.",
+      "cases": [
+        "Create a maintained source of truth across ships, bases, tactical edge, cloud platforms, classified enclaves and enterprise networks.",
+        "Drive provisioning and change validation for IL5 and classified cloud, data-center, shipboard and disconnected edge workloads from intended state.",
+        "Ground infrastructure automation and agents in accurate topology and ownership data."
+      ]
+    },
+    "valar": {
+      "pull": "For U.S. Navy, the highest-value AI workloads sit close to operational, intelligence, logistics, maintenance, personnel, cyber and sensor data and often need bursty batch or agentic execution. Valar provides an in-VPC inference platform built for that pattern, using scheduling, routing and accelerator placement to turn installed compute into more usable capacity. It would give platform teams one operating layer for decision support, maintenance, logistics, cyber defense and contested-edge agents, while prompts, outputs and telemetry remain within the enterprise boundary. That makes Valar a strong fit where external model traffic is constrained by classification, operational security, zero trust, software assurance and disconnected operations, but the business still needs production-grade throughput.",
+      "cases": [
+        "Run decision support, maintenance, logistics, cyber defense and contested-edge agents inside U.S. Navy's own VPC and security boundary.",
+        "Increase usable accelerator capacity through scheduling, batching and routing.",
+        "Keep prompts, outputs, logs, models and policies under enterprise control."
+      ]
+    },
+    "echo": {
+      "pull": "As U.S. Navy increases the release cadence across command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications, the organization needs secure dependencies that move at the same speed. Echo's model is to patch and harden the underlying components before teams consume them, rather than asking every application owner to remediate the same CVEs independently. This could materially simplify the software supply chain for mission, business, logistics, cyber, maintenance and DevSecOps applications, including agent and AI workloads. For the information and technology organization, the benefit is fewer inherited vulnerabilities, more consistent provenance and less conflict between developer velocity and the controls needed in an environment shaped by classification, operational security, zero trust, software assurance and disconnected operations.",
+      "cases": [
+        "Standardize hardened dependencies across mission, business, logistics, cyber, maintenance and DevSecOps applications.",
+        "Remove known vulnerabilities before they enter application and agent build pipelines.",
+        "Use FIPS-validated options where stronger assurance is required."
+      ]
+    },
+    "act": {
+      "pull": "U.S. Navy's current agenda—implementing a department-wide strategy to weaponize data and AI while standardizing infrastructure, DevSecOps and secure generative AI for mission use—will increase the number of connections among applications, data services and AI agents faster than traditional firewall review can keep pace. Act Security maps those relationships and highlights communication that is unnecessary or inconsistent with business purpose. Applied to IL5 and classified cloud, data-center, shipboard and disconnected edge workloads, it could guide safe, incremental perimeter changes around the systems handling operational, intelligence, logistics, maintenance, personnel, cyber and sensor data. The result is enforceable least privilege that reflects the real communication paths behind sensor-to-decision, supply-to-unit and maintenance-to-readiness workflows, rather than a static policy that becomes obsolete after the next release.",
+      "cases": [
+        "Map intended and actual communication across IL5 and classified cloud, data-center, shipboard and disconnected edge workloads.",
+        "Create least-privilege perimeters around command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications and their data services.",
+        "Reduce lateral-movement risk without deploying another host agent."
+      ]
+    },
+    "clover": {
+      "pull": "As U.S. Navy expands command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications, security decisions need to move upstream into the planning of new mission, logistics, maintenance, cyber and business capabilities. Clover Security matters because it brings product-security context into the tools where requirements and designs are already being discussed, using sources such as Jira, Confluence and Drive to identify risk before implementation. That would help sailors, Marines, operators, maintainers, logisticians, engineers, cyber teams and acquisition staff receive concrete security guidance while changes are still inexpensive to make. The result is a design process that treats classification, operational security, zero trust, software assurance and disconnected operations as an input to product work rather than a late release gate.",
+      "cases": [
+        "Review new mission, logistics, maintenance, cyber and business capabilities while requirements and architecture are still being shaped.",
+        "Map security decisions back to tickets, design documents and accountable owners.",
+        "Reduce late-stage rework across command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications without adding another approval queue."
+      ]
+    },
+    "drata": {
+      "pull": "The assurance burden at U.S. Navy spans DoD zero trust, CUI, classified handling, records, acquisition, FIPS and supply-chain rules, with evidence distributed across cloud platforms, business systems and external partners. Drata provides one continuous layer for interpreting those signals, assigning ownership and maintaining audit readiness. It can reduce repetitive evidence work around IL5 and classified cloud, data-center, shipboard and disconnected edge workloads while giving risk and technology leaders a shared view of control health. The value is not simply a faster audit; it is earlier visibility into where policy, system behavior or third-party posture has diverged from the standard required for sensor-to-decision, supply-to-unit and maintenance-to-readiness workflows.",
+      "cases": [
+        "Continuously map controls and evidence across command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications and IL5 and classified cloud, data-center, shipboard and disconnected edge workloads.",
+        "Reuse assurance work across DoD zero trust, CUI, classified handling, records, acquisition, FIPS and supply-chain rules instead of rebuilding it for every review.",
+        "Give leaders a current view of control drift, ownership and third-party risk."
+      ]
+    },
+    "orca": {
+      "pull": "The cloud-security problem at U.S. Navy is not a shortage of findings; it is knowing which combinations of exposure, identity, vulnerability and data actually matter across IL5 and classified cloud, data-center, shipboard and disconnected edge workloads. Orca Security connects those signals in one agentless platform and guides remediation by business context. For the information and technology organization, that can reduce coverage gaps across command-and-control, logistics, maintenance, cyber, intelligence, business and mission applications and emerging AI workloads while avoiding host-agent overhead. The value is a clearer, faster path from a cloud risk to the owner and action required to protect sensor-to-decision, supply-to-unit and maintenance-to-readiness workflows.",
+      "cases": [
+        "Gain agentless visibility across U.S. Navy's cloud estate and emerging AI workloads.",
+        "Prioritize attack paths into sensitive U.S. Navy data and critical applications.",
+        "Unify posture, workload, data, vulnerability and compliance remediation in one view."
+      ]
+    }
+  }
+}
