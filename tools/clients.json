@@ -1,36 +1,240 @@
 [
-  {"slug":"aig","clientName":"AIG","role":"CDO","domain":"aig.com","accent":"#001871"},
-  {"slug":"deckers","clientName":"Deckers Brands","role":"CDO","domain":"deckers.com","accent":"#2D2926"},
-  {"slug":"gallagher","clientName":"Gallagher","role":"CDO","domain":"ajg.com","accent":"#00263E"},
-  {"slug":"world-bank","clientName":"The World Bank","role":"CTO","domain":"worldbank.org","accent":"#009FDA"},
-  {"slug":"gap","clientName":"Gap Inc.","role":"CTO","domain":"gapinc.com","accent":"#00295B"},
-  {"slug":"john-deere","clientName":"John Deere","role":"CTO","domain":"deere.com","accent":"#367C2B"},
-  {"slug":"davids-bridal","clientName":"David's Bridal","role":"CTO","domain":"davidsbridal.com","accent":"#1A1A1A"},
-  {"slug":"live-nation","clientName":"Live Nation Entertainment","role":"CTO","domain":"livenationentertainment.com","accent":"#E03A3E"},
-  {"slug":"white-house","clientName":"The White House","role":"CTO","domain":"whitehouse.gov","accent":"#002F6C"},
-  {"slug":"usps","clientName":"United States Postal Service","role":"CTO","domain":"usps.com","accent":"#004B87"},
-  {"slug":"intuit","clientName":"Intuit","role":"CTO","domain":"intuit.com","accent":"#236CFF"},
-  {"slug":"ford","clientName":"Ford","role":"CTO","domain":"ford.com","accent":"#003478"},
-  {"slug":"fanatics","clientName":"Fanatics","role":"CTO","domain":"fanaticsinc.com","accent":"#0A2240"},
-  {"slug":"boeing","clientName":"Boeing","role":"CTO","domain":"boeing.com","accent":"#003DA5"},
-  {"slug":"mls","clientName":"Major League Soccer","role":"CTO","domain":"mlssoccer.com","accent":"#001F5B"},
-  {"slug":"ihg","clientName":"IHG Hotels & Resorts","role":"CTO","domain":"ihg.com","accent":"#0A1E46"},
-  {"slug":"aritzia","clientName":"Aritzia","role":"CTO","domain":"aritzia.com","accent":"#1A1A1A"},
-  {"slug":"kohls","clientName":"Kohl's","role":"CTO","domain":"kohls.com","accent":"#111111"},
-  {"slug":"docusign","clientName":"Docusign","role":"CTO","domain":"docusign.com","accent":"#4C00FF"},
-  {"slug":"chiquita","clientName":"Chiquita","role":"CIO","domain":"chiquita.com","accent":"#005CB9"},
-  {"slug":"sara-lee","clientName":"Sara Lee Frozen Bakery","role":"CIO","domain":"saraleefrozenbakery.com","accent":"#C8102E"},
-  {"slug":"loreal","clientName":"L'Oréal","role":"CIO","domain":"loreal.com","accent":"#1A1A1A"},
-  {"slug":"builders-firstsource","clientName":"Builders FirstSource","role":"CIO","domain":"bldr.com","accent":"#C8102E"},
-  {"slug":"united-airlines","clientName":"United Airlines","role":"CIO","domain":"united.com","accent":"#002244"},
-  {"slug":"portillos","clientName":"Portillo's","role":"CIO","domain":"portillos.com","accent":"#14345B"},
-  {"slug":"butterball","clientName":"Butterball","role":"CIO","domain":"butterball.com","accent":"#0055A5"},
-  {"slug":"ut-southwestern","clientName":"UT Southwestern Medical Center","role":"CIO","domain":"utsouthwestern.edu","accent":"#00653B"},
-  {"slug":"us-navy","clientName":"The U.S. Navy","role":"CIO","domain":"navy.mil","accent":"#00205B"},
-  {"slug":"cedars-sinai","clientName":"Cedars-Sinai","role":"CIO","domain":"cedars-sinai.org","accent":"#0057A8"},
-  {"slug":"humana","clientName":"Humana","role":"CIO","domain":"humana.com","accent":"#78BE20"},
-  {"slug":"northwestern-medicine","clientName":"Northwestern Medicine","role":"CIO","domain":"nm.org","accent":"#4E2A84"},
-  {"slug":"tyson","clientName":"Tyson Foods","role":"CIO","domain":"tysonfoods.com","accent":"#00205C"},
-  {"slug":"urbn","clientName":"URBN","role":"CIO","domain":"urbn.com","accent":"#1A1A1A"},
-  {"slug":"choice-hotels","clientName":"Choice Hotels","role":"CIO","domain":"choicehotels.com","accent":"#002F6C"}
+  {
+    "slug": "aig",
+    "clientName": "AIG",
+    "role": "CDO",
+    "domain": "aig.com",
+    "accent": "#001871"
+  },
+  {
+    "slug": "deckers",
+    "clientName": "Deckers Brands",
+    "role": "CDO",
+    "domain": "deckers.com",
+    "accent": "#2D2926"
+  },
+  {
+    "slug": "gallagher",
+    "clientName": "Gallagher",
+    "role": "CDO",
+    "domain": "ajg.com",
+    "accent": "#0275BD"
+  },
+  {
+    "slug": "world-bank",
+    "clientName": "The World Bank",
+    "role": "CTO",
+    "domain": "worldbank.org",
+    "accent": "#009FDA"
+  },
+  {
+    "slug": "gap",
+    "clientName": "Gap Inc.",
+    "role": "CTO",
+    "domain": "gapinc.com",
+    "accent": "#00295B"
+  },
+  {
+    "slug": "john-deere",
+    "clientName": "John Deere",
+    "role": "CTO",
+    "domain": "deere.com",
+    "accent": "#367C2B"
+  },
+  {
+    "slug": "davids-bridal",
+    "clientName": "David's Bridal",
+    "role": "CTO",
+    "domain": "davidsbridal.com",
+    "accent": "#1A1A1A"
+  },
+  {
+    "slug": "live-nation",
+    "clientName": "Live Nation Entertainment",
+    "role": "CTO",
+    "domain": "livenationentertainment.com",
+    "accent": "#E03A3E"
+  },
+  {
+    "slug": "white-house",
+    "clientName": "The White House",
+    "role": "CTO",
+    "domain": "whitehouse.gov",
+    "accent": "#002F6C"
+  },
+  {
+    "slug": "usps",
+    "clientName": "United States Postal Service",
+    "role": "CTO",
+    "domain": "usps.com",
+    "accent": "#004B87"
+  },
+  {
+    "slug": "intuit",
+    "clientName": "Intuit",
+    "role": "CTO",
+    "domain": "intuit.com",
+    "accent": "#236CFF"
+  },
+  {
+    "slug": "ford",
+    "clientName": "Ford",
+    "role": "CTO",
+    "domain": "ford.com",
+    "accent": "#003478"
+  },
+  {
+    "slug": "fanatics",
+    "clientName": "Fanatics",
+    "role": "CTO",
+    "domain": "fanaticsinc.com",
+    "accent": "#E53D2F"
+  },
+  {
+    "slug": "boeing",
+    "clientName": "Boeing",
+    "role": "CTO",
+    "domain": "boeing.com",
+    "accent": "#002DAD"
+  },
+  {
+    "slug": "mls",
+    "clientName": "Major League Soccer",
+    "role": "CTO",
+    "domain": "mlssoccer.com",
+    "accent": "#DD241C"
+  },
+  {
+    "slug": "ihg",
+    "clientName": "IHG Hotels & Resorts",
+    "role": "CTO",
+    "domain": "ihg.com",
+    "accent": "#10212B"
+  },
+  {
+    "slug": "aritzia",
+    "clientName": "Aritzia",
+    "role": "CTO",
+    "domain": "aritzia.com",
+    "accent": "#1A1A1A"
+  },
+  {
+    "slug": "kohls",
+    "clientName": "Kohl's",
+    "role": "CTO",
+    "domain": "kohls.com",
+    "accent": "#870035"
+  },
+  {
+    "slug": "docusign",
+    "clientName": "Docusign",
+    "role": "CTO",
+    "domain": "docusign.com",
+    "accent": "#4C00FF"
+  },
+  {
+    "slug": "chiquita",
+    "clientName": "Chiquita",
+    "role": "CIO",
+    "domain": "chiquita.com",
+    "accent": "#FFE005"
+  },
+  {
+    "slug": "sara-lee",
+    "clientName": "Sara Lee Frozen Bakery",
+    "role": "CIO",
+    "domain": "saraleefrozenbakery.com",
+    "accent": "#85141F"
+  },
+  {
+    "slug": "loreal",
+    "clientName": "L'Oréal",
+    "role": "CIO",
+    "domain": "loreal.com",
+    "accent": "#1A1A1A"
+  },
+  {
+    "slug": "builders-firstsource",
+    "clientName": "Builders FirstSource",
+    "role": "CIO",
+    "domain": "bldr.com",
+    "accent": "#C8102E"
+  },
+  {
+    "slug": "united-airlines",
+    "clientName": "United Airlines",
+    "role": "CIO",
+    "domain": "united.com",
+    "accent": "#1414D3"
+  },
+  {
+    "slug": "portillos",
+    "clientName": "Portillo's",
+    "role": "CIO",
+    "domain": "portillos.com",
+    "accent": "#D7292F"
+  },
+  {
+    "slug": "butterball",
+    "clientName": "Butterball",
+    "role": "CIO",
+    "domain": "butterball.com",
+    "accent": "#FCDF0F"
+  },
+  {
+    "slug": "ut-southwestern",
+    "clientName": "UT Southwestern Medical Center",
+    "role": "CIO",
+    "domain": "utsouthwestern.edu",
+    "accent": "#004C97"
+  },
+  {
+    "slug": "us-navy",
+    "clientName": "The U.S. Navy",
+    "role": "CIO",
+    "domain": "navy.mil",
+    "accent": "#FFB81D"
+  },
+  {
+    "slug": "cedars-sinai",
+    "clientName": "Cedars-Sinai",
+    "role": "CIO",
+    "domain": "cedars-sinai.org",
+    "accent": "#DB1F35"
+  },
+  {
+    "slug": "humana",
+    "clientName": "Humana",
+    "role": "CIO",
+    "domain": "humana.com",
+    "accent": "#78BE20"
+  },
+  {
+    "slug": "northwestern-medicine",
+    "clientName": "Northwestern Medicine",
+    "role": "CIO",
+    "domain": "nm.org",
+    "accent": "#4E2A84"
+  },
+  {
+    "slug": "tyson",
+    "clientName": "Tyson Foods",
+    "role": "CIO",
+    "domain": "tysonfoods.com",
+    "accent": "#E40D0E"
+  },
+  {
+    "slug": "urbn",
+    "clientName": "URBN",
+    "role": "CIO",
+    "domain": "urbn.com",
+    "accent": "#FCDF0F"
+  },
+  {
+    "slug": "choice-hotels",
+    "clientName": "Choice Hotels",
+    "role": "CIO",
+    "domain": "choicehotels.com",
+    "accent": "#FFC72D"
+  }
 ]
