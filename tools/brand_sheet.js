@@ -1,5 +1,6 @@
 // Generate brand-review.html: all 34 nameplates as they'll render, for one-pass approval.
 const fs = require("fs");
+const path = require("path");
 const clients = require("./clients.json");
 
 const card = (c) => `
@@ -35,5 +36,5 @@ const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>Brand revi
 <p style="color:#5C5C5C;max-width:720px;">Each card shows the hero nameplate as it will render (accent italic + highlight band), the role line, the sourced logo on the site's light background, the accent hex, and the deploy URL. Reply with corrections by slug: wrong color, wrong logo, wrong display name.</p>
 ${section("CDO")}${section("CTO")}${section("CIO")}
 </body></html>`;
-fs.writeFileSync("../brand-review.html", html);
+fs.writeFileSync(path.join(__dirname, "..", "brand-review.html"), html);
 console.log("brand-review.html written:", clients.length, "clients");

@@ -137,7 +137,7 @@
     "clientName": "Chiquita",
     "role": "CIO",
     "domain": "chiquita.com",
-    "accent": "#FFE005"
+    "accent": "#005CB9"
   },
   {
     "slug": "sara-lee",
@@ -179,7 +179,7 @@
     "clientName": "Butterball",
     "role": "CIO",
     "domain": "butterball.com",
-    "accent": "#FCDF0F"
+    "accent": "#0055A5"
   },
   {
     "slug": "ut-southwestern",
@@ -193,7 +193,7 @@
     "clientName": "The U.S. Navy",
     "role": "CIO",
     "domain": "navy.mil",
-    "accent": "#FFB81D"
+    "accent": "#00205B"
   },
   {
     "slug": "cedars-sinai",
@@ -228,13 +228,13 @@
     "clientName": "URBN",
     "role": "CIO",
     "domain": "urbn.com",
-    "accent": "#FCDF0F"
+    "accent": "#1A1A1A"
   },
   {
     "slug": "choice-hotels",
     "clientName": "Choice Hotels",
     "role": "CIO",
     "domain": "choicehotels.com",
-    "accent": "#FFC72D"
+    "accent": "#002F6C"
   }
 ]
