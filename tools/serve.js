@@ -11,7 +11,10 @@ http.createServer((req, res) => {
   let urlPath = decodeURIComponent(req.url.split("?")[0]);
   let filePath = path.normalize(path.join(ROOT, urlPath));
   if (!filePath.startsWith(ROOT)) { res.writeHead(403); return res.end("forbidden"); }
-  if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) filePath = path.join(filePath, "index.html");
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+    if (!urlPath.endsWith("/")) { res.writeHead(301, { Location: urlPath + "/" }); return res.end(); }
+    filePath = path.join(filePath, "index.html");
+  }
   fs.readFile(filePath, (err, data) => {
     if (err) { res.writeHead(404); return res.end("not found: " + urlPath); }
     res.writeHead(200, { "Content-Type": MIME[path.extname(filePath).toLowerCase()] || "application/octet-stream" });
