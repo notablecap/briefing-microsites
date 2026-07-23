@@ -17,16 +17,16 @@
     "clover",
     "token",
     "coder",
-    "drata",
     "montecarlo",
     "wispr",
     "act",
     "fal",
     "netbox",
     "valar",
+    "tonic",
+    "drata",
     "echo",
-    "orca",
-    "localstack"
+    "orca"
   ],
   "angles": {
     "anthropic": {
@@ -62,14 +62,6 @@
       ]
     },
     "coder": {
-      "pull": "",
-      "cases": [
-        "",
-        "",
-        ""
-      ]
-    },
-    "drata": {
       "pull": "",
       "cases": [
         "",
@@ -125,6 +117,22 @@
         ""
       ]
     },
+    "tonic": {
+      "pull": "",
+      "cases": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "drata": {
+      "pull": "",
+      "cases": [
+        "",
+        "",
+        ""
+      ]
+    },
     "echo": {
       "pull": "",
       "cases": [
@@ -134,14 +142,6 @@
       ]
     },
     "orca": {
-      "pull": "",
-      "cases": [
-        "",
-        "",
-        ""
-      ]
-    },
-    "localstack": {
       "pull": "",
       "cases": [
         "",

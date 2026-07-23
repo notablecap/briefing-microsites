@@ -41,20 +41,20 @@
   },
   "roster": [
     "anthropic",
-    "gladly",
     "montecarlo",
+    "tonic",
     "netbox",
     "token",
     "valar",
-    "tonic",
     "browserbase",
     "coder",
-    "patronus",
+    "echo",
     "fal",
     "act",
     "clover",
-    "wispr",
-    "generalist"
+    "drata",
+    "orca",
+    "wispr"
   ],
   "angles": {
     "anthropic": {
@@ -63,14 +63,6 @@
         "Analyze the documents the business runs on: filings, tariffs, interconnection studies, compliance standards.",
         "Claude Code across the software teams building grid, billing, and customer systems.",
         "A frontier AI partner whose safety posture matches a critical-infrastructure operator's."
-      ]
-    },
-    "gladly": {
-      "pull": "Millions of households reach Dominion about outages, bills, and service, and most of those conversations are routine. Gladly unifies every channel into one lifelong conversation per customer, and Sidekick resolves the routine end-to-end, so agents give their attention to the storm-day moments that define trust in a utility.",
-      "cases": [
-        "One conversation per customer across voice, chat, email, and SMS, with no tickets and no repeating.",
-        "Sidekick resolves start/stop/move service, billing questions, and payment arrangements end-to-end.",
-        "Absorb storm-driven contact surges without surging headcount."
       ]
     },
     "montecarlo": {
@@ -129,14 +121,6 @@
         "A governed place for coding agents to run as AI enters the development lifecycle."
       ]
     },
-    "patronus": {
-      "pull": "Before AI touches a customer bill, an outage estimate, or a regulatory workflow, someone has to prove it behaves. Patronus scores, benchmarks, and adversarially tests LLMs at scale. It is the instrument panel a regulated utility needs to ship AI features with evidence instead of hope.",
-      "cases": [
-        "Score and benchmark the models behind customer-facing AI before and after they ship.",
-        "Adversarial test cases for the failure modes that matter in a regulated environment.",
-        "Continuous evaluation as models, prompts, and vendors change."
-      ]
-    },
     "fal": {
       "pull": "Generative media is becoming part of how large enterprises communicate and train. Fal serves image, video, audio, and voice models behind product experiences at speed and scale, without self-managed GPU infrastructure, for everything from customer communications to safety training content.",
       "cases": [
@@ -169,12 +153,28 @@
         "Works in any application across desktop and mobile, with one button and no retraining."
       ]
     },
-    "generalist": {
-      "pull": "Energy is physical work: inspection, maintenance, materials handling, storm restoration. Generalist is building the intelligence layer for general-purpose robots, and utilities are where that capability will matter most, from warehouses and depots today to hazardous environments tomorrow.",
+    "drata": {
+      "pull": "A utility answers to more frameworks than almost any business: SOX, NERC obligations, state commissions, and the security questionnaires flowing both directions with hundreds of vendors. Drata turns that from a quarterly evidence fire drill into an always-on system: controls monitored continuously, evidence collected automatically, and internal and third-party risk visible in one place.",
       "cases": [
-        "A window into physical AI for the utility workforce of the next decade.",
-        "General-purpose manipulation for warehouse and materials-handling operations.",
-        "Robots that can work where people shouldn't have to: hazardous, repetitive, remote."
+        "Continuous control monitoring and automated evidence collection across corporate IT and cloud.",
+        "Map one set of controls to many frameworks, including custom frameworks for regulatory obligations.",
+        "Standing visibility into vendor and third-party risk instead of annual questionnaire cycles."
+      ]
+    },
+    "echo": {
+      "pull": "Every application Dominion builds sits on open-source components someone has to keep patched, and in critical infrastructure the vulnerability backlog is a regulatory issue, not just an engineering one. Echo removes the burden at the source: hardened, CVE-free, FIPS-validated base images and dependencies, so teams ship on clean foundations instead of chasing scanner findings.",
+      "cases": [
+        "CVE-free container base images and dependencies for the software behind grid, billing, and customer systems.",
+        "FIPS-validated, hardened components that meet the bar of a regulated operator.",
+        "Cut the patching and end-of-life support burden that consumes security and platform engineering time."
+      ]
+    },
+    "orca": {
+      "pull": "Dominion's cloud estate spans the corporate side of a critical-infrastructure operator: data platforms, customer systems, and a growing AI footprint. Orca covers all of it agentlessly, with nothing to deploy and no coverage gaps, and prioritizes the handful of attack paths that actually reach sensitive data or critical systems instead of burying the team in alerts.",
+      "cases": [
+        "Agentless, full-estate cloud visibility within hours, with nothing to install or maintain.",
+        "Attack-path prioritization that surfaces what actually threatens customer data and critical systems.",
+        "One CNAPP for posture, vulnerabilities, workload and data protection, and cloud compliance evidence."
       ]
     }
   }

@@ -447,12 +447,23 @@
     "id": "orca",
     "name": "Orca Security",
     "logo": "logos/orca.png",
-    "stage": null,
-    "oneLiner": "Agentless cloud security across your entire cloud estate.",
-    "blurb": "DRAFT — REVIEW BEFORE PUBLISH. Orca Security is the agentless cloud security platform. One deployment-free connection covers AWS, Azure, and Google Cloud, surfacing vulnerabilities, misconfigurations, exposed data, and identity risk across VMs, containers, and serverless — then prioritizes the attack paths that actually matter instead of a flood of alerts.",
-    "customers": [],
+    "stage": "Growth",
+    "oneLiner": "Agentless cloud security: one CNAPP platform for the AI era.",
+    "blurb": "Orca Security is an independent cloud security platform built for the AI era. Orca provides instant-on security and compliance for AWS, Azure, and GCP without gaps in coverage or alert fatigue, with low operational impact: a single CNAPP platform for workload and data protection, posture management, vulnerability management, and compliance. As enterprises rapidly adopt AI and cloud environments expand in scale and complexity, Orca delivers unified visibility that connects the dots, context-aware prioritization that clarifies what matters, and guided remediation so teams can act faster. Orca is built to support both AI for security and security for AI, and serves nearly 1,000 organizations worldwide, from fast-growing startups to large enterprises such as SAP, Nestlé, Autodesk, and Bayer.",
+    "customers": [
+      "SAP",
+      "Nestlé",
+      "Autodesk",
+      "Bayer"
+    ],
     "tags": [
       "security"
+    ],
+    "ciscoPull": "Cloud security posture is a natural place to deepen Cisco's security portfolio, and Orca is the agentless way to do it: instant-on CNAPP coverage across AWS, Azure, and GCP with no agents to deploy and nearly 1,000 organizations already on the platform.",
+    "ciscoCases": [
+      "Agentless, instant-on coverage across AWS, Azure, and GCP: posture, workloads, data, vulnerabilities, and compliance in one CNAPP.",
+      "Strengthens the cloud security posture story across Cisco's security portfolio.",
+      "Built for the AI era: security for AI services, and AI for the security team."
     ],
     "link": "https://orca.security/",
     "caseStudyLink": null,
@@ -463,14 +474,76 @@
     "name": "LocalStack",
     "logo": "logos/localstack.svg",
     "stage": null,
-    "oneLiner": "The local cloud: develop and test AWS applications entirely on your machine.",
-    "blurb": "DRAFT — REVIEW BEFORE PUBLISH. LocalStack is a high-fidelity emulator of AWS that runs on a laptop or in CI. Teams develop and test cloud applications locally — no shared dev accounts, no cloud bills for test runs, no waiting on deploys — then ship to real AWS with confidence. It has become standard tooling for enterprise platform teams tightening their inner development loop.",
-    "customers": [],
+    "oneLiner": "The local cloud stack for development and testing.",
+    "blurb": "LocalStack is a leader in cloud development and test environments, providing a robust, fully functional local cloud stack that allows developers to build, test, and deploy in a streamlined, efficient way without dependency on live cloud resources. They have a unique ability to accelerate development cycles, reduce costs, and ensure secure testing environments for clients of all sizes including IBM, Apple, Bosch, Hitachi and more.",
+    "customers": [
+      "IBM",
+      "Apple",
+      "Bosch",
+      "Hitachi"
+    ],
     "tags": [
-      "dev"
+      "cloud"
+    ],
+    "ciscoPull": "LocalStack is an internal engineering-productivity conversation: emulate full cloud stacks locally so Cisco's software teams build and test without waiting on (or paying for) live cloud resources, with test environments that stay secure by default.",
+    "ciscoCases": [
+      "Emulate full cloud stacks locally so dev and test never block on live cloud resources.",
+      "Cut cloud development and test spend across a very large engineering org.",
+      "Faster cycles with secure-by-default test environments."
     ],
     "link": "https://www.localstack.cloud/",
     "caseStudyLink": null,
     "caseStudyName": null
+  },
+  {
+    "id": "kong",
+    "name": "Kong",
+    "logo": "logos/kong.png",
+    "stage": "Growth",
+    "oneLiner": "API gateway and service connectivity, extended to an AI gateway.",
+    "blurb": "Kong provides an API gateway that connects services from different architectures into a single control platform that provides observability, governance, scalability and efficiency for DBS, Cargill, and Moderna.",
+    "customers": [
+      "DBS",
+      "Cargill",
+      "Moderna"
+    ],
+    "tags": [
+      "networking"
+    ],
+    "ciscoPull": "Kong sits squarely in Cisco's application-networking story: API gateway and service connectivity as the control plane for how modern applications talk. Its AI Gateway extends that to LLM and agent traffic, one governed control point for the agentic infrastructure Cisco has been signaling. As a later-stage platform, the natural conversation is partnership and ecosystem.",
+    "ciscoCases": [
+      "Service connectivity and API governance alongside Cisco's app-networking stack, including Isovalent.",
+      "AI Gateway: one control point for LLM and agent traffic as agentic infrastructure scales.",
+      "Later-stage platform, best framed as a partnership and ecosystem conversation."
+    ],
+    "link": "https://konghq.com/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  },
+  {
+    "id": "torq",
+    "name": "Torq",
+    "logo": "logos/torq.png",
+    "stage": null,
+    "oneLiner": "Agentic AI SOC platform for security teams to triage, investigate, and respond to threats.",
+    "blurb": "Torq is an AI-first security hyperautomation platform that replaces legacy SOAR with no-code workflows and autonomous AI agents. Its HyperSOC product and Socrates AI analyst triage, investigate, and remediate alerts, closing the bulk of Tier-1 tickets autonomously while connecting across the entire security stack to act in real time.",
+    "customers": [
+      "Valvoline",
+      "MUFG",
+      "P&G",
+      "Uber"
+    ],
+    "tags": [
+      "security"
+    ],
+    "ciscoPull": "SOC hyperautomation is where legacy SOAR is being replaced, and Torq is the platform doing the replacing. For the Splunk-era SOC, Torq's HyperSOC and Socrates AI analyst close the bulk of Tier-1 tickets autonomously on top of existing detections, a clean fill-the-gap partner or ecosystem play across Cisco's security portfolio.",
+    "ciscoCases": [
+      "Modernize automation for the Splunk-era SOC: autonomous triage on top of existing detections.",
+      "Close the bulk of Tier-1 tickets autonomously, connected across the entire security stack.",
+      "Replace brittle legacy SOAR playbooks with no-code workflows security teams can own."
+    ],
+    "link": "https://torq.io/",
+    "caseStudyLink": "https://torq.io/resources/valvoline-soc-automation/",
+    "caseStudyName": "Valvoline"
   }
 ]
