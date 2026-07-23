@@ -1,12 +1,11 @@
 {
   "slug": "dominion-energy",
   "clientName": "Dominion Energy",
-  "role": "",
+  "role": "CTO",
   "accent": "#2F6EB5",
   "clientLogo": "Dominion_Energy_logo.svg.webp",
   "favicon": "Dominion-Energy.webp",
   "emailRecipients": "bzabel@notablecap.com",
-  "heroSubline": "Fifteen companies from our portfolio, chosen for the teams building Dominion Energy's next era of AI, grid and customer operations, and security.",
   "noteP1": "We picked fifteen companies from our portfolio that map to the technology priorities of a modern energy enterprise: frontier AI and the infrastructure to run it, data quality and privacy, cloud and identity security, network and developer infrastructure, and the systems behind customer and field operations.",
   "noteP2": "Each card opens to a brief and the angle we think fits Dominion Energy best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
   "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and the operations of a modern utility. Filter by category, then expand any card for the brief and the angle most relevant to your team.",
@@ -41,20 +40,20 @@
   },
   "roster": [
     "anthropic",
+    "wispr",
+    "browserbase",
+    "coder",
+    "token",
+    "fal",
     "montecarlo",
     "tonic",
     "netbox",
-    "token",
     "valar",
-    "browserbase",
-    "coder",
     "echo",
-    "fal",
     "act",
     "clover",
     "drata",
-    "orca",
-    "wispr"
+    "orca"
   ],
   "angles": {
     "anthropic": {

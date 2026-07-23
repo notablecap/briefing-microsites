@@ -7,69 +7,28 @@
   "favicon": "client-favicon.png",
   "password": "",
   "emailRecipients": "bzabel@notablecap.com",
-  "heroSubline": "Fifteen companies from our portfolio, chosen for the teams building <Client>'s next era of ...",
   "noteP1": "We picked fifteen companies from our portfolio that map to <Client>'s technology priorities: ...",
   "noteP2": "Each card opens to a brief and the angle we think fits <Client> best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
   "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and developer tooling. Filter by category, then expand any card for the brief and the angle most relevant to your team.",
   "roster": [
     "anthropic",
-    "browserbase",
-    "clover",
-    "token",
-    "coder",
-    "montecarlo",
     "wispr",
-    "act",
+    "browserbase",
+    "coder",
+    "token",
     "fal",
+    "montecarlo",
+    "tonic",
     "netbox",
     "valar",
-    "tonic",
-    "drata",
     "echo",
+    "act",
+    "clover",
+    "drata",
     "orca"
   ],
   "angles": {
     "anthropic": {
-      "pull": "",
-      "cases": [
-        "",
-        "",
-        ""
-      ]
-    },
-    "browserbase": {
-      "pull": "",
-      "cases": [
-        "",
-        "",
-        ""
-      ]
-    },
-    "clover": {
-      "pull": "",
-      "cases": [
-        "",
-        "",
-        ""
-      ]
-    },
-    "token": {
-      "pull": "",
-      "cases": [
-        "",
-        "",
-        ""
-      ]
-    },
-    "coder": {
-      "pull": "",
-      "cases": [
-        "",
-        "",
-        ""
-      ]
-    },
-    "montecarlo": {
       "pull": "",
       "cases": [
         "",
@@ -85,7 +44,23 @@
         ""
       ]
     },
-    "act": {
+    "browserbase": {
+      "pull": "",
+      "cases": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "coder": {
+      "pull": "",
+      "cases": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "token": {
       "pull": "",
       "cases": [
         "",
@@ -94,6 +69,22 @@
       ]
     },
     "fal": {
+      "pull": "",
+      "cases": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "montecarlo": {
+      "pull": "",
+      "cases": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "tonic": {
       "pull": "",
       "cases": [
         "",
@@ -117,7 +108,23 @@
         ""
       ]
     },
-    "tonic": {
+    "echo": {
+      "pull": "",
+      "cases": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "act": {
+      "pull": "",
+      "cases": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "clover": {
       "pull": "",
       "cases": [
         "",
@@ -126,14 +133,6 @@
       ]
     },
     "drata": {
-      "pull": "",
-      "cases": [
-        "",
-        "",
-        ""
-      ]
-    },
-    "echo": {
       "pull": "",
       "cases": [
         "",

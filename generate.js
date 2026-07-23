@@ -61,7 +61,11 @@ function buildSite(config) {
   sub("%%VERTICALS_JS%%", JSON.stringify(verticals, null, 2));
   sub("%%SHORT_JS%%", JSON.stringify(short));
   sub("%%LOGO_DEPS%%", logoDeps);
-  sub("%%HERO_SUBLINE%%", esc(config.heroSubline));
+  const roleLabel = config.roleLabel || (config.role ? "Office of the " + config.role : "");
+  const roleBlock = roleLabel
+    ? '<div style="margin-top:22px;"><span style="font-family:\'Alverata\',serif;font-weight:300;font-size:clamp(20px,2.6vw,29px);line-height:1.25;letter-spacing:-0.01em;color:#063F32;background:linear-gradient(180deg,transparent 62%,' + config.accent + '40 62%);padding:0 .14em;display:inline-block;">' + roleLabel + "</span></div>"
+    : "";
+  sub("%%ROLE_BLOCK%%", roleBlock);
   sub("%%NOTE_P1%%", esc(config.noteP1));
   sub("%%NOTE_P2%%", esc(config.noteP2));
   sub("%%PORTFOLIO_INTRO%%", esc(config.portfolioIntro));
