@@ -1,0 +1,476 @@
+[
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "logo": "logos/anthropic.svg",
+    "stage": null,
+    "oneLiner": "Frontier AI models and Claude, built for safe enterprise deployment.",
+    "blurb": "Anthropic is the AI safety and research company behind Claude, the frontier model family used across coding, agents, and enterprise knowledge work. Claude pairs state-of-the-art reasoning with an explicit focus on safety, steerability, and predictable behavior. It is available directly, via API, and through AWS Bedrock and Google Cloud Vertex AI, and Claude Code has become one of the fastest-adopted developer tools inside large enterprises.",
+    "customers": [
+      "Pfizer",
+      "Zoom",
+      "Notion"
+    ],
+    "tags": [
+      "ai"
+    ],
+    "link": "https://www.anthropic.com/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  },
+  {
+    "id": "gladly",
+    "name": "Gladly",
+    "logo": "logos/gladly.webp",
+    "stage": null,
+    "oneLiner": "AI customer service built around people, not tickets.",
+    "blurb": "Gladly is the AI customer service platform built around people, not tickets. Voice, email, chat, SMS, and social all flow into one lifelong conversation per customer, so agents see a person and a history instead of a case number. Sidekick, Gladly's AI agent, resolves routine requests end-to-end and hands complex moments to a human with full context.",
+    "customers": [
+      "JetBlue",
+      "Ulta Beauty",
+      "Crate & Barrel",
+      "Warby Parker"
+    ],
+    "tags": [
+      "cx",
+      "ai"
+    ],
+    "link": "https://www.gladly.com/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  },
+  {
+    "id": "montecarlo",
+    "name": "Monte Carlo",
+    "logo": "logos/montecarlo.png",
+    "stage": null,
+    "oneLiner": "The agent trust platform: unified data and agent observability.",
+    "blurb": "Monte Carlo is the agent trust platform that unifies data and agent observability for large, distributed enterprises like PepsiCo and JetBlue. Moving beyond traditional data quality, it gives organizations a single pane of glass across pipelines, systems, code, models, and the agents built on top of them, detecting, resolving, and preventing issues before they affect activation, personalization, or agentic workflows.",
+    "customers": [
+      "PepsiCo",
+      "Chipotle",
+      "Morningstar",
+      "Disney",
+      "JetBlue",
+      "Salesforce"
+    ],
+    "tags": [
+      "data",
+      "ai"
+    ],
+    "link": "https://www.montecarlodata.com/",
+    "caseStudyLink": "https://montecarlo.ai/blog-jetblue-monte-carlo-data-observability/",
+    "caseStudyName": "JetBlue"
+  },
+  {
+    "id": "netbox",
+    "name": "NetBox Labs",
+    "logo": "logos/netbox.png",
+    "stage": "Series B",
+    "oneLiner": "The source of truth for IT and network infrastructure.",
+    "blurb": "NetBox Labs is the widely deployed source of truth for documenting, managing, and automating IT and network infrastructure. Westfield, CoreWeave, and The Wikimedia Foundation depend on NetBox to track their corporate and datacenter IT infrastructure, along with networking assets and configurations.",
+    "customers": [
+      "Westfield",
+      "CoreWeave",
+      "Wikimedia Foundation"
+    ],
+    "tags": [
+      "dev"
+    ],
+    "link": "https://netboxlabs.com/",
+    "caseStudyLink": "https://netboxlabs.com/customer-stories/coreweave/",
+    "caseStudyName": "CoreWeave"
+  },
+  {
+    "id": "token",
+    "name": "Token Security",
+    "logo": "logos/token.png",
+    "stage": "Series A",
+    "oneLiner": "The control plane for non-human and AI-agent identity.",
+    "blurb": "As enterprises deploy AI agents to write code, automate workflows, and make decisions at machine speed, visibility, ownership, and least-privilege control over identities becomes mission-critical. The Token Security platform was built specifically to close this gap through continuous discovery, lifecycle governance, intent-based access controls, and full auditability.",
+    "customers": [
+      "Hewlett Packard Enterprise",
+      "GitLab",
+      "Dayforce",
+      "Amex",
+      "HiBob"
+    ],
+    "tags": [
+      "security",
+      "ai"
+    ],
+    "link": "https://www.token.security/",
+    "caseStudyLink": "https://www.token.security/assets/anecdotes-success-with-token-security",
+    "caseStudyName": "Anecdotes"
+  },
+  {
+    "id": "valar",
+    "name": "Valar",
+    "logo": "logos/valar-white.svg",
+    "logoOnDark": true,
+    "stage": null,
+    "oneLiner": "Enterprise inference platform for high-volume AI, inside your VPC.",
+    "blurb": "Valar is the enterprise inference platform for running high-volume AI workloads inside the customer's own VPC. Built for async, agentic, and batch inference, it optimizes scheduling, batching, routing, and accelerator placement to increase usable capacity, improve throughput, and reduce cost per token. Because it runs within the customer environment, prompts, outputs, logs, models, and policies stay inside the enterprise boundary.",
+    "customers": [],
+    "tags": [
+      "ai"
+    ],
+    "link": "https://valarhq.ai/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  },
+  {
+    "id": "tonic",
+    "name": "Tonic",
+    "logo": "logos/tonic.png",
+    "stage": "Series B",
+    "oneLiner": "Synthetic, de-identified data for AI and dev environments.",
+    "blurb": "Tonic is a fast-growing, Series B company operating at the critical intersection of data privacy and AI agents: an essential component of the modern AI stack. The platform combines advanced data synthesis, de-identification, and privacy-preserving techniques to enable high-quality data generation and secure use of enterprise data for model training, fine-tuning, and software development.",
+    "customers": [
+      "American Express",
+      "Walgreens",
+      "NHL",
+      "JP Morgan Chase & Co."
+    ],
+    "tags": [
+      "data",
+      "security"
+    ],
+    "link": "https://www.tonic.ai/",
+    "caseStudyLink": "https://www.tonic.ai/case-study/getting-ebay-developers-the-data-theyre-looking-for-with-tonic",
+    "caseStudyName": "eBay"
+  },
+  {
+    "id": "browserbase",
+    "name": "Browserbase",
+    "logo": "logos/browserbase.png",
+    "stage": "Series B",
+    "oneLiner": "Headless-browser infrastructure for agents and automation.",
+    "blurb": "Browserbase is a secure, programmable browser platform that allows enterprises like Vercel and Numeral to automate workflows, test applications, and interact with web-based tools at scale. Designed for engineering and AI teams, it enables seamless browser automation without the limitations of traditional headless solutions.",
+    "customers": [
+      "Vercel",
+      "Numeral"
+    ],
+    "tags": [
+      "dev",
+      "ai"
+    ],
+    "link": "https://www.browserbase.com/",
+    "caseStudyLink": "https://www.browserbase.com/blog/case-study-ramp",
+    "caseStudyName": "Ramp"
+  },
+  {
+    "id": "coder",
+    "name": "Coder",
+    "logo": "logos/coder.png",
+    "stage": "Series B",
+    "oneLiner": "Cloud Development Environments for the engineering org.",
+    "blurb": "Coder provides an enterprise platform to configure, secure, and manage software development environments by moving developer workspaces off local workstations into the cloud, securing source code and reducing costs at companies like Morgan Stanley, GAP, Progressive, and Goldman Sachs.",
+    "customers": [
+      "Morgan Stanley",
+      "GAP",
+      "Progressive",
+      "Goldman Sachs"
+    ],
+    "tags": [
+      "dev"
+    ],
+    "link": "https://coder.com/",
+    "caseStudyLink": "https://coder.com/success-stories/u-s-defense-intelligence-organization",
+    "caseStudyName": "U.S. Defense Intelligence Org"
+  },
+  {
+    "id": "patronus",
+    "name": "Patronus AI",
+    "logo": "logos/patronus.png",
+    "stage": null,
+    "oneLiner": "Automated evaluation that catches LLM mistakes at scale.",
+    "blurb": "Patronus is an automated evaluation platform that detects Large Language Model mistakes at scale and helps enterprises like Volkswagen, Cohere, Hugging Face, and MongoDB to score model performance, generate adversarial test cases, and benchmark models.",
+    "customers": [
+      "Volkswagen",
+      "Cohere",
+      "Hugging Face",
+      "MongoDB"
+    ],
+    "tags": [
+      "ai",
+      "data"
+    ],
+    "link": "https://www.patronus.ai/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  },
+  {
+    "id": "fal",
+    "name": "Fal.ai",
+    "logo": "logos/fal.png",
+    "stage": "Series D",
+    "oneLiner": "Inference platform for generative AI models.",
+    "blurb": "Fal provides a platform for developers and enterprises to deploy and scale AI models through simple APIs and infrastructure designed for speed and efficiency. By abstracting away complex infrastructure, fal enables businesses to integrate powerful AI capabilities (image, video, audio, voice) into their products with minimal effort.",
+    "customers": [
+      "AI-first product teams"
+    ],
+    "tags": [
+      "ai"
+    ],
+    "link": "https://fal.ai/",
+    "caseStudyLink": "https://fal.ai/customer-case/quora-poe-and-fal",
+    "caseStudyName": "Quora (Poe)"
+  },
+  {
+    "id": "act",
+    "name": "Act Security",
+    "logo": "logos/act.png",
+    "stage": "Seed",
+    "oneLiner": "Adaptive cloud perimeters: least-privilege made real.",
+    "blurb": "Enterprises struggle to enforce consistent least-privilege access in the cloud. \"What can talk to what\" is surprisingly hard to answer, while identity and network controls operate in silos. Act tackles this by proactively creating cloud perimeters to logically segment applications based on business context. Its agentless platform learns how your cloud applications, services, and AI agents can communicate vs. how they actually do, then guides you in safely locking down unnecessary pathways.",
+    "customers": [
+      "Design partners across financial services and retail"
+    ],
+    "tags": [
+      "security"
+    ],
+    "link": "https://act.security/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  },
+  {
+    "id": "clover",
+    "name": "Clover Security",
+    "logo": "logos/clover.png",
+    "stage": "Seed",
+    "oneLiner": "Security that lives inside the product design phase, not after.",
+    "blurb": "Clover empowers Product Security teams to integrate security into the design and planning stages of software development. By tapping data sources like Confluence, Jira, and Google Drive, Clover boosts visibility into feature planning, preemptively flags risks, and provides security requirements from the start, equipping PMs and developers with actionable guidance inside their existing workflow.",
+    "customers": [
+      "Expedia",
+      "ServiceNow",
+      "Plaid",
+      "HubSpot"
+    ],
+    "tags": [
+      "security",
+      "dev"
+    ],
+    "link": "https://clover.security/",
+    "caseStudyLink": "https://clover.security/case-studies/virgin-money/",
+    "caseStudyName": "Virgin Money"
+  },
+  {
+    "id": "wispr",
+    "name": "Wispr Flow",
+    "logo": "logos/wispr.png",
+    "stage": "Series A",
+    "oneLiner": "Voice-first dictation that turns natural speech into clean text.",
+    "blurb": "Wispr Flow is a voice dictation tool that lets people speak naturally and produces polished, formatted text in any application, across desktop and mobile. It removes the friction of typing for knowledge and frontline workers, drafting emails, notes, and reports at the speed of speech, with AI cleanup of filler words and spoken commands.",
+    "customers": [
+      "Reid Hoffman (Greylock)",
+      "Clay",
+      "Hundreds of thousands of professionals"
+    ],
+    "tags": [
+      "cx"
+    ],
+    "link": "https://wisprflow.ai/",
+    "caseStudyLink": "https://wisprflow.ai/case-study/reid-hoffman",
+    "caseStudyName": "Reid Hoffman"
+  },
+  {
+    "id": "generalist",
+    "name": "Generalist AI",
+    "logo": "logos/generalist.png",
+    "stage": null,
+    "oneLiner": "Embodied foundation models for general-purpose robots.",
+    "blurb": "Generalist is building physical AGI: embodied foundation models that let general-purpose robots perceive, learn, and act in the real world. Its GEN-1 model, trained on hundreds of thousands of hours of real-world manipulation data, pushes new thresholds of speed and reliability on long, dexterous tasks. The company is backed by NVIDIA's venture arm and Bezos Expeditions.",
+    "customers": [],
+    "tags": [
+      "ai"
+    ],
+    "link": "https://generalistai.com/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  },
+  {
+    "id": "drata",
+    "name": "Drata",
+    "logo": "logos/drata.svg",
+    "stage": null,
+    "oneLiner": "The trust graph: continuous GRC and trust management for the enterprise.",
+    "blurb": "Drata provides the trust graph that enables businesses to operate, scale, and partner with confidence. Powered by AI and designed to operationalize trust, the Drata Trust Management Platform continuously monitors and interprets controls, risk, and assurance signals—reducing repetitive manual work while improving visibility into internal and third-party risk, enabling always-on audit readiness across frameworks, and accelerating security reviews.\n\nPurpose-built for enterprise complexity, Drata unifies governance, risk, compliance, and assurance to deliver faster time-to-value, reduce operational overhead, and enable continuous trust for 8,000+ organizations worldwide.",
+    "customers": [
+      "Brex",
+      "8,000+ organizations worldwide"
+    ],
+    "tags": [
+      "security"
+    ],
+    "metric": {
+      "value": "8,000+",
+      "sub": "organizations, always-on audit readiness"
+    },
+    "jllPull": "A global enterprise like JLL carries compliance obligations across many frameworks, geographies, and a long tail of third-party vendors. Drata unifies governance, risk, and compliance into one continuously monitored trust graph, replacing manual evidence-gathering with always-on audit readiness and faster security reviews.",
+    "jllCases": [
+      "Continuous, automated readiness across SOC 2, ISO 27001, and the frameworks JLL must hold.",
+      "Monitor third-party and vendor risk across a large real estate supply chain.",
+      "Shorten the security reviews that gate enterprise and client deals."
+    ],
+    "link": "https://drata.com/",
+    "caseStudyLink": "https://drata.com/customers/brex-evolution",
+    "caseStudyName": "Brex"
+  },
+  {
+    "id": "echo",
+    "name": "Echo",
+    "logo": "logos/echo.svg",
+    "stage": null,
+    "oneLiner": "Trusted, CVE-free software dependencies for your apps and agents.",
+    "blurb": "Echo delivers trusted, CVE-free software dependencies for the components your apps and agents are built on — from container base images to libraries, VMs, Helm charts, and EOL support. Automatically patched, hardened, and FIPS-validated, its AI-powered software eliminates the vulnerability burden at the source, so enterprise-grade security doesn't mean slowing down development.",
+    "customers": [
+      "Varonis",
+      "UiPath",
+      "JFrog",
+      "AlphaSense"
+    ],
+    "tags": [
+      "security",
+      "dev"
+    ],
+    "metric": {
+      "value": "CVE-free",
+      "sub": "by default, FIPS-validated"
+    },
+    "jllPull": "JLL Technologies ships software across a sprawling estate of services and containers, each a potential source of vulnerabilities to track and patch. Echo removes that burden at the source: hardened, FIPS-validated base images and libraries that arrive CVE-free, so JLLT's teams inherit security instead of chasing it.",
+    "jllCases": [
+      "Replace JLL's container base images with continuously hardened, CVE-free equivalents.",
+      "Meet FIPS and enterprise-security requirements without slowing the release pipeline.",
+      "Cut the patch-and-remediate workload across hundreds of services and dependencies."
+    ],
+    "link": "https://www.echo.ai/",
+    "caseStudyLink": "https://www.echo.ai/customers/varonis",
+    "caseStudyName": "Varonis"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "logo": "logos/vercel.svg",
+    "stage": null,
+    "oneLiner": "The platform for building and deploying the modern, AI-native web.",
+    "blurb": "Vercel is the company behind Next.js, the leading React framework used by Apple, Walmart, and Netflix to power their sites. Vercel provides workflow, deployment, and hosting solutions that drive a great developer and end-user experience.",
+    "customers": [
+      "Apple",
+      "Walmart",
+      "Netflix",
+      "Stripe"
+    ],
+    "tags": [
+      "dev",
+      "ai"
+    ],
+    "metric": {
+      "value": "Next.js",
+      "sub": "the framework for the AI-native web"
+    },
+    "jllPull": "JLL Technologies builds and runs a large portfolio of web properties: marketing sites, client and tenant portals, brokerage and listing tools. Vercel gives JLLT's front-end teams a single platform to ship those faster, with the performance Apple, Walmart, and Netflix rely on, and a direct on-ramp to AI-native experiences like v0.",
+    "jllCases": [
+      "Standardize JLL's client- and tenant-facing web on one fast, observable deployment platform.",
+      "Prototype new tools with v0, then promote the same codebase straight to production.",
+      "Cut build-and-deploy cycles so product squads ship features in days, not sprints."
+    ],
+    "link": "https://vercel.com/",
+    "caseStudyLink": "https://vercel.com/blog/how-stripe-built-a-game-changing-app-in-a-single-flight-with-v0",
+    "caseStudyName": "Stripe × v0"
+  },
+  {
+    "id": "descope",
+    "name": "Descope",
+    "logo": "logos/descope.png",
+    "stage": null,
+    "oneLiner": "Drag-and-drop authentication and identity for apps, customers, and AI agents.",
+    "blurb": "Descope is a drag-and-drop platform that helps organizations manage all of their external identity journeys. Its no-code / low-code solution lets teams create, modify, and secure authentication and authorization flows for end users, business customers, partner applications, and APIs / AI agents, improving customer experience, preventing account takeover, and giving a 360° view of customer and machine identities.",
+    "customers": [
+      "Databricks",
+      "GoFundMe",
+      "Navan",
+      "First American"
+    ],
+    "tags": [
+      "security",
+      "dev"
+    ],
+    "metric": {
+      "value": "No-code",
+      "sub": "auth for users, partners & agents"
+    },
+    "jllPull": "Every JLL tenant app, client portal, and partner integration needs authentication, and increasingly so do the AI agents and APIs connecting them. Descope lets JLLT build and change those identity flows with drag-and-drop instead of custom auth code, preventing account takeover and giving one view across customer and machine identities.",
+    "jllCases": [
+      "Stand up secure login for tenant and client-facing apps without hand-built auth.",
+      "Add SSO and B2B identity for partner and brokerage integrations in days.",
+      "Authenticate the APIs and AI agents that link JLL systems to external platforms."
+    ],
+    "link": "https://www.descope.com/",
+    "caseStudyLink": "https://www.descope.com/customers/databricks",
+    "caseStudyName": "Databricks"
+  },
+  {
+    "id": "beacon",
+    "name": "Beacon",
+    "logo": "logos/beacon.jpg",
+    "stage": null,
+    "oneLiner": "The cyber-informed security data platform for the AI-era SOC.",
+    "blurb": "Beacon gives security teams one place to collect, transform, route, and search all their data — logs, telemetry, and API data — without forcing it into a single expensive store first. Reduce and enrich in flight, route the right data to the right destination, and query across every source with federated search. Run detections and hunts in-stream, catching threats during the event rather than minutes later in the SIEM. With 100+ pre-built connectors and automatic normalization, teams onboard dozens of sources and go live in weeks, not quarters.\n\nOn top of that, Beacon enables agentic use cases across the security organization — detection, hunting, investigation, response, posture management, answering everyday questions about the environment, and whatever comes next. Agents work the way security people do and refine their own logic from the data they observe, while analysts and engineers stay in control to build, govern, and audit every step. Bring your own model, tools, and destination: Beacon is open by design, works with the SIEM and tools you already run, and never locks you in.",
+    "customers": [
+      "Lemonade",
+      "Klaviyo",
+      "Cerebras",
+      "SoFi",
+      "Checkpoint"
+    ],
+    "tags": [
+      "security",
+      "data",
+      "ai"
+    ],
+    "metric": {
+      "value": "Any source → any SIEM",
+      "sub": "normalized, enriched, reduced"
+    },
+    "jllPull": "JLL's global estate of security tools generates an enormous volume of telemetry, and the SOC agents now being deployed are only as good as the data feeding them. Beacon collects from any source, normalizes and enriches it, strips the waste, and routes it to any SIEM with full detection context, cutting data volume and cost while making JLL's SOC AI-ready.",
+    "jllCases": [
+      "Unify security telemetry across a global, multi-vendor tool stack into one schema.",
+      "Cut SIEM ingestion volume and cost by stripping low-value log data.",
+      "Give SOC agents clean, enriched, context-rich data so they don't hallucinate or drift."
+    ],
+    "link": "https://beacon.security/",
+    "caseStudyLink": "https://beacon.security/resources/how-lemonade-transformed-its-security-data-pipeline-with-beacon",
+    "caseStudyName": "Lemonade"
+  },
+  {
+    "id": "orca",
+    "name": "Orca Security",
+    "logo": "logos/orca.png",
+    "stage": null,
+    "oneLiner": "Agentless cloud security across your entire cloud estate.",
+    "blurb": "DRAFT — REVIEW BEFORE PUBLISH. Orca Security is the agentless cloud security platform. One deployment-free connection covers AWS, Azure, and Google Cloud, surfacing vulnerabilities, misconfigurations, exposed data, and identity risk across VMs, containers, and serverless — then prioritizes the attack paths that actually matter instead of a flood of alerts.",
+    "customers": [],
+    "tags": [
+      "security"
+    ],
+    "link": "https://orca.security/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  },
+  {
+    "id": "localstack",
+    "name": "LocalStack",
+    "logo": "logos/localstack.svg",
+    "stage": null,
+    "oneLiner": "The local cloud: develop and test AWS applications entirely on your machine.",
+    "blurb": "DRAFT — REVIEW BEFORE PUBLISH. LocalStack is a high-fidelity emulator of AWS that runs on a laptop or in CI. Teams develop and test cloud applications locally — no shared dev accounts, no cloud bills for test runs, no waiting on deploys — then ship to real AWS with confidence. It has become standard tooling for enterprise platform teams tightening their inner development loop.",
+    "customers": [],
+    "tags": [
+      "dev"
+    ],
+    "link": "https://www.localstack.cloud/",
+    "caseStudyLink": null,
+    "caseStudyName": null
+  }
+]

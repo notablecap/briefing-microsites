@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+%%GATE_SNIPPET%%
+<x-dc>
+<helmet>
+<style>
+@font-face{font-family:'Alverata';src:url('fonts/Alverata-Light.otf') format('opentype');font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:'Alverata';src:url('fonts/Alverata-Regular.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:'Open Sans';src:url('fonts/OpenSans-Variable.ttf') format('truetype');font-weight:300 800;font-style:normal;font-display:swap;}
+@font-face{font-family:'Open Sans';src:url('fonts/OpenSans-Italic-Variable.ttf') format('truetype');font-weight:300 800;font-style:italic;font-display:swap;}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{background:#F5F3F2;color:#232323;font-family:'Open Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+a{color:#6F815C;}
+a:hover{color:#063F32;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+::selection{background:#063F32;color:#fff;}
+</style>
+<link rel="icon" type="image/webp" href="uploads/%%CLIENT_FAVICON%%">
+%%LOGO_DEPS%%
+</helmet>
+
+<div style="min-height:100vh;">
+
+  <nav style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;height:60px;padding:0 32px;background:rgba(245,243,242,0.86);backdrop-filter:saturate(150%) blur(10px);-webkit-backdrop-filter:saturate(150%) blur(10px);border-bottom:1px solid #E7E7E7;">
+    <div style="display:flex;align-items:center;gap:14px;">
+      <img src="assets/notable-wordmark-sage-tight.png" alt="Notable Capital" style="height:15px;display:block;">
+      <span style="width:1px;height:18px;background:#D8D6D2;display:inline-block;"></span>
+      <img src="uploads/%%CLIENT_LOGO%%" alt="%%CLIENT_NAME%%" style="height:26px;display:block;">
+      <span style="font-size:12.5px;color:#5C5C5C;letter-spacing:0.01em;">Curated for %%CLIENT_NAME%%</span>
+    </div>
+    <a href="https://www.notablecap.com/companies" target="_blank" rel="noreferrer" style="font-size:12.5px;font-weight:600;color:#6F815C;text-decoration:none;display:inline-flex;align-items:center;gap:6px;">View the full portfolio <span style="font-size:13px;">↗</span></a>
+  </nav>
+
+  <!-- HERO -->
+  <section data-screen-label="Hero" style="max-width:1080px;margin:0 auto;padding:88px 32px 56px;animation:fadeUp .55s cubic-bezier(0.22,0.61,0.36,1) both;">
+    <h1 style="font-family:'Alverata',serif;font-weight:300;font-size:clamp(40px,6.2vw,72px);line-height:1.06;letter-spacing:-0.02em;color:#063F32;margin:22px 0 0;max-width:20ch;">
+      <span style="font-style:italic;">Curated</span> for<div><span style="color:%%ACCENT%%;">%%CLIENT_NAME%%</span></div></h1>
+    <p style="font-size:19px;line-height:1.6;color:#232323;max-width:620px;margin:24px 0 0;">
+      %%HERO_SUBLINE%%
+    </p>
+
+    <div style="margin-top:48px;background:#fff;border:1px solid #E7E7E7;border-radius:14px;padding:36px 40px;max-width:780px;box-shadow:0 8px 24px rgba(35,35,35,0.06);">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px;">
+        <span style="width:32px;height:1px;background:#6F815C;display:inline-block;"></span>
+        <span style="font-size:12.5px;font-weight:600;color:#6F815C;">A Note from Notable</span>
+      </div>
+      <p style="font-size:15.5px;line-height:1.72;color:#3a3a3a;margin:0 0 16px;">%%NOTE_P1%%</p>
+      <p style="font-size:15.5px;line-height:1.72;color:#3a3a3a;margin:0 0 16px;">
+        %%NOTE_P2%%
+      </p>
+      <div style="margin-top:24px;padding-top:20px;border-top:1px solid #F0EEEC;">
+        <div style="font-size:14px;font-weight:600;color:#232323;"><a href="https://www.linkedin.com/in/benjaminzabel/" target="_blank" rel="noreferrer" style="color:inherit;text-decoration:none;border-bottom:1px solid #C9D2C0;transition:border-color .2s;" style-hover="border-bottom:1px solid #6F815C;">Ben Zabel</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO IS NOTABLE -->
+  <section data-screen-label="Who is Notable" style="background:#063F32;color:#fff;padding:74px 0;animation:fadeUp .55s cubic-bezier(0.22,0.61,0.36,1) both;">
+    <div style="max-width:1080px;margin:0 auto;padding:0 32px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span style="width:7px;height:7px;border-radius:50%;background:#95A78D;display:inline-block;"></span>
+        <span style="font-size:13px;font-weight:600;color:rgba(255,255,255,0.72);">Who is Notable?</span>
+      </div>
+      <h2 style="font-family:'Alverata',serif;font-weight:300;font-size:clamp(30px,4vw,44px);line-height:1.18;letter-spacing:-0.01em;color:#fff;margin:16px 0 0;">Twenty-five years. Thirty-two IPOs. One team.</h2>
+      <div ref="{{ statsRef }}" style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:44px;padding-top:40px;border-top:1px solid rgba(255,255,255,0.16);">
+        <sc-for list="{{ stats }}" as="stat" hint-placeholder-count="4">
+          <div>
+            <div style="font-family:'Alverata',serif;font-weight:300;font-size:clamp(34px,4vw,46px);line-height:1;color:#fff;display:flex;">
+              <sc-for list="{{ stat.chars }}" as="ch" hint-placeholder-count="2">
+                <sc-if value="{{ ch.isDigit }}" hint-placeholder-val="{{ true }}">
+                  <span style="display:inline-block;overflow:hidden;height:1em;">
+                    <span style="display:block;transform:translateY({{ ch.ty }});transition:transform {{ ch.dur }}ms cubic-bezier(0.22,0.61,0.36,1) {{ ch.delay }}ms;">
+                      <sc-for list="{{ ch.reel }}" as="d" hint-placeholder-count="1">
+                        <span style="display:block;height:1em;line-height:1;">{{ d }}</span>
+                      </sc-for>
+                    </span>
+                  </span>
+                </sc-if>
+                <sc-if value="{{ ch.isStatic }}" hint-placeholder-val="{{ false }}">
+                  <span style="display:inline-block;opacity:{{ ch.op }};transition:opacity .45s ease {{ ch.delay }}ms;">{{ ch.ch }}</span>
+                </sc-if>
+              </sc-for>
+            </div>
+            <div style="font-size:13px;color:rgba(255,255,255,0.66);margin-top:8px;">{{ stat.label }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section data-screen-label="Portfolio" style="max-width:1080px;margin:0 auto;padding:80px 32px;animation:fadeUp .55s cubic-bezier(0.22,0.61,0.36,1) both;">
+    <h2 style="font-family:'Alverata',serif;font-weight:300;font-size:clamp(32px,4.4vw,48px);line-height:1.1;letter-spacing:-0.015em;color:#063F32;margin:14px 0 0;">The <span style="font-style:italic;">fifteen</span>.</h2>
+    <p style="font-size:17px;line-height:1.6;color:#5C5C5C;max-width:660px;margin:16px 0 0;">
+      %%PORTFOLIO_INTRO%%
+    </p>
+
+    <div style="margin-top:34px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+        <span style="font-size:13px;color:#5C5C5C;">Filter by Category</span>
+        <button onClick="{{ clearFilters }}" style="background:none;border:none;cursor:pointer;font-family:inherit;font-size:13px;color:{{ clearColor }};display:inline-flex;align-items:center;gap:8px;padding:4px 0;">
+          {{ clearLabel }}<span style="font-size:12px;color:#95A78D;">{{ visibleLabel }}</span>
+        </button>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;">
+        <sc-for list="{{ verticals }}" as="v" hint-placeholder-count="5">
+          <sc-if value="{{ v.active }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ v.onToggle }}" style="display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid #063F32;border-radius:8px;background:#063F32;color:#fff;font-family:inherit;font-size:13.5px;cursor:pointer;transition:all .2s;">
+              <span>{{ v.name }}</span><span style="font-size:12px;color:rgba(255,255,255,0.7);">{{ v.count }}</span>
+            </button>
+          </sc-if>
+          <sc-if value="{{ v.inactive }}" hint-placeholder-val="{{ true }}">
+            <button onClick="{{ v.onToggle }}" style="display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid #E7E7E7;border-radius:8px;background:#fff;color:#232323;font-family:inherit;font-size:13.5px;cursor:pointer;transition:all .2s;" style-hover="border:1px solid #6F815C;color:#063F32;">
+              <span>{{ v.name }}</span><span style="font-size:12px;color:#95A78D;">{{ v.count }}</span>
+            </button>
+          </sc-if>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(322px,1fr));gap:18px;margin-top:28px;align-items:start;">
+      <sc-if value="{{ noneVisible }}" hint-placeholder-val="{{ false }}">
+        <div style="grid-column:1/-1;padding:48px;text-align:center;color:#5C5C5C;font-size:15px;border:1px dashed #D8D6D2;border-radius:12px;">
+          No companies match this selection. <button onClick="{{ clearFilters }}" style="background:none;border:none;color:#6F815C;font-family:inherit;font-size:15px;cursor:pointer;text-decoration:underline;">Clear filter</button>.
+        </div>
+      </sc-if>
+
+      <sc-for list="{{ companies }}" as="c" hint-placeholder-count="9">
+        <!-- COLLAPSED -->
+        <sc-if value="{{ c.isCollapsed }}" hint-placeholder-val="{{ true }}">
+          <article onClick="{{ c.onOpen }}" style="background:#fff;border:1px solid #E7E7E7;border-radius:12px;padding:24px;cursor:pointer;display:flex;flex-direction:column;min-height:212px;animation:fadeUp .45s cubic-bezier(0.22,0.61,0.36,1) both;transition:box-shadow .2s,border-color .2s,transform .2s;" style-hover="box-shadow:0 10px 28px rgba(35,35,35,0.09);border-color:#D8D6D2;transform:translateY(-2px);">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;min-height:30px;">
+              <sc-if value="{{ c.logoPlain }}" hint-placeholder-val="{{ false }}">
+                <span role="img" aria-label="{{ c.name }}" style="{{ c.logoBoxSm }}"></span>
+              </sc-if>
+              <sc-if value="{{ c.logoOnDark }}" hint-placeholder-val="{{ false }}">
+                <span style="display:inline-flex;align-items:center;background:#063F32;border-radius:8px;padding:7px 12px;"><span role="img" aria-label="{{ c.name }}" style="{{ c.logoChipSm }}"></span></span>
+              </sc-if>
+              <sc-if value="{{ c.hasStage }}" hint-placeholder-val="{{ false }}">
+                <span style="font-size:11.5px;color:#6F815C;border:1px solid #E7E7E7;border-radius:6px;padding:3px 9px;white-space:nowrap;">{{ c.stage }}</span>
+              </sc-if>
+            </div>
+            <h3 style="font-family:'Alverata',serif;font-weight:400;font-size:22px;color:#063F32;margin:18px 0 0;letter-spacing:-0.01em;">{{ c.name }}</h3>
+            <p style="font-size:14.5px;line-height:1.55;color:#5C5C5C;margin:9px 0 0;flex:1 1 auto;">{{ c.oneLiner }}</p>
+            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:16px;">
+              <sc-for list="{{ c.tagObjs }}" as="t" hint-placeholder-count="2">
+                <span style="font-size:11.5px;color:#6F815C;background:#F5F3F2;border:1px solid #E7E7E7;border-radius:6px;padding:3px 8px;">{{ t.short }}</span>
+              </sc-for>
+            </div>
+            <div style="margin-top:18px;padding-top:14px;border-top:1px solid #F0EEEC;display:flex;align-items:center;justify-content:space-between;font-size:13px;">
+              <span style="color:#95A78D;">Tap to expand</span>
+              <span style="font-weight:600;color:#6F815C;">Read the brief →</span>
+            </div>
+          </article>
+        </sc-if>
+
+        <!-- OPEN -->
+        <sc-if value="{{ c.isOpen }}" hint-placeholder-val="{{ false }}">
+          <article style="grid-column:1/-1;background:#fff;border:1px solid #DCDAD5;border-radius:14px;padding:32px 36px;position:relative;box-shadow:0 14px 40px rgba(6,63,50,0.08);animation:fadeUp .35s cubic-bezier(0.22,0.61,0.36,1) both;">
+            <button onClick="{{ c.onOpen }}" style="position:absolute;top:22px;right:24px;background:none;border:none;cursor:pointer;font-family:inherit;font-size:12.5px;color:#5C5C5C;display:inline-flex;align-items:center;gap:6px;">Close <span style="font-size:14px;">✕</span></button>
+            <div style="display:flex;align-items:center;gap:16px;min-height:34px;padding-right:60px;">
+              <sc-if value="{{ c.logoPlain }}" hint-placeholder-val="{{ true }}">
+                <span role="img" aria-label="{{ c.name }}" style="{{ c.logoBoxLg }}"></span>
+              </sc-if>
+              <sc-if value="{{ c.logoOnDark }}" hint-placeholder-val="{{ false }}">
+                <span style="display:inline-flex;align-items:center;background:#063F32;border-radius:8px;padding:8px 14px;"><span role="img" aria-label="{{ c.name }}" style="{{ c.logoChipLg }}"></span></span>
+              </sc-if>
+              <sc-if value="{{ c.hasStage }}" hint-placeholder-val="{{ false }}">
+                <span style="font-size:12px;color:#6F815C;border:1px solid #E7E7E7;border-radius:6px;padding:4px 10px;">{{ c.stage }}</span>
+              </sc-if>
+            </div>
+            <div style="display:grid;grid-template-columns:1.3fr 1fr;gap:40px;margin-top:22px;">
+              <div>
+                <h3 style="font-family:'Alverata',serif;font-weight:400;font-size:28px;color:#063F32;margin:0;letter-spacing:-0.01em;">{{ c.name }}</h3>
+                <div style="font-size:16px;color:#6F815C;margin-top:8px;line-height:1.5;">{{ c.oneLiner }}</div>
+                <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:16px;">
+                  <sc-for list="{{ c.tagObjs }}" as="t" hint-placeholder-count="2">
+                    <span style="font-size:11.5px;color:#6F815C;background:#F5F3F2;border:1px solid #E7E7E7;border-radius:6px;padding:3px 8px;">{{ t.short }}</span>
+                  </sc-for>
+                </div>
+
+                <sc-for list="{{ c.blurbParas }}" as="para" hint-placeholder-count="1">
+                  <p style="font-size:15.5px;line-height:1.7;color:#3a3a3a;margin:20px 0 0;">{{ para }}</p>
+                </sc-for>
+                <sc-if value="{{ c.hasCustomers }}" hint-placeholder-val="{{ true }}">
+                  <div style="margin-top:22px;">
+                    <div style="font-size:12px;font-weight:600;color:#95A78D;margin-bottom:10px;">Notable customers</div>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                      <sc-for list="{{ c.customers }}" as="cust" hint-placeholder-count="3">
+                        <span style="font-size:13px;color:#232323;background:#F5F3F2;border-radius:6px;padding:5px 10px;">{{ cust }}</span>
+                      </sc-for>
+                    </div>
+                  </div>
+                </sc-if>
+
+                <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:24px;">
+                  <a href="{{ c.link }}" target="_blank" rel="noreferrer" onClick="{{ stop }}" style="display:inline-flex;align-items:center;gap:7px;background:#6F815C;color:#fff;border:1px solid #6F815C;border-radius:8px;padding:10px 18px;font-size:14px;font-weight:600;text-decoration:none;transition:all .2s;" style-hover="background:#fff;color:#6F815C;">Visit {{ c.name }} <span>↗</span></a>
+                  <sc-if value="{{ c.hasCaseStudy }}" hint-placeholder-val="{{ false }}">
+                    <a href="{{ c.caseStudyLink }}" target="_blank" rel="noreferrer" onClick="{{ stop }}" style="display:inline-flex;align-items:center;gap:7px;background:transparent;color:#6F815C;border:1px solid #6F815C;border-radius:8px;padding:10px 18px;font-size:14px;font-weight:600;text-decoration:none;transition:all .2s;" style-hover="background:#6F815C;color:#fff;">{{ c.caseStudyName }} case study <span>↗</span></a>
+                  </sc-if>
+                </div>
+              </div>
+
+              <div style="background:#F5F3F2;border-radius:12px;padding:24px;">
+                <div style="font-size:12px;font-weight:600;color:#6F815C;margin-bottom:12px;display:flex;align-items:center;gap:8px;"><span style="width:6px;height:6px;border-radius:50%;background:%%ACCENT%%;display:inline-block;"></span>Why this matters for %%CLIENT_NAME%%</div>
+                <p style="font-size:15px;line-height:1.62;color:#232323;margin:0;">{{ c.dePull }}</p>
+                <ul style="margin:16px 0 0;padding:0;list-style:none;">
+                  <sc-for list="{{ c.deCases }}" as="case" hint-placeholder-count="3">
+                    <li style="position:relative;padding-left:18px;font-size:13.5px;line-height:1.55;color:#3a3a3a;margin-bottom:11px;">
+                      <span style="position:absolute;left:0;top:7px;width:5px;height:5px;border-radius:50%;background:#6F815C;display:inline-block;"></span>{{ case }}
+                    </li>
+                  </sc-for>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </sc-if>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- NEXT STEP -->
+  <section data-screen-label="Next step" style="max-width:1080px;margin:0 auto;padding:8px 32px 84px;">
+    <div style="border:1px solid #E7E7E7;border-radius:14px;background:#fff;padding:40px 44px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;box-shadow:0 8px 24px rgba(35,35,35,0.05);">
+      <div style="max-width:600px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span style="width:7px;height:7px;border-radius:50%;background:%%ACCENT%%;display:inline-block;"></span>
+          <span style="font-size:13px;font-weight:600;color:#6F815C;">Next Steps?</span>
+        </div>
+        <h2 style="font-family:'Alverata',serif;font-weight:300;font-size:32px;color:#063F32;margin:14px 0 0;letter-spacing:-0.01em;">Send us your shortlist.</h2>
+        <p style="font-size:15.5px;line-height:1.62;color:#5C5C5C;margin:14px 0 0;">Check the companies your team wants to learn more about and send it back to us. From there we can arrange founder introductions, or set up a working session across the categories your team is tracking. Hosted at Notable's San Francisco, Menlo Park, or New York offices, or on-site with you.</p>
+      </div>
+      <button onClick="{{ openModal }}" style="display:inline-flex;align-items:center;gap:8px;background:#063F32;color:#fff;border:1px solid #063F32;border-radius:8px;padding:13px 22px;font-family:inherit;font-size:14.5px;font-weight:600;cursor:pointer;transition:all .2s;white-space:nowrap;" style-hover="background:#fff;color:#063F32;">Build Your List <span>→</span></button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="border-top:1px solid #E7E7E7;">
+    <div style="max-width:1080px;margin:0 auto;padding:32px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;">
+      <div><div style="font-size:11.5px;color:#95A78D;">Prepared by</div><div style="font-size:14px;color:#232323;margin-top:3px;">Notable Capital</div></div>
+      <div style="text-align:center;"><div style="font-size:11.5px;color:#95A78D;">For</div><div style="font-size:14px;color:#232323;margin-top:3px;">%%CLIENT_NAME%%</div></div>
+      <div style="text-align:right;"><div style="font-size:11.5px;color:#95A78D;">Curated</div><div style="font-size:14px;color:#232323;margin-top:3px;">Summer 2026</div></div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <sc-if value="{{ modalOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeModal }}" style="position:fixed;inset:0;z-index:100;background:rgba(35,35,35,0.45);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:24px;animation:fadeUp .25s ease both;">
+      <div onClick="{{ stop }}" style="background:#fff;border-radius:14px;max-width:720px;width:100%;max-height:86vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 30px 80px rgba(6,63,50,0.25);">
+        <div style="padding:28px 32px 0;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;">
+          <div>
+            <div style="font-size:12.5px;font-weight:600;color:#6F815C;">Follow-up</div>
+            <h3 style="font-family:'Alverata',serif;font-weight:400;font-size:24px;color:#063F32;margin:6px 0 0;">Companies to Follow Up On</h3>
+          </div>
+          <button onClick="{{ closeModal }}" style="background:none;border:none;cursor:pointer;font-size:18px;color:#5C5C5C;line-height:1;padding:4px;">✕</button>
+        </div>
+        <p style="padding:0 32px;font-size:14px;line-height:1.6;color:#5C5C5C;margin:14px 0 0;">
+          Select the companies your team wants to learn more about. We'll arrange founder introductions for everything you check.
+        </p>
+        <div style="padding:8px 32px 0;overflow:auto;flex:1 1 auto;">
+          <sc-for list="{{ modalGroups }}" as="g" hint-placeholder-count="4">
+            <div style="margin-top:18px;">
+              <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #F0EEEC;padding-bottom:8px;">
+                <span style="font-size:12.5px;font-weight:600;color:#232323;">{{ g.name }}</span>
+                <button onClick="{{ g.onToggleAll }}" style="background:none;border:none;cursor:pointer;font-family:inherit;font-size:12px;color:#6F815C;">{{ g.allLabel }}</button>
+              </div>
+              <sc-for list="{{ g.items }}" as="it" hint-placeholder-count="3">
+                <div onClick="{{ it.onToggle }}" style="display:flex;align-items:flex-start;gap:12px;padding:13px 0;border-bottom:1px solid #F7F6F4;cursor:pointer;">
+                  <sc-if value="{{ it.checked }}" hint-placeholder-val="{{ false }}">
+                    <span style="flex:none;width:18px;height:18px;border-radius:4px;background:#063F32;border:1px solid #063F32;display:inline-flex;align-items:center;justify-content:center;margin-top:1px;">
+                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </span>
+                  </sc-if>
+                  <sc-if value="{{ it.unchecked }}" hint-placeholder-val="{{ true }}">
+                    <span style="flex:none;width:18px;height:18px;border-radius:4px;background:#fff;border:1px solid #CFCDC8;display:inline-block;margin-top:1px;"></span>
+                  </sc-if>
+                  <span style="display:flex;flex-direction:column;gap:2px;">
+                    <span style="font-size:14px;font-weight:600;color:#232323;">{{ it.name }}</span>
+                    <span style="font-size:12.5px;color:#7a7a7a;line-height:1.4;">{{ it.oneLiner }}</span>
+                  </span>
+                </div>
+              </sc-for>
+            </div>
+          </sc-for>
+        </div>
+        <div style="padding:18px 32px;border-top:1px solid #E7E7E7;display:flex;align-items:center;justify-content:space-between;gap:16px;background:#fff;">
+          <span style="font-size:13px;color:#5C5C5C;">{{ selectedLabel }}</span>
+          <div style="display:flex;gap:10px;">
+            <button onClick="{{ copyShortlist }}" style="background:transparent;color:#6F815C;border:1px solid #6F815C;border-radius:8px;padding:10px 16px;font-family:inherit;font-size:13.5px;font-weight:600;cursor:pointer;transition:all .2s;" style-hover="background:#6F815C;color:#fff;">{{ copyLabel }}</button>
+            <a href="{{ mailto }}" style="display:inline-flex;align-items:center;gap:7px;background:#063F32;color:#fff;border:1px solid #063F32;border-radius:8px;padding:10px 18px;font-size:13.5px;font-weight:600;text-decoration:none;transition:all .2s;" style-hover="background:#fff;color:#063F32;">Send Follow-up <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;100%&quot;},&quot;showStages&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Cards&quot;},&quot;mailtoRecipients&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;bzabel@notablecap.com&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Follow-up&quot;}}">
+class Component extends DCLogic {
+  state = { active: [], open: null, modal: false, checked: {}, copied: false, statsIn: false };
+  statsRef = React.createRef();
+
+  SHORT = %%SHORT_JS%%;
+
+  VERTICALS = %%VERTICALS_JS%%;
+
+  COMPANIES = %%COMPANIES_JS%%;
+
+  STATS = [
+    { value: "25", label: "Year history" },
+    { value: "32", label: "IPOs" },
+    { value: "$5B+", label: "Assets under management" },
+    { value: "150+", label: "Active investments" },
+  ];
+
+  componentDidMount() {
+    this._onKey = (e) => {
+      if (e.key === "Escape") {
+        if (this.state.modal) this.setState({ modal: false }, this._unlock);
+        else if (this.state.open) this.setState({ open: null });
+      }
+    };
+    window.addEventListener("keydown", this._onKey);
+    const reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduced || !window.IntersectionObserver || !this.statsRef.current) {
+      this.setState({ statsIn: true });
+    } else {
+      this._io = new IntersectionObserver((es) => {
+        if (es.some((e) => e.isIntersecting)) { this.setState({ statsIn: true }); this._io.disconnect(); }
+      }, { threshold: 0.4 });
+      this._io.observe(this.statsRef.current);
+    }
+  }
+  componentWillUnmount() {
+    window.removeEventListener("keydown", this._onKey);
+    if (this._io) this._io.disconnect();
+    this._unlock();
+  }
+  _lock = () => { document.body.style.overflow = "hidden"; };
+  _unlock = () => { document.body.style.overflow = ""; };
+
+  toggleVertical = (id) => {
+    this.setState((s) => ({
+      open: null,
+      active: s.active.includes(id) ? s.active.filter((x) => x !== id) : [...s.active, id],
+    }));
+  };
+  clearFilters = () => this.setState({ active: [], open: null });
+  toggleOpen = (id) => this.setState((s) => ({ open: s.open === id ? null : id }));
+  openModal = () => { this._lock(); this.setState({ modal: true }); };
+  closeModal = () => { this._unlock(); this.setState({ modal: false }); };
+  toggleCheck = (id) => this.setState((s) => ({ checked: { ...s.checked, [id]: !s.checked[id] } }));
+  toggleGroup = (ids, allOn) => this.setState((s) => {
+    const n = { ...s.checked };
+    ids.forEach((id) => { n[id] = !allOn; });
+    return { checked: n };
+  });
+  copyShortlist = () => {
+    const sel = this.COMPANIES.filter((c) => this.state.checked[c.id]);
+    const text = sel.map((c) => "\u2022 " + c.name + ": " + c.oneLiner).join("\n");
+    try { navigator.clipboard.writeText(text); } catch (e) {}
+    this.setState({ copied: true });
+    clearTimeout(this._cp);
+    this._cp = setTimeout(() => this.setState({ copied: false }), 2200);
+  };
+
+  renderVals() {
+    const { active, open, modal, checked, copied } = this.state;
+    const all = this.COMPANIES;
+    const showStages = this.props.showStages ?? false;
+
+    const counts = {};
+    this.VERTICALS.forEach((v) => { counts[v.id] = all.filter((c) => c.tags.includes(v.id)).length; });
+
+    const verticals = this.VERTICALS.map((v) => ({
+      id: v.id, name: v.name, count: counts[v.id],
+      active: active.includes(v.id), inactive: !active.includes(v.id),
+      onToggle: () => this.toggleVertical(v.id),
+    }));
+
+    const visible = active.length === 0 ? all : all.filter((c) => c.tags.some((t) => active.includes(t)));
+
+    const companies = visible.map((c) => {
+      const isOpen = open === c.id;
+      const bg = { backgroundImage: "url('" + encodeURI(c.logo || "") + "')", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "left center", display: "block" };
+      return {
+        id: c.id, name: c.name, oneLiner: c.oneLiner,
+        logoBoxSm: { ...bg, width: "132px", height: "26px" },
+        logoBoxLg: { ...bg, width: "170px", height: "34px" },
+        logoChipSm: { ...bg, backgroundPosition: "center", width: "70px", height: "17px" },
+        logoChipLg: { ...bg, backgroundPosition: "center", width: "90px", height: "22px" },
+        logoPlain: !!c.logo && !c.logoOnDark, logoOnDark: !!c.logo && !!c.logoOnDark, noLogo: !c.logo,
+        hasCustomers: !!(c.customers && c.customers.length),
+        hasStage: showStages && !!c.stage, stage: c.stage || "",
+        tagObjs: c.tags.map((t) => ({ short: this.SHORT[t] })),
+        isOpen, isCollapsed: !isOpen,
+        blurbParas: (c.blurb || "").split("\n\n"), customers: c.customers || [],
+        dePull: c.dePull || "", deCases: c.deCases || [],
+        link: c.link || "#", hasCaseStudy: !!c.caseStudyLink,
+        caseStudyLink: c.caseStudyLink || "#", caseStudyName: c.caseStudyName || "",
+        onOpen: () => this.toggleOpen(c.id),
+      };
+    });
+
+    const modalGroups = this.VERTICALS.map((v) => {
+      const items = all.filter((c) => c.tags[0] === v.id);
+      const ids = items.map((c) => c.id);
+      const allOn = items.length > 0 && items.every((c) => checked[c.id]);
+      return {
+        name: v.name,
+        allLabel: allOn ? "Clear section" : "Select all",
+        onToggleAll: () => this.toggleGroup(ids, allOn),
+        items: items.map((c) => ({
+          id: c.id, name: c.name, oneLiner: c.oneLiner,
+          checked: !!checked[c.id], unchecked: !checked[c.id],
+          onToggle: () => this.toggleCheck(c.id),
+        })),
+      };
+    }).filter((g) => g.items.length);
+
+    const selected = all.filter((c) => checked[c.id]);
+    const listText = selected.map((c) => "\u2022 " + c.name + ": " + c.oneLiner).join("\n");
+    const recipients = this.props.mailtoRecipients ?? "bzabel@notablecap.com";
+    const subject = "%%CLIENT_NAME%%: Notable portfolio shortlist";
+    const body = "Hi Ben,\n\nThank you for the curated portfolio. The companies our team would like to learn more about:\n\n" +
+      (listText || "\u2022 (companies will appear here)") +
+      "\n\nLooking forward to the introductions.\n\nBest,";
+    const mailto = "mailto:" + recipients + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+    const statsIn = this.state.statsIn;
+    const REEL = ["0","1","2","3","4","5","6","7","8","9","0","1","2","3","4","5","6","7","8","9"];
+    const stats = this.STATS.map((s, si) => ({
+      label: s.label,
+      chars: s.value.split("").map((ch, ci) => {
+        const isDigit = ch >= "0" && ch <= "9";
+        const delay = si * 110 + ci * 70;
+        if (!isDigit) return { isDigit: false, isStatic: true, ch, op: statsIn ? 1 : 0, delay };
+        const d = +ch;
+        return { isDigit: true, isStatic: false, reel: REEL, ty: statsIn ? "-" + (10 + d) + "em" : "0em", dur: 950 + d * 45, delay };
+      }),
+    }));
+
+    const hasFilter = active.length > 0;
+    return {
+      stats,
+      statsRef: this.statsRef,
+      verticals,
+      companies,
+      noneVisible: visible.length === 0,
+      clearFilters: this.clearFilters,
+      clearLabel: hasFilter ? "Clear (" + active.length + ")" : "All companies",
+      clearColor: hasFilter ? "#6F815C" : "#95A78D",
+      visibleLabel: visible.length + " / " + all.length,
+      openModal: this.openModal,
+      closeModal: this.closeModal,
+      modalOpen: modal,
+      modalGroups,
+      selectedLabel: selected.length + " selected",
+      copyLabel: copied ? "Copied \u2713" : "Copy Shortlist",
+      copyShortlist: this.copyShortlist,
+      mailto,
+      stop: (e) => e.stopPropagation(),
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+{
+  "slug": "dominion-energy",
+  "clientName": "Dominion Energy",
+  "role": "",
+  "accent": "#2F6EB5",
+  "clientLogo": "Dominion_Energy_logo.svg.webp",
+  "favicon": "Dominion-Energy.webp",
+  "emailRecipients": "bzabel@notablecap.com",
+  "heroSubline": "Fifteen companies from our portfolio, chosen for the teams building Dominion Energy's next era of AI, grid and customer operations, and security.",
+  "noteP1": "We picked fifteen companies from our portfolio that map to the technology priorities of a modern energy enterprise: frontier AI and the infrastructure to run it, data quality and privacy, cloud and identity security, network and developer infrastructure, and the systems behind customer and field operations.",
+  "noteP2": "Each card opens to a brief and the angle we think fits Dominion Energy best, and you can filter by category. Our full portfolio of 150+ active companies is linked in the top right. Whenever it's convenient, send back the ones worth a closer look.",
+  "portfolioIntro": "Every company here works at the infrastructure layer, across AI, data, security, and the operations of a modern utility. Filter by category, then expand any card for the brief and the angle most relevant to your team.",
+  "verticals": [
+    {
+      "id": "ai",
+      "name": "AI & Agent Infra"
+    },
+    {
+      "id": "data",
+      "name": "Data Infrastructure"
+    },
+    {
+      "id": "security",
+      "name": "Security & Governance"
+    },
+    {
+      "id": "dev",
+      "name": "Developer & Network Infra"
+    },
+    {
+      "id": "cx",
+      "name": "Customer & Field Operations"
+    }
+  ],
+  "short": {
+    "ai": "AI infra",
+    "data": "Data",
+    "security": "Security",
+    "dev": "Dev & network",
+    "cx": "Customer & field"
+  },
+  "roster": [
+    "anthropic",
+    "gladly",
+    "montecarlo",
+    "netbox",
+    "token",
+    "valar",
+    "tonic",
+    "browserbase",
+    "coder",
+    "patronus",
+    "fal",
+    "act",
+    "clover",
+    "wispr",
+    "generalist"
+  ],
+  "angles": {
+    "anthropic": {
+      "pull": "Dominion is adopting AI inside one of the most consequential regulated environments in the country, and the model partner matters as much as the model. Claude is built for that bar: strong reasoning over the long, dense documents the business runs on (rate cases, interconnection studies, NERC standards), plus coding agents and customer-facing assistants engineered around safety and steerability.",
+      "cases": [
+        "Analyze the documents the business runs on: filings, tariffs, interconnection studies, compliance standards.",
+        "Claude Code across the software teams building grid, billing, and customer systems.",
+        "A frontier AI partner whose safety posture matches a critical-infrastructure operator's."
+      ]
+    },
+    "gladly": {
+      "pull": "Millions of households reach Dominion about outages, bills, and service, and most of those conversations are routine. Gladly unifies every channel into one lifelong conversation per customer, and Sidekick resolves the routine end-to-end, so agents give their attention to the storm-day moments that define trust in a utility.",
+      "cases": [
+        "One conversation per customer across voice, chat, email, and SMS, with no tickets and no repeating.",
+        "Sidekick resolves start/stop/move service, billing questions, and payment arrangements end-to-end.",
+        "Absorb storm-driven contact surges without surging headcount."
+      ]
+    },
+    "montecarlo": {
+      "pull": "Load forecasts, outage analytics, rate cases, and the AI features being built on top of them are only as trustworthy as the data underneath. Monte Carlo gives Dominion's data teams one pane of glass across pipelines, code, and models, catching broken data before it reaches a grid-planning model, a regulator, or a customer bill.",
+      "cases": [
+        "Detect broken pipelines before they corrupt AMI, load-forecast, or outage data downstream.",
+        "Trust the data feeding data-center load planning and grid investment decisions.",
+        "Cut the engineering firefighting that slows AI adoption across the enterprise."
+      ]
+    },
+    "netbox": {
+      "pull": "Dominion operates one of the most consequential network estates in the country: generation plants, substations, offices, data centers, and the corporate IT connecting them. NetBox is the source of truth for that estate: every device, connection, and configuration documented and driven from one canonical platform, with the audit-ready inventory compliance work depends on.",
+      "cases": [
+        "One documented source of truth across corporate IT, data center, and operational sites.",
+        "Audit-ready asset inventory that supports NERC CIP compliance evidence.",
+        "Drive network automation from intended state and catch configuration drift."
+      ]
+    },
+    "token": {
+      "pull": "As Dominion deploys AI agents and service accounts across billing, grid-adjacent IT, and cloud, non-human identities multiply fast, and each one is a potential path into critical infrastructure. Token gives security one control plane to discover, govern, and least-privilege every machine and agent identity. In Notable's CISO survey, 70% of organizations had agents in production but only 11% felt confident controlling them.",
+      "cases": [
+        "A central inventory of every agent and machine identity across cloud and SaaS.",
+        "Least-privilege access and full auditability for the agents your teams are starting to run.",
+        "Lifecycle-manage the service accounts connecting billing, outage, and customer systems."
+      ]
+    },
+    "valar": {
+      "pull": "Dominion powers the data centers driving the AI buildout; Valar makes Dominion's own AI economical. It runs high-volume inference inside your VPC, targeting 50% to 80% lower inference cost and 5x to 20x lower cost per token for suitable workloads, while prompts, outputs, and models never leave your boundary.",
+      "cases": [
+        "Batch and agentic AI workloads at scale without frontier-API cost per token.",
+        "Keep customer data and critical energy infrastructure information inside Dominion's VPC.",
+        "Lift usable GPU capacity through smarter scheduling, batching, and routing."
+      ]
+    },
+    "tonic": {
+      "pull": "Customer records, usage data, and payment details have no business showing up in dev databases, test environments, or model training sets. Tonic generates synthetic, de-identified data that behaves like production, so engineering and AI teams move fast while the real records stay locked down.",
+      "cases": [
+        "De-identified copies of customer, billing, and usage data for every dev and test environment.",
+        "Synthetic training data for AI models without exposing customer PII.",
+        "Unblock vendors and partner teams who should never touch production data."
+      ]
+    },
+    "browserbase": {
+      "pull": "So much of a utility's operational surface still lives behind a browser: market and regulatory portals, supplier and contractor systems, program-administration sites. Browserbase gives Dominion's engineering and AI teams the infrastructure to automate those workflows reliably, at scale, with the session isolation and audit trail a regulated environment demands.",
+      "cases": [
+        "Agents that handle portal-bound market and regulatory workflows without human handoff.",
+        "End-to-end test customer-facing web properties on every release.",
+        "Automate supplier, contractor, and program-administration portal tasks."
+      ]
+    },
+    "coder": {
+      "pull": "Dominion's software supply chain spans employees, contractors, and vendors, and a utility's source code is itself critical infrastructure. Coder moves development off local laptops into governed cloud workspaces, so code and customer data stay inside the perimeter and a new vendor team is productive in under an hour.",
+      "cases": [
+        "Onboard contractor and vendor teams to a codebase in under an hour.",
+        "Keep source code and customer data inside Dominion's perimeter, never on local disks.",
+        "A governed place for coding agents to run as AI enters the development lifecycle."
+      ]
+    },
+    "patronus": {
+      "pull": "Before AI touches a customer bill, an outage estimate, or a regulatory workflow, someone has to prove it behaves. Patronus scores, benchmarks, and adversarially tests LLMs at scale. It is the instrument panel a regulated utility needs to ship AI features with evidence instead of hope.",
+      "cases": [
+        "Score and benchmark the models behind customer-facing AI before and after they ship.",
+        "Adversarial test cases for the failure modes that matter in a regulated environment.",
+        "Continuous evaluation as models, prompts, and vendors change."
+      ]
+    },
+    "fal": {
+      "pull": "Generative media is becoming part of how large enterprises communicate and train. Fal serves image, video, audio, and voice models behind product experiences at speed and scale, without self-managed GPU infrastructure, for everything from customer communications to safety training content.",
+      "cases": [
+        "Low-latency voice and audio models for customer-facing applications.",
+        "Generate safety training and storm-communication creative at the pace events demand.",
+        "Scale generative AI features without building GPU infrastructure."
+      ]
+    },
+    "act": {
+      "pull": "A growing cloud footprint behind critical infrastructure means a growing blast radius. Act draws logical perimeters between cloud workloads based on business context, with no agents to deploy, so a compromise in a customer-facing service can't ripple toward the systems that matter most.",
+      "cases": [
+        "Segment customer-facing workloads from grid-adjacent and corporate systems.",
+        "Map what actually talks to what across multi-cloud, then lock down unnecessary pathways.",
+        "Enforce zero-trust between AI services and customer data stores."
+      ]
+    },
+    "clover": {
+      "pull": "Dominion ships software that customers and crews depend on: outage maps, billing portals, field tools. Clover puts security requirements inside the ticket at design time, so feature teams get them up front instead of in a review at the end. That shift-left motion lets a lean AppSec team cover a large product surface.",
+      "cases": [
+        "Shift-left security review for new customer, billing, and field-facing features.",
+        "Automate threat modeling so PMs aren't waiting on AppSec to greenlight designs.",
+        "Codify approved patterns across product squads for fast, repeatable review."
+      ]
+    },
+    "wispr": {
+      "pull": "Field crews, dispatchers, engineers, and contact center teams all spend hours a week typing. Wispr Flow turns natural speech into clean, formatted text in any application, about 4x faster than typing: field notes, inspection reports, and after-call work captured at the speed of speech.",
+      "cases": [
+        "Hands-busy field and inspection notes dictated instead of typed.",
+        "Cut after-call work in the contact center.",
+        "Works in any application across desktop and mobile, with one button and no retraining."
+      ]
+    },
+    "generalist": {
+      "pull": "Energy is physical work: inspection, maintenance, materials handling, storm restoration. Generalist is building the intelligence layer for general-purpose robots, and utilities are where that capability will matter most, from warehouses and depots today to hazardous environments tomorrow.",
+      "cases": [
+        "A window into physical AI for the utility workforce of the next decade.",
+        "General-purpose manipulation for warehouse and materials-handling operations.",
+        "Robots that can work where people shouldn't have to: hazardous, repetitive, remote."
+      ]
+    }
+  }
+}
